@@ -1,0 +1,29 @@
+import pandas as pd
+
+df = pd.read_csv('https://www.dropbox.com/s/txbep2ps7h54e7g/Combined_Version_2.csv?dl=1')
+
+mi_jobs = df[df['Location'].str.contains('MI|Michigan')]
+
+job_counts = mi_jobs['Job Type'].value_counts()
+
+import plotly.express as px
+
+fig = px.pie(job_counts, values='Job Type', names=job_counts.index)
+
+import dash
+import dash_core_components as dcc
+import dash_html_components as html
+
+app = dash.Dash(__name__)
+
+app.layout = html.Div(children=[
+    html.H1(children='Job Types in MI'),
+
+    dcc.Graph(
+        id='job-pie-chart',
+        figure=fig
+    )
+])
+
+if __name__ == '__main__':
+    app.run_server(debug=True)
