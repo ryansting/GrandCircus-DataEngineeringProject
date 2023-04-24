@@ -15,26 +15,38 @@ df = df[df['Yearly Max'] >= 30000]
 job_titles = ['Data Scientist', 'Data Engineer', 'Data Analyst']
 df = df[df['Job Title'].isin(job_titles)]
 
+# Set color scheme
+colors = ['#4C72B0', '#55A868', '#C44E52']
+
 # Loop through the filtered DataFrame and create a whisker-box plot for each job title
-for job_title in job_titles:
+fig, ax = plt.subplots(figsize=(10, 6))
+
+for i, job_title in enumerate(job_titles):
     job_df = df[df['Job Title'] == job_title]
     avg_salary = '{:,.2f}'.format(job_df['Yearly Max'].mean())
     
-    fig, ax = plt.subplots(figsize=(10, 6))
     bp = ax.boxplot([job_df['Yearly Min'], job_df['Yearly Max']], vert=False, showfliers=False,
-                    labels=['Yearly Min', 'Yearly Max'], boxprops=dict(color='purple'),
-                    whiskerprops=dict(linestyle='--'))
+                    labels=['Yearly Min', 'Yearly Max'], boxprops=dict(color=colors[i], linewidth=2),
+                    whiskerprops=dict(linestyle='--', color=colors[i], linewidth=2),
+                    medianprops=dict(color='white', linewidth=2))
 
-    ax.set_title(f'Yearly Salaries for {job_title}', fontsize=18)
-    ax.set_xlabel('Salary', fontsize=14)
-    ax.set_ylabel('Yearly Min/Max', fontsize=14)
+    # Add legend
+    ax.plot([], [], color=colors[i], label=job_title, linewidth=2)
+    ax.legend(loc='lower right', fontsize=12)
 
-    ax.grid(True, axis='x', linestyle='--', alpha=0.5)
-
-    ax.tick_params(axis='both', which='major', labelsize=12)
-    
     # Add average salary to the graph
-    ax.text(0.95, 0.95, f'Avg. Salary: ${avg_salary}', transform=ax.transAxes, fontsize=12,
-            verticalalignment='top', horizontalalignment='right', bbox=dict(facecolor='white', edgecolor='black', pad=5.0))
-    
-    plt.show()
+    ax.text(0.95, 0.95-(i*0.1), f'Avg. Salary: ${avg_salary}', transform=ax.transAxes, fontsize=12,
+            verticalalignment='top', horizontalalignment='right', bbox=dict(facecolor='white', edgecolor=colors[i], pad=5.0))
+
+# Set graph properties
+ax.set_title('Yearly Salaries for Data Science Positions', fontsize=20)
+ax.set_xlabel('Salary ($)', fontsize=16)
+ax.set_ylabel('Yearly Min/Max', fontsize=16)
+ax.set_xlim(left=25000)
+ax.grid(True, axis='x', linestyle='--', alpha=0.5)
+ax.tick_params(axis='both', which='major', labelsize=14)
+
+# Remove unnecessary whitespace
+plt.tight_layout()
+
+plt.show()
