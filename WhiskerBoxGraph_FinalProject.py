@@ -1,52 +1,41 @@
 import pandas as pd
-import matplotlib.pyplot as plt
+import plotly.graph_objects as go
 
 # Load data from CSV file
-df = pd.read_csv('Combined_Version_2.csv')
-
-# Clean salary data by removing extra $ symbols
-df['Yearly Min'] = df['Yearly Min'].apply(lambda x: float(str(x).replace('$', '').replace(',', '')) if isinstance(x, str) else x)
-df['Yearly Max'] = df['Yearly Max'].apply(lambda x: float(str(x).replace('$', '').replace(',', '')) if isinstance(x, str) else x)
+df = pd.read_csv('Combined_Version_3.csv')
 
 # Exclude jobs with Yearly Min salary under $30,000
 df = df[df['Yearly Max'] >= 30000]
 
 # Select data scientist, engineer, and analyst positions
 job_titles = ['Data Scientist', 'Data Engineer', 'Data Analyst']
-df = df[df['Job Title'].isin(job_titles)]
+df = df[df['Search Parameter'].isin(job_titles)]
 
 # Set color scheme
 colors = ['#4C72B0', '#55A868', '#C44E52']
 
-# Loop through the filtered DataFrame and create a whisker-box plot for each job title
-fig, ax = plt.subplots(figsize=(10, 6))
+# Create a list to hold box traces
+traces = []
 
+# Loop through the filtered DataFrame and create a whisker-box trace for each job title
 for i, job_title in enumerate(job_titles):
     job_df = df[df['Job Title'] == job_title]
-    avg_salary = '{:,.2f}'.format(job_df['Yearly Max'].mean())
-    
-    bp = ax.boxplot([job_df['Yearly Min'], job_df['Yearly Max']], vert=False, showfliers=False,
-                    labels=['Yearly Min', 'Yearly Max'], boxprops=dict(color=colors[i], linewidth=2),
-                    whiskerprops=dict(linestyle='--', color=colors[i], linewidth=2),
-                    medianprops=dict(color='white', linewidth=2))
+    trace = go.Box(x=job_df['Yearly Max'], name=job_title, boxpoints='all',
+                   jitter=0.3, whiskerwidth=0.2, marker_size=8, line_width=2,
+                   showlegend=True, marker=dict(color=colors[i]),
+                   hovertemplate='<b>Job Title:</b> ' + job_title +
+                                 '<br><b>Yearly Max:</b> %{x:$,.2f}')
+    traces.append(trace)
 
-    # Add legend
-    ax.plot([], [], color=colors[i], label=job_title, linewidth=2)
-    ax.legend(loc='lower right', fontsize=12)
+# Create the figure layout
+layout = go.Layout(title='Yearly Salaries for Data Science Positions',
+                   xaxis_title='Job Title',
+                   yaxis_title='Salary ($)',
+                   yaxis=dict(automargin=True),
+                   xaxis=dict(range=[25000, 300000]))
 
-    # Add average salary to the graph
-    ax.text(0.95, 0.95-(i*0.1), f'Avg. Salary: ${avg_salary}', transform=ax.transAxes, fontsize=12,
-            verticalalignment='top', horizontalalignment='right', bbox=dict(facecolor='white', edgecolor=colors[i], pad=5.0))
+# Create the figure object
+fig = go.Figure(data=traces, layout=layout)
 
-# Set graph properties
-ax.set_title('Yearly Salaries for Data Science Positions', fontsize=20)
-ax.set_xlabel('Salary ($)', fontsize=16)
-ax.set_ylabel('Yearly Min/Max', fontsize=16)
-ax.set_xlim(left=25000)
-ax.grid(True, axis='x', linestyle='--', alpha=0.5)
-ax.tick_params(axis='both', which='major', labelsize=14)
-
-# Remove unnecessary whitespace
-plt.tight_layout()
-
-plt.show()
+# Display the figure
+fig.show()
