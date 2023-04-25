@@ -1,0 +1,17 @@
+import pandas as pd
+from google.colab import files
+
+# Upload the CSV file to the Google Colab environment
+uploaded = files.upload()
+
+# Read in the CSV file using Pandas
+df = pd.read_csv('junior_data_scientist_jobs.csv')
+
+# Clean the data (e.g., remove duplicates)
+df = df.drop_duplicates()
+
+# Export the cleaned data to a new CSV file
+df.to_csv('cleaned_filename.csv', index=False)
+
+# Download the cleaned CSV file to your local machine
+files.download('cleaned_filename.csv')
