@@ -1,0 +1,40 @@
+import pandas as pd
+
+# Read the three CSV files into dataframes
+df1 = pd.read_csv('Dice_Final_csv.csv')
+df2 = pd.read_csv('Indeed_Final_csv.csv')
+df3 = pd.read_csv('SimplyHired_Final_csv.csv')
+
+# Combine Job Title with title to create a new column job_description
+df1['job_description'] = df1['title'] + ' ' + df1['Job Title']
+df2['job_description'] = df2['title'] + ' ' + df2['Job Title']
+df3['job_description'] = df3['title'] + ' ' + df3['Job Title']
+
+# Create new columns yearly_min and yearly_max with Yearly Min and Max respectively
+df1['yearly_min'] = df1['Yearly Min']
+df1['yearly_max'] = df1['Yearly Max']
+df2['yearly_min'] = df2['Yearly Min']
+df2['yearly_max'] = df2['Yearly Max']
+df3['yearly_min'] = df3['Yearly Min']
+df3['yearly_max'] = df3['Yearly Max']
+
+# Combine Company with Company Name to create a new column company_name
+df1['company_name'] = df1['Company Name'] + ' ' + df1['Company']
+df2['company_name'] = df2['Company Name'] + ' ' + df2['Company']
+df3['company_name'] = df3['Company Name'] + ' ' + df3['Company']
+
+# Create new column job_site with value from Origin column
+df1['job_site'] = 'Dice'
+df2['job_site'] = 'Indeed'
+df3['job_site'] = 'SimplyHired'
+
+# Drop columns that are no longer needed
+df1 = df1.drop(['Job Title', 'title', 'Yearly Min', 'Yearly Max', 'Company Name', 'Company', 'Origin'], axis=1)
+df2 = df2.drop(['Job Title', 'title', 'Yearly Min', 'Yearly Max', 'Company Name', 'Company', 'Origin'], axis=1)
+df3 = df3.drop(['Job Title', 'title', 'Yearly Min', 'Yearly Max', 'Company Name', 'Company', 'Origin'], axis=1)
+
+# Concatenate the dataframes into one
+df = pd.concat([df1, df2, df3], ignore_index=True)
+
+# Save the combined dataframe as a new CSV file
+df.to_csv('Combined_Version_3.csv', index=False)

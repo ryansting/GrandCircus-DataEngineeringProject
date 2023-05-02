@@ -1,0 +1,47 @@
+import pandas as pd
+
+# Load CSV file into a DataFrame
+df = pd.read_csv('Indeed_Job_Data_Combined.csv')
+
+# Drop rows where 'Salary' is less than 40,000
+df = df[df['Salary'].str.replace(',', '').str.extract(r'(\d+)', expand=False).fillna('0').astype(int) >= 40000]
+
+# Split 'Salary' column into 'Yearly Min' and 'Yearly Max' columns
+df[['Yearly Min', 'Yearly Max']] = df['Salary'].str.replace(',', '').str.extract(r'(\d+)\D*(\d+)?', expand=True).astype(float).fillna(0)
+
+# Set 'Yearly Max' to 'Yearly Min' if it is 0
+df['Yearly Max'] = df.apply(lambda row: row['Yearly Min'] if row['Yearly Max'] == 0 else row['Yearly Max'], axis=1)
+
+# Remove the 'Salary' column
+df = df.drop('Salary', axis=1)
+
+# Format 'Yearly Min' and 'Yearly Max' columns as strings with two decimal places
+df[['Yearly Min', 'Yearly Max']] = df[['Yearly Min', 'Yearly Max']].applymap('{:.2f}'.format)
+
+# Add a 'Skills' column if one doesn't exist
+if 'Skills' not in df.columns:
+    df['Skills'] = ''
+
+# Define the list of keywords
+keywords = ['SQL', 'Python', 'Big Data', 'AWS', 'ETL', 'Hadoop', 'Spark', 'Kafka', 'Data Warehousing', 'Data Pipelines', 
+            'Data Modeling', 'Java', 'Database Management', 'NoSQL', 'Airflow', 'Docker', 'Kubernetes', 'Redshift', 
+            'Snowflake', 'Data Integration', 'Excel', 'Tableau', 'Data Visualization', 'Data Analysis', 'Dashboards', 
+            'Reporting', 'Business Intelligence', 'Data Mining', 'Statistics', 'Power BI', 'Data Cleansing', 
+            'Data Interpretation', 'Google Analytics', 'Data Modelling', 'Predictive Analytics', 'R$', 'Data Mapping', 
+            'Machine Learning', 'Deep Learning', 'Natural Language Processing', 'Predictive Modeling', 
+            'Mathematical Modeling', 'TensorFlow', 'Keras', 'Computer Vision', 'Artificial Intelligence']
+
+# Loop over the rows in the DataFrame and update the 'Skills' column
+for index, row in df.iterrows():
+    job_description = row['Job Description']
+    skills = []
+    for keyword in keywords:
+        if keyword.lower() in job_description.lower():
+            if keyword.lower() == 'r$':
+                if 'ruby' in job_description.lower():
+                    continue
+            skills.append(keyword)
+    row['Skills'] = ', '.join(skills)
+
+# Save the updated DataFrame to a new CSV file
+df.to_csv('jobs_updated2.csv', index=False)
