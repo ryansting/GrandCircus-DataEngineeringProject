@@ -1,0 +1,835 @@
+index,title,skills,company,city,state,type,salary,salary_type,sal_min,sal_max,sal_median,posted_date,origin
+0,Data Engineer - Flink,Flink,Amazon,San Diego,CA,Onsite,$72 - $80 an hour,hourly,72,80,76,,simplyhired.com
+1,Data Engineer with Data Analytics Background,,Claritas,Cincinnati,OH,Onsite,$70000 - $100000,yearly,70000,100000,85000,,simplyhired.com
+2,Data Engineer,,"Maas Energy Works, Inc",Redding,CA,Onsite,$24 - $46 an hour,hourly,24,46,35,,simplyhired.com
+3,Telecommunications & Data Field Engineer,,Redwood Systems INC,Chicago,IL,Onsite,$45000 - $57000,yearly,45000,57000,51000,,simplyhired.com
+4,AWS Data Engineer,AWS,KPI Partners,,,Remote,$140000 - $160000,yearly,140000,160000,150000,,simplyhired.com
+5,Data Center Engineer,,Ryzen Solutions,Foster City,CA,Onsite,$85 - $90 an hour,hourly,85,90,87.5,,simplyhired.com
+6,Data Engineer,,Ghritachi Inc,Dallas,TX,Onsite,$50 - $55 an hour,hourly,50,55,52.5,,simplyhired.com
+7,Data Engineer,,Fuge Technologies Inc,West Hollywood,CA,Onsite,$60 - $65 an hour,hourly,60,65,62.5,,simplyhired.com
+8,Sr. Data Engineer,,RelMap Consulting,Addison,TX,Hybrid,$70 - $80 an hour,hourly,70,80,75,,simplyhired.com
+9,Facilities Engineer - Data Center/Mission Critical Environment,,fifteenfortyseven Critical Systems Realty,Portland,OR,Onsite,From $21 an hour,hourly,21,,,,simplyhired.com
+10,Data Center Engineer,,The DAVIS Companies,,MA,Onsite,,yearly,,,,,simplyhired.com
+11,Data Engineer,,Titan America,Roanoke,VA,Onsite,$75000 - $85000,yearly,75000,85000,80000,,simplyhired.com
+12,Azure Data Engineer,Azure,Integration Developer Network LLC,,,Remote,$70 - $75 an hour,hourly,70,75,72.5,,simplyhired.com
+13,Data Engineer,,Peach IT Professionals,Braham,MN,Onsite,$40 - $70 an hour,hourly,40,70,55,,simplyhired.com
+14,Data Engineer,,Infoway solutions LLC,Santa Clara,CA,Onsite,Up to $68 an hour,hourly,,68,,,simplyhired.com
+15,Data Engineer,,Integration Developer Network LLC,Houston,TX,Onsite,$65 - $70 an hour,hourly,65,70,67.5,,simplyhired.com
+16,Data Engineer,,Gridiron IT,Washington,DC,Onsite,$65 - $75 an hour,hourly,65,75,70,,simplyhired.com
+17,Lead Data Engineer,,The Oncology Institute of Hope and Innovation,Cerritos,CA,Onsite,$119000 - $150000,yearly,119000,150000,134500,,simplyhired.com
+18,Data Engineer,,"Bluemont Technology & Research, Inc.",Norfolk,VA,Onsite,$90000 - $130000,yearly,90000,130000,110000,,simplyhired.com
+19,Data Engineer,,Core Civic,Brentwood,TN,Onsite,,yearly,,,,,simplyhired.com
+20,Data Link Engineer,,Avionics Test and Analysis Corporation,Edwards AFB,CA,Onsite,$100000 - $120000,yearly,100000,120000,110000,,simplyhired.com
+21,Sr. Data Engineer,,Beacon Hill Staffing Group,Milwaukee,WI,Onsite,$64300 - $81500,yearly,64300,81500,72900,,simplyhired.com
+22,Data Center Engineer,,Ryzen Solutions,Foster City,CA,Onsite,$85 - $90 an hour,hourly,85,90,87.5,,simplyhired.com
+23,Platform & Data Engineer,,Chelan County Public Utility District,Wenatchee,WA,Onsite,$70560 - $129600,yearly,70560,129600,100080,,simplyhired.com
+24,Implementation Data Engineer,,Vision Government Solutions,East Coast,,Remote,$89600 - $113000,yearly,89600,113000,101300,,simplyhired.com
+25,Data Engineer,,Blueprint Strategic Advisory Partners,Warrington,PA,Onsite,$80000 - $85000,yearly,80000,85000,82500,,simplyhired.com
+26,Data Engineer,,Fuge Technologies Inc,West Hollywood,CA,Onsite,$60 - $65 an hour,hourly,60,65,62.5,,simplyhired.com
+27,Sr. Data Engineer,,RelMap Consulting,Addison,TX,Hybrid,$70 - $80 an hour,hourly,70,80,75,,simplyhired.com
+28,Azure Data Engineer,Azure,Integration Developer Network LLC,,,Remote,$70 - $75 an hour,hourly,70,75,72.5,,simplyhired.com
+29,Data Engineer,,Infoway solutions LLC,Santa Clara,CA,Onsite,Up to $68 an hour,hourly,,68,,,simplyhired.com
+30,Data Engineer,,Integration Developer Network LLC,Houston,TX,Onsite,$65 - $70 an hour,hourly,65,70,67.5,,simplyhired.com
+31,Senior Data Center Network Engineer,,WEI,Salem,NH,Onsite,$150000 - $200000,yearly,150000,200000,175000,,simplyhired.com
+32,Data Engineer,,Bay & Bay Transportation,Eagan,MN,Onsite,$100000 - $150000,yearly,100000,150000,125000,,simplyhired.com
+33,Data Engineer,,Zoll Medical Corporation,Broomfield,CO,Onsite,$125000 - $140000,yearly,125000,140000,132500,,simplyhired.com
+34,Data Engineer,,Gridiron IT,Washington,DC,Onsite,$65 - $75 an hour,hourly,65,75,70,,simplyhired.com
+35,Data Engineer,,West Shore Home,,,Remote,$80000 - $120000,yearly,80000,120000,100000,,simplyhired.com
+36,Data Engineer,,Konnectingtree,,,Remote,$45 - $50 an hour,hourly,45,50,47.5,,simplyhired.com
+37,Data Engineer,,Wheels Up,,USA,Onsite,$100000 - $250000,yearly,100000,250000,175000,,simplyhired.com
+38,Data Engineer,,Fastechnowiz Solutions Inc,Westlake,TX,Onsite,$57.63 - $65.00 an hour,hourly,57.63,65,61.32,,simplyhired.com
+39,"Building Engineer (Night Shift, Critical Data Centers) (23000727)",,Newmark,Alpharetta,GA,Onsite,$27 - $29 an hour,hourly,27,29,28,,simplyhired.com
+40,Data Center Engineer - DE,,Randstad Technologies,Bear,DE,Onsite,,yearly,,,,,simplyhired.com
+41,Telecommunications Engineer Data,,Adept Consulting Services,Pennsylvania,,Onsite,$100000 - $120000,yearly,100000,120000,110000,,simplyhired.com
+42,Data Center HVAC Facilities Engineer,,Sabey Data Centers,Quincy,WA,Onsite,$58536 - $71707,yearly,58536,71707,65121.5,,simplyhired.com
+43,Data Engineer,,Amplify Resources Group,Orlando,FL,Onsite,$109305 - $140000,yearly,109305,140000,124652.5,,simplyhired.com
+44,Data Center Engineer,,Ryzen Solutions,Foster City,CA,Onsite,$85 - $90 an hour,hourly,85,90,87.5,,simplyhired.com
+45,Data Pipeline Engineer,,"iSpecimen, Inc.",Lexington,MA,Onsite,$90000 - $120000,yearly,90000,120000,105000,,simplyhired.com
+46,Building Engineer - Data Center,,Paragon Services Engineering,San Diego,CA,Onsite,$30 - $44 an hour,hourly,30,44,37,,simplyhired.com
+47,Software & Data Analytics Engineer,,FacilityConneX,Nashua,NH,Onsite,$90000 - $114000,yearly,90000,114000,102000,,simplyhired.com
+48,Data Engineer,,Fuge Technologies Inc,West Hollywood,CA,Onsite,$60 - $65 an hour,hourly,60,65,62.5,,simplyhired.com
+49,Azure Data Engineer,Azure,Integration Developer Network LLC,,,Remote,$70 - $75 an hour,hourly,70,75,72.5,,simplyhired.com
+50,Data Engineer,,Infoway solutions LLC,Santa Clara,CA,Onsite,Up to $68 an hour,hourly,,68,,,simplyhired.com
+51,Data Engineer,,Integration Developer Network LLC,Houston,TX,Onsite,$65 - $70 an hour,hourly,65,70,67.5,,simplyhired.com
+52,Data Engineer,,West Shore Home,,,Remote,$80000 - $120000,yearly,80000,120000,100000,,simplyhired.com
+53,Data Engineer - Pyspark,PySpark,Hertz,Estero,FL,Onsite,,yearly,,,,,simplyhired.com
+54,Data Engineer I - Cannabis Industry,,IGS Solutions LLC,Los Angeles,CA,Onsite,$68000 - $78000,yearly,68000,78000,73000,,simplyhired.com
+55,Data Engineer,,Sound,Tukwila,WA,Onsite,$60800- $77000,yearly,60800,77000,68900,,simplyhired.com
+56,Data Engineer,,Konnectingtree,,,Remote,$45 - $50 an hour,hourly,45,50,47.5,,simplyhired.com
+57,Data Engineer,,Wheels Up,,USA,Onsite,$100000 - $250000,yearly,100000,250000,175000,,simplyhired.com
+58,Data Engineer,,Fastechnowiz Solutions Inc,Westlake,TX,Onsite,$57.63 - $65.00 an hour,hourly,57.63,65,61.32,,simplyhired.com
+59,Data Engineer,,BlueCross BlueShield of Tennessee,Chattanooga,TN,Onsite,$81300 - $103000,yearly,81300,103000,92150,,simplyhired.com
+60,Data Engineer,,Genuent,,,Remote,"$130,000 ",yearly,130000,,,,simplyhired.com
+61,Senior Data Center Infrastructure Engineer,,MJHS,Brooklyn,NY,Onsite,$64500 - $81700,yearly,64500,81700,73100,,simplyhired.com
+62,Data Engineer,,Thomas-Matthew Associates,,,Remote,$115000 - $130000,yearly,115000,130000,122500,,simplyhired.com
+63,"Data Center Facilities Engineer, Electrical",,Sabey Corporation,Quincy,WA,Onsite,$58536 - $71707,yearly,58536,71707,65121.5,,simplyhired.com
+64,Data Engineer - Scala/Python (Engineer 3),Scala,Python,Philadelphia,PA,Onsite,,yearly,,,,,simplyhired.com
+65,Sr Data Engineer,,Hertz,Estero,FL,Onsite,,yearly,,,,,simplyhired.com
+66,Data Center Engineer,,Ryzen Solutions,Foster City,CA,Onsite,$85 - $90 an hour,hourly,85,90,87.5,,simplyhired.com
+67,Senior Data Engineer,,Jobot,Thousand Oaks,CA,Onsite,$130000 - $180000,yearly,130000,180000,155000,,simplyhired.com
+68,Data Engineer,,Alltech Inc,Nicholasville,KY,Onsite,$98600 - $12500,yearly,98600,12500,55550,,simplyhired.com
+69,Frontend Big Data Engineer - PySpark,PySpark,Logic20/20 Inc.,,,Remote,$130000 - $162500,yearly,130000,162500,146250,,simplyhired.com
+70,Data Engineer,,Fuge Technologies Inc,West Hollywood,CA,Onsite,$60 - $65 an hour,hourly,60,65,62.5,,simplyhired.com
+71,Data Engineer,,Infoway solutions LLC,Santa Clara,CA,Onsite,Up to $68 an hour,hourly,,68,,,simplyhired.com
+72,Data Engineer,,Integration Developer Network LLC,Houston,TX,Onsite,$65 - $70 an hour,hourly,65,70,67.5,,simplyhired.com
+73,Data Engineer,,West Shore Home,,,Remote,$80000 - $120000,yearly,80000,120000,100000,,simplyhired.com
+74,Data Engineer,,Konnectingtree,,,Remote,$45 - $50 an hour,hourly,45,50,47.5,,simplyhired.com
+75,Data Engineer,,Delaware North,Buffalo,NY,Onsite,$70700 - $93700,yearly,70700,93700,82200,,simplyhired.com
+76,Enterprise Data Engineer,,Insperity,Kingwood,TX,Onsite,$78800 - $89100,yearly,78800,89100,83950,,simplyhired.com
+77,Sr. Data Engineer - Microsoft & AWS Environment,"Microsoft, AWS Environment",Comcast,Philadelphia,PA,Onsite,,yearly,,,,,simplyhired.com
+78,Data Engineer,,Wheels Up,,USA,Onsite,$100000 - $250000,yearly,100000,250000,175000,,simplyhired.com
+79,Data Engineer,,Fastechnowiz Solutions Inc,Westlake,TX,Onsite,$57.63 - $65.00 an hour,hourly,57.63,65,61.32,,simplyhired.com
+80,Data Engineer,,Mericaninc,Atlanta,GA,Onsite,$60 - $65 an hour,hourly,60,65,62.5,,simplyhired.com
+81,Data Engineer,,infinity quest,Seattle,WA,Onsite,$65 an hour,hourly,65,,,,simplyhired.com
+82,GCP Data Engineer,,Talent Groups,,,Remote,$140000 - $150000,yearly,140000,150000,145000,,simplyhired.com
+83,Data Engineer,,Idaho Central Credit Union,Chubbuck,ID,Onsite,$78300 - $99100,yearly,78300,99100,88700,,simplyhired.com
+84,Data Engineer,,"Bluemont Technology & Research, Inc.",Norfolk,VA,Onsite,$90000 - $130000,yearly,90000,130000,110000,,simplyhired.com
+85,"Data Engineer II/Senior Data Engineer, Cloud Solutions Development",Cloud Solutions Development,United Therapeutics,Research Triangle Park,NC,Onsite,$97500 - $12300,yearly,97500,12300,54900,,simplyhired.com
+86,Data Engineer,,Core Civic,Brentwood,TN,Onsite,,yearly,,,,,simplyhired.com
+87,Data Engineer II,,DISH,Englewood,CO,Onsite,,yearly,,,,,simplyhired.com
+88,Data Center Engineer,,Ryzen Solutions,Foster City,CA,Onsite,$85 - $90 an hour,hourly,85,90,87.5,,simplyhired.com
+89,Data Link Engineer,,Avionics Test and Analysis Corporation,Edwards AFB,CA,Onsite,$100000 - $120000,yearly,100000,120000,110000,,simplyhired.com
+90,Staff Data Engineer,,Eaze,,,Remote,$140000 - $220000,yearly,140000,220000,180000,,simplyhired.com
+91,Sr. Data Engineer,,Beacon Hill Staffing Group,Milwaukee,WI,Onsite,$64300 - $81500,yearly,64300,81500,72900,,simplyhired.com
+92,Data Engineer,,Fuge Technologies Inc,West Hollywood,CA,Onsite,$60 - $65 an hour,hourly,60,65,62.5,,simplyhired.com
+93,Data Engineer,,Infoway solutions LLC,Santa Clara,CA,Onsite,Up to $68 an hour,hourly,,68,,,simplyhired.com
+94,Data Engineer,,Konnectingtree,,,Remote,$45 - $50 an hour,hourly,45,50,47.5,,simplyhired.com
+95,Data Engineer,,Wheels Up,,USA,Onsite,$100000 - $250000,yearly,100000,250000,175000,,simplyhired.com
+96,Data Engineer,,Fastechnowiz Solutions Inc,Westlake,TX,Onsite,$57.63 - $65.00 an hour,hourly,57.63,65,61.32,,simplyhired.com
+97,Data Engineer,,"Nutrisystem, Inc.",Fort Washington,PA,Onsite,$117000 - $148000,yearly,117000,148000,132500,,simplyhired.com
+98,Data Engineer,"AWS, Cloud, Python, Snowflake","The Travelers Companies, Inc.",Hartford,CT,Onsite,,yearly,,,,,simplyhired.com
+99,Cloud Data Engineer I,"AWS, Python, Snowflake, SQL","The Travelers Companies, Inc.",Hartford,CT,Onsite,,yearly,,,,,simplyhired.com
+100,Data Engineer,,Mericaninc,Atlanta,GA,Onsite,$60 - $65 an hour,hourly,60,65,62.5,,simplyhired.com
+101,Data Engineer,,infinity quest,Seattle,WA,Onsite,$65 an hour,hourly,65,,,,simplyhired.com
+102,GCP Data Engineer,,Talent Groups,,,Remote,$140000 - $150000,yearly,140000,150000,145000,,simplyhired.com
+103,Junior Data Engineer,,"Link Technologies, Inc.",Las Vegas,NV,Onsite,$64134 - $178786,yearly,64134,178786,121460,,simplyhired.com
+104,Data Pipeline Engineer,,Fuge Technologies Inc,McLean,VA,Onsite,$65 - $70 an hour,hourly,65,70,67.5,,simplyhired.com
+105,Platform & Data Engineer,,Chelan County Public Utility District,Wenatchee,WA,Onsite,$70560 - $129600,yearly,70560,129600,100080,,simplyhired.com
+106,Data Engineer,,Ensemble Health Partners,,,Remote,$85600 - $10800,yearly,85600,10800,48200,,simplyhired.com
+107,Senior Software Engineer - Data Platform - Bloomberg Second Measure,,Bloomberg,New York,NY,Onsite,$160000 - $240000,yearly,160000,240000,200000,,simplyhired.com
+108,Implementation Data Engineer (East Coast),,Vision Government Solutions,,,Remote,$89600 - $11300,yearly,89600,11300,50450,,simplyhired.com
+109,Data Engineer (MDM),,Onebridge,Indianapolis,IN,Onsite,$106000 - $134000,yearly,106000,134000,120000,,simplyhired.com
+110,Data Center Engineer,,Ryzen Solutions,Foster City,CA,Onsite,$85 - $90 an hour,hourly,85,90,87.5,,simplyhired.com
+111,Data Engineer (MDM),,Onebridge,Indianapolis,IN,Onsite,$106000 - $134000,yearly,106000,134000,120000,,simplyhired.com
+112,Data Engineer,,Medline Industries Inc,Chicago,IL,Hybrid,$89600 - $11300,yearly,89600,11300,50450,,simplyhired.com
+113,"Senior Data Engineer, MLOps",ML,Jobot,New York,NY,Onsite,$140000 - $185000,yearly,140000,185000,162500,,simplyhired.com
+114,Data Engineer,,Fuge Technologies Inc,West Hollywood,CA,Onsite,$60 - $65 an hour,hourly,60,65,62.5,,simplyhired.com
+115,Data Engineer,,Wheels Up,,USA,Onsite,$100000 - $250000,yearly,100000,250000,175000,,simplyhired.com
+116,Data Engineer,,Mericaninc,Atlanta,GA,Onsite,$60 - $65 an hour,hourly,60,65,62.5,,simplyhired.com
+117,GCP Data Engineer,,Talent Groups,,,Remote,$140000 - $150000,yearly,140000,150000,145000,,simplyhired.com
+118,Junior Data Engineer,,"Link Technologies, Inc.",Las Vegas,NV,Onsite,$64134 - $178786,yearly,64134,178786,121460,,simplyhired.com
+119,Advanced Data Engineer,,Wintrust Financial,Rosemont,IL,Onsite,$100000 - $127000,yearly,100000,127000,113500,,simplyhired.com
+120,Python/Data Infrastructure Engineer,Python,Jobot,Washington,DC,Onsite,$120000 - $170000,yearly,120000,170000,145000,,simplyhired.com
+121,Data Engineer,,Blueprint Strategic Advisory Partners,Warrington,PA,Onsite,$80000 - $85000,yearly,80000,85000,82500,,simplyhired.com
+122,AWS Data Engineer,AWS,Sthavirsoft Inc,Trenton,NJ,Onsite,$50 - $65 an hour,hourly,50,65,57.5,,simplyhired.com
+123,Data Engineer Level 3,,Infoorigin Inc,,,Remote,From $60 an hour,hourly,60,,,,simplyhired.com
+124,AWS Data Engineer,AWS,Oxfaa Pvt.Ltd,Trenton,NJ,Onsite,$75 - $80 an hour,hourly,75,80,77.5,,simplyhired.com
+125,Data Engineer IC4 - 266,,Braintrust,San Francisco,CA,Onsite,$110 - $127 an hour,hourly,110,127,118.5,,simplyhired.com
+126,Data Engineer (Scala),Scala,ERPMark Inc,Bentonville,AR,Onsite,$60 - $65 an hour,hourly,60,65,62.5,,simplyhired.com
+127,Lead Data Engineer,,Delaware North,Buffalo,NY,Onsite,$91700 - $123900,yearly,91700,123900,107800,,simplyhired.com
+128,Senior Software Engineer - Data Entitlement (Contractor),,Bloomberg,New York,NY,Contractor,$1200 - $1300 a day,daily,1200,1300 a day,1200,,simplyhired.com
+129,ETL Spatial Data Engineer,,"ESRI, Inc.",Redlands,CA,Onsite,$72800 - $124800,yearly,72800,124800,98800,,simplyhired.com
+130,Senior Data Engineer,,Unleashed Brands,Bedford,TX,Onsite,$98500 - $12500,yearly,98500,12500,55500,,simplyhired.com
+131,"Sr. Data Engineer (Python, Flink)","Python, Flink",Motion Recruitment,Irvine,CA,Onsite,$150000 - $220000,yearly,150000,220000,185000,,simplyhired.com
+132,Data Center Engineer,,Ryzen Solutions,Foster City,CA,Onsite,$85 - $90 an hour,hourly,85,90,87.5,,simplyhired.com
+133,Data Engineer,,Fuge Technologies Inc,West Hollywood,CA,Onsite,$60 - $65 an hour,hourly,60,65,62.5,,simplyhired.com
+134,Data Engineer,,Wheels Up,,USA,Onsite,$100000 - $250000,yearly,100000,250000,175000,,simplyhired.com
+135,GCP Data Engineer,,Talent Groups,,,Remote,$140000 - $150000,yearly,140000,150000,145000,,simplyhired.com
+136,Junior Data Engineer,,"Link Technologies, Inc.",Las Vegas,NV,Onsite,$64134 - $178786,yearly,64134,178786,121460,,simplyhired.com
+137,AWS Data Engineer,AWS,Sthavirsoft Inc,Trenton,NJ,Onsite,$50 - $65 an hour,hourly,50,65,57.5,,simplyhired.com
+138,AWS Data Engineer,AWS,Oxfaa Pvt.Ltd,Trenton,NJ,Onsite,$75 - $80 an hour,hourly,75,80,77.5,,simplyhired.com
+139,Data Engineer IC4 - 266,,Braintrust,San Francisco,CA,Onsite,$110 - $127 an hour,hourly,110,127,118.5,,simplyhired.com
+140,Data Engineer (Scala),Scala,ERPMark Inc,Bentonville,AR,Onsite,$60 - $65 an hour,hourly,60,65,62.5,,simplyhired.com
+141,Senior Data Engineer,,Stellar Inc.,Plano,TX,Onsite,$75 an hour,hourly,75,,,,simplyhired.com
+142,Big Data Operations Engineer,,apalepu@aagama.com,Dallas,TX,Onsite,$65 - $75 an hour,hourly,65,75,70,,simplyhired.com
+143,Data Center Engineer,,Ryzen Solutions,Foster City,CA,Onsite,$85 - $90 an hour,hourly,85,90,87.5,,simplyhired.com
+144,Data Engineer,,General Electric Credit Union,Cincinnati,OH,Onsite,$85200 - $10800,yearly,85200,10800,48000,,simplyhired.com
+145,Data Engineer,,Jobot,Los Angeles,CA,Hybrid,$120000 - $150000,yearly,120000,150000,135000,,simplyhired.com
+146,Sr. Data Engineer,,Hayward Industries,Charlotte,NC,Onsite,$114000 - $145000,yearly,114000,145000,129500,,simplyhired.com
+147,Data Engineer,,Fuge Technologies Inc,West Hollywood,CA,Onsite,$60 - $65 an hour,hourly,60,65,62.5,,simplyhired.com
+148,Data Engineer,,Wheels Up,,USA,Onsite,$100000 - $250000,yearly,100000,250000,175000,,simplyhired.com
+149,Junior Data Engineer,,"Link Technologies, Inc.",Las Vegas,NV,Onsite,$64134 - $178786,yearly,64134,178786,121460,,simplyhired.com
+150,AWS Data Engineer,AWS,Sthavirsoft Inc,Trenton,NJ,Onsite,$50 - $65 an hour,hourly,50,65,57.5,,simplyhired.com
+151,AWS Data Engineer,AWS,Oxfaa Pvt.Ltd,Trenton,NJ,Onsite,$75 - $80 an hour,hourly,75,80,77.5,,simplyhired.com
+152,"Data Engineer, Software Development & Engineering",,Comcast,Englewood,CO,Onsite,,yearly,,,,,simplyhired.com
+153,Data Engineer,,Zoll Medical Corporation,Broomfield,CO,Onsite,$125000 - $140000,yearly,125000,140000,132500,,simplyhired.com
+154,"Building Engineer (Night Shift, Critical Data Centers) (23000727)",,Newmark,Alpharetta,GA,Onsite,$27 - $29 an hour,hourly,27,29,28,,simplyhired.com
+155,Data Engineer IC4 - 266,,Braintrust,San Francisco,CA,Onsite,$110 - $127 an hour,hourly,110,127,118.5,,simplyhired.com
+156,Data Engineer (Scala),Scala,ERPMark Inc,Bentonville,AR,Onsite,$60 - $65 an hour,hourly,60,65,62.5,,simplyhired.com
+157,Senior Data Engineer,,Stellar Inc.,Plano,TX,Onsite,$75 an hour,hourly,75,,,,simplyhired.com
+158,Big Data Operations Engineer,,apalepu@aagama.com,Dallas,TX,Onsite,$65 - $75 an hour,hourly,65,75,70,,simplyhired.com
+159,Data Engineer with PL/SQL Developer,"PL, SQL",Integration Developer Network LLC,Houston,TX,Onsite,$65 - $75 an hour,hourly,65,75,70,,simplyhired.com
+160,Wing Data Simulator Software Engineer,,Belcan,Colorado Springs,CO,Onsite,$57.93 an hour,hourly,57.93,,,,simplyhired.com
+161,Project Engineer- Data Center,,"Cupertino Electric, Inc.",Columbus,OH,Onsite,$65000 - $85000,yearly,65000,85000,75000,,simplyhired.com
+162,Data Center Engineer,,Randstad Technologies,Bear,DE,Onsite,,yearly,,,,,simplyhired.com
+163,Data Engineer,,"BizTek People, Inc.",Beaverton,OR,Onsite,$80 - $86 an hour,hourly,80,86,83,,simplyhired.com
+164,Telecommunications Engineer Data,,Adept Consulting Services,Pennsylvania,,Onsite,$100000 - $120000,yearly,100000,120000,110000,,simplyhired.com
+165,Data Engineer,,Fuge Technologies Inc,West Hollywood,CA,Onsite,$60 - $65 an hour,hourly,60,65,62.5,,simplyhired.com
+166,Data Engineer,,Wheels Up,,USA,Onsite,$100000 - $250000,yearly,100000,250000,175000,,simplyhired.com
+167,Junior Data Engineer,,"Link Technologies, Inc.",Las Vegas,NV,Onsite,$64134 - $178786,yearly,64134,178786,121460,,simplyhired.com
+168,AWS Data Engineer,AWS,Sthavirsoft Inc,Trenton,NJ,Onsite,$50 - $65 an hour,hourly,50,65,57.5,,simplyhired.com
+169,AWS Data Engineer,AWS,Oxfaa Pvt.Ltd,Trenton,NJ,Onsite,$75 - $80 an hour,hourly,75,80,77.5,,simplyhired.com
+170,Data Engineer IC4 - 266,,Braintrust,San Francisco,CA,Onsite,$110 - $127 an hour,hourly,110,127,118.5,,simplyhired.com
+171,Data Engineer (Scala),Scala,ERPMark Inc,Bentonville,AR,Onsite,$60 - $65 an hour,hourly,60,65,62.5,,simplyhired.com
+172,Senior Data Engineer,,Stellar Inc.,Plano,TX,Onsite,$75 an hour,hourly,75,,,,simplyhired.com
+173,Big Data Operations Engineer,,apalepu@aagama.com,Dallas,TX,Onsite,$65 - $75 an hour,hourly,65,75,70,,simplyhired.com
+174,Data Engineer with PL/SQL Developer,"PL, SQL",Integration Developer Network LLC,Houston,TX,Onsite,$65 - $75 an hour,hourly,65,75,70,,simplyhired.com
+175,Snowflake Data Engineer,,Futuretech Consultants LLC,Newton,MS,Onsite,$40 - $45 an hour,hourly,40,45,42.5,,simplyhired.com
+176,Data Engineer,,Fuge Technologies Inc,West Hollywood,CA,Onsite,$60 - $65 an hour,hourly,60,65,62.5,,simplyhired.com
+177,Data Engineer,,Wheels Up,,USA,Onsite,$100000 - $250000,yearly,100000,250000,175000,,simplyhired.com
+178,Junior Data Engineer,,"Link Technologies, Inc.",Las Vegas,NV,Onsite,$64134 - $178786,yearly,64134,178786,121460,,simplyhired.com
+179,AWS Data Engineer,AWS,Sthavirsoft Inc,Trenton,NJ,Onsite,$50 - $65 an hour,hourly,50,65,57.5,,simplyhired.com
+180,AWS Data Engineer,AWS,Oxfaa Pvt.Ltd,Trenton,NJ,Onsite,$75 - $80 an hour,hourly,75,80,77.5,,simplyhired.com
+181,Data Engineer IC4 - 266,,Braintrust,San Francisco,CA,Onsite,$110 - $127 an hour,hourly,110,127,118.5,,simplyhired.com
+182,Data Engineer (Scala),Scala,ERPMark Inc,Bentonville,AR,Onsite,$60 - $65 an hour,hourly,60,65,62.5,,simplyhired.com
+183,Big Data Operations Engineer,,apalepu@aagama.com,Dallas,TX,Onsite,$65 - $75 an hour,hourly,65,75,70,,simplyhired.com
+184,Data Engineer with PL/SQL Developer,"PL, SQL",Integration Developer Network LLC,Houston,TX,Onsite,$65 - $75 an hour,hourly,65,75,70,,simplyhired.com
+185,Snowflake Data Engineer,Snowflake,Futuretech Consultants LLC,Newton,MS,Onsite,$40 - $45 an hour,hourly,40,45,42.5,,simplyhired.com
+186,Data Engineer (Mid/Jr),,Pura,Pleasant Grove,UT,Onsite,$110000 - $139000,yearly,110000,139000,124500,,simplyhired.com
+187,Business Analyst,,Locks Global Staffing LLC,San Antonio,TX,Remote,$80000 - $120000,yearly,80000,120000,100000,,simplyhired.com
+188,Behavior Analyst,,Centre For Neuro Skills,Bakersfield,CA,Onsite,"$70,000 ",yearly,70000,,,,simplyhired.com
+189,AOT Data Analyst II - Performance Team,,State of Vermont,Barre,VT,Onsite,,yearly,,,,,simplyhired.com
+190,Junior Data Analyst/ Sales Support,,"Geo-Med, LLC",Lake Mary,FL,Onsite,$22 - $26 an hour,hourly,22,26,24,,simplyhired.com
+191,Data Analyst,,Wilson Elser,White Plains,NY,Onsite,$65000 - $85000,yearly,65000,85000,75000,,simplyhired.com
+192,Data Analyst,,Phoenix Loss Control,,,Remote,$60000 - $120000,yearly,60000,120000,90000,,simplyhired.com
+193,Business Data Analyst,,Tekfortune Inc,Austin,CO,Onsite,Up to $80 an hour,hourly,,80,,,simplyhired.com
+194,Data Analyst,,Silent Falcon UAS Technologies,Front Royal,VA,Onsite,$59600 - $75400,yearly,59600,75400,67500,,simplyhired.com
+195,Entry Level Data Analyst,,"Swivel Payment Solutions, LLC",New York,NY,Onsite,$62063 - $65095,yearly,62063,65095,63579,,simplyhired.com
+196,Quality Analyst,,Hayward Area Memorial Hospital,Hayward,WI,Onsite,$38600 - $48800,yearly,38600,48800,43700,,simplyhired.com
+197,Board Certified Behavior Analyst-Johnson County,,Adapt For Life,Greenwood,IN,Onsite,$63300 - $80200,yearly,63300,80200,71750,,simplyhired.com
+198,Board Certified Behavior Analyst (BCBA),,Health and Behavioral Dimensions,Hallandale Beach,FL,Onsite,From $80000,yearly,80000,,,,simplyhired.com
+199,Data Analyst,,"Atmosfy, Inc",,,Remote,$60000 - $90000,yearly,60000,90000,75000,,simplyhired.com
+200,Data Analyst,,CoinTracker,,,Remote,$66300 - $84000,yearly,66300,84000,75150,,simplyhired.com
+201,Data Analyst,,Alliance Consumer Group,,,Remote,$45000 - $50000,yearly,45000,50000,47500,,simplyhired.com
+202,"Business Data Analyst  SQL, Healthcare Industry",,"PRIMUS Global Services, Inc",Dallas,TX,Remote,$67500 - $85400,yearly,67500,85400,76450,,simplyhired.com
+203,Data Analyst,,Net2Aspire,,,Remote,$65000 - $80000,yearly,65000,80000,72500,,simplyhired.com
+204,HR Analyst,,"Coordinated Transportation Solutions, Inc.",Trumbull,CT,Onsite,$59600 - $75400,yearly,59600,75400,67500,,simplyhired.com
+205,HR Business Intelligence Analyst Sr,,Doosan Bobcat,Wahpeton,ND,Onsite,$86800 - $11000,yearly,86800,11000,48900,,simplyhired.com
+206,Insurance Business Analyst,,"CSG Actuarial, LLC",Omaha,NE,Onsite,$50000 - $80000,yearly,50000,80000,65000,,simplyhired.com
+207,Business Analyst,,Nelson-Jameson Inc,Marshfield,WI,Onsite,$58400 - $74000,yearly,58400,74000,66200,,simplyhired.com
+208,Senior Financial Analyst,,Patrick Industries,Elkhart,IN,Onsite,,yearly,,,,,simplyhired.com
+209,Data Analyst,,Wilson Elser,White Plains,NY,Onsite,$65000 - $85000,yearly,65000,85000,75000,,simplyhired.com
+210,Sr. Project Cost Analyst - PHI,,Exelon Corporation,Christiana,DE,Onsite,$82700 - $10500,yearly,82700,10500,46600,,simplyhired.com
+211,Project Controls Analyst,,"J.F. Brennan Company, Inc.",La Crosse,WI,Onsite,From $58982,yearly,58982,,,,simplyhired.com
+212,Merchandising Data Analyst,,Uline,Pleasant Prairie,WI,Onsite,$55200 - $69800,yearly,55200,69800,62500,,simplyhired.com
+213,Business Data Analyst,,Tekfortune Inc,Austin,CO,Onsite,Up to $80 an hour,hourly,,80,,,simplyhired.com
+214,Data Analyst,,Silent Falcon UAS Technologies,Front Royal,VA,Onsite,$59600 - $75400,yearly,59600,75400,67500,,simplyhired.com
+215,Entry Level Data Analyst,,"Swivel Payment Solutions, LLC",New York,NY,Onsite,$62063 - $65095,yearly,62063,65095,63579,,simplyhired.com
+216,Data Analyst,,CoinTracker,,,Remote,$66300 - $84000,yearly,66300,84000,75150,,simplyhired.com
+217,Data Analyst,,Alliance Consumer Group,,,Remote,$45000 - $50000,yearly,45000,50000,47500,,simplyhired.com
+218,Sales Coordinator & Analyst,,Confidential,Sunrise,FL,Onsite,From $50000,yearly,50000,,,,simplyhired.com
+219,Board Certified assistant Behavior Analyst (BCaBA),,Hands on Behavior,Orlando,FL,Onsite,$55 - $60 an hour,hourly,55,60,57.5,,simplyhired.com
+220,Quality Improvement Data Analyst,,Morrison Child and Family Services,Portland,OR,Onsite,$26.45 - $28.17 an hour,hourly,26.45,28.17,27.31,,simplyhired.com
+221,"Business Data Analyst  SQL, Healthcare Industry",SQL,"PRIMUS Global Services, Inc",Dallas,TX,Remote,$67500 - $85400,yearly,67500,85400,76450,,simplyhired.com
+222,Data Analyst,,Net2Aspire,,,Remote,$65000 - $80000,yearly,65000,80000,72500,,simplyhired.com
+223,Workforce Data Analyst,,ASC,New York,NY,Onsite,$65.00 - $77.31 an hour,hourly,65,77.31,71.16,,simplyhired.com
+224,Junior Data Analyst,,Serenity Healthcare,Lehi,UT,Onsite,$44400 - $56200,yearly,44400,56200,50300,,simplyhired.com
+225,Data Analyst,,Nava,,,Remote,$56.82 - $57.71 an hour,hourly,56.82,57.71,57.27,,simplyhired.com
+226,Data Analyst Warehouse,,TA Services,Columbus,IN,Onsite,$50000 - $60000,yearly,50000,60000,55000,,simplyhired.com
+227,USSF Satellite Signals and Data Analyst,,PRKK LLC,Dayton,OH,Onsite,$98000 - $118000,yearly,98000,118000,108000,,simplyhired.com
+228,Data Analyst (Marketing),,Confidential,Newark,DE,Onsite,$38700 - $49000,yearly,38700,49000,43850,,simplyhired.com
+229,Residential New Construction Data Analyst,,Del-Air,Sanford,FL,Onsite,From $45000,yearly,45000,,,,simplyhired.com
+230,Data Integration Analyst,,"Dovenmuehle Mortgage, Inc.",Lake Zurich,IL,Onsite,From $40000,yearly,40000,,,,simplyhired.com
+231,Data Analyst,,Wilson Elser,White Plains,NY,Onsite,$65000 - $85000,yearly,65000,85000,75000,,simplyhired.com
+232,Pharmacy Data Analyst,,OneWorld Community Health Centers Inc,Omaha,NE,Onsite,$45000 - $56900,yearly,45000,56900,50950,,simplyhired.com
+233,"Business Analyst II, Research",,KeyLogic Systems,Morgantown,WV,Onsite,$51700 - $65400,yearly,51700,65400,58550,,simplyhired.com
+234,Data Analyst,,"Turn5, Inc.",Paoli,PA,Onsite,$59400 - $75200,yearly,59400,75200,67300,,simplyhired.com
+235,Data Analyst,,Silent Falcon UAS Technologies,Front Royal,VA,Onsite,$59600 - $75400,yearly,59600,75400,67500,,simplyhired.com
+236,Entry Level Data Analyst,,"Swivel Payment Solutions, LLC",New York,NY,Onsite,$62063 - $65095,yearly,62063,65095,63579,,simplyhired.com
+237,Data Analyst,,CoinTracker,,,Remote,$66300 - $84000,yearly,66300,84000,75150,,simplyhired.com
+238,Data Analyst,,Alliance Consumer Group,,,Remote,$45000 - $50000,yearly,45000,50000,47500,,simplyhired.com
+239,"Business Data Analyst  SQL, Healthcare Industry",SQL,"PRIMUS Global Services, Inc",Dallas,TX,Remote,$67500 - $85400,yearly,67500,85400,76450,,simplyhired.com
+240,Associate Dental Network Analyst,,USAble Life,Portland,OR,Onsite,$48900 - $61900,yearly,48900,61900,55400,,simplyhired.com
+241,Data Analyst,,NorthGate,Burton,MI,Onsite,$45000 - $50000,yearly,45000,50000,47500,,simplyhired.com
+242,Corporate Compensation Sr. Analyst,,Airgas,Radnor,PA,Onsite,,yearly,,,,,simplyhired.com
+243,Data Analyst,,Net2Aspire,,,Remote,$65000 - $80000,yearly,65000,80000,72500,,simplyhired.com
+244,Workforce Data Analyst,,ASC,New York,NY,Onsite,$65.00 - $77.31 an hour,hourly,65,77.31,71.16,,simplyhired.com
+245,Junior Data Analyst,,Serenity Healthcare,Lehi,UT,Onsite,$44400 - $56200,yearly,44400,56200,50300,,simplyhired.com
+246,Data Analyst,,Nava,,,Remote,$56.82 - $57.71 an hour,hourly,56.82,57.71,57.27,,simplyhired.com
+247,Entry Level Data Analyst,,Tresume,Manassas,VA,Onsite,$50000 - $60000,yearly,50000,60000,55000,,simplyhired.com
+248,Team Lead - Data Analyst,,340Basics,Melville,NY,Onsite,$75300 - $95400,yearly,75300,95400,85350,,simplyhired.com
+249,Commercial Credit Analyst,,Millville Savings Bank,Millville,NJ,Onsite,$59400 - $75200,yearly,59400,75200,67300,,simplyhired.com
+250,Part-Time Data Entry Analyst - Solvas Financial Technology,,Deloitte,Stamford,CT,Onsite,$20 an hour,hourly,20,,,,simplyhired.com
+251,Process Business Analyst,,Supreme Court of Appeals of West Virginia,Charleston,WV,Onsite,$60000 - $70000,yearly,60000,70000,65000,,simplyhired.com
+252,Full Motion Video / Imagery Analyst,,Geo Owl LLC,Fort Bragg,NC,Onsite,$68200 - $86300,yearly,68200,86300,77250,,simplyhired.com
+253,Data Analyst,,Wilson Elser,White Plains,NY,Onsite,$65000 - $85000,yearly,65000,85000,75000,,simplyhired.com
+254,Sr. Financial & Business Intelligence Analyst,,"American Plastics, LLC",Findlay,OH,Onsite,$71900 - $91100,yearly,71900,91100,81500,,simplyhired.com
+255,HCM Analyst,,A-dec,Newberg,OR,Onsite,$62900 - $79600,yearly,62900,79600,71250,,simplyhired.com
+256,HRIS Reporting Analyst,,VITAS Healthcare,Miami,FL,Onsite,$74744 - $112116,yearly,74744,112116,93430,,simplyhired.com
+257,Data Analyst,,Silent Falcon UAS Technologies,Front Royal,VA,Onsite,$59600 - $75400,yearly,59600,75400,67500,,simplyhired.com
+258,Entry Level Data Analyst,,"Swivel Payment Solutions, LLC",New York,NY,Onsite,$62063 - $65095,yearly,62063,65095,63579,,simplyhired.com
+259,Data Analyst (),,CoinTracker,,,Remote,$66300 - $84000,yearly,66300,84000,75150,,simplyhired.com
+260,Data Analyst,,Alliance Consumer Group,,,Remote,$45000 - $50000,yearly,45000,50000,47500,,simplyhired.com
+261,Data Analyst,,Net2Aspire,,,Remote,$65000 - $80000,yearly,65000,80000,72500,,simplyhired.com
+262,Board Certified assistant Behavior Analyst (BCaBA),,Hands on Behavior,Orlando,FL,Onsite,$55 - $60 an hour,hourly,55,60,57.5,,simplyhired.com
+263,Board Certified Behavior Analyst (BCBA),,Smile Pediatric Therapy & Diagnostics,Los Angeles,CA,Onsite,$75000 - $85000,yearly,75000,85000,80000,,simplyhired.com
+264,Quality Improvement Data Analyst,,Morrison Child and Family Services,Portland,OR,Onsite,$26.45 - $28.17 an hour,hourly,26.45,28.17,27.31,,simplyhired.com
+265,Workforce Data Analyst,,ASC,New York,NY,Onsite,$65.00 - $77.31 an hour,hourly,65,77.31,71.16,,simplyhired.com
+266,Junior Data Analyst,,Serenity Healthcare,Lehi,UT,Onsite,$44400 - $56200,yearly,44400,56200,50300,,simplyhired.com
+267,Data Analyst,,Nava,,,Remote,$56.82 - $57.71 an hour,hourly,56.82,57.71,57.27,,simplyhired.com
+268,Entry Level Data Analyst,,Tresume,Manassas,VA,Onsite,$50000 - $60000,yearly,50000,60000,55000,,simplyhired.com
+269,Data Analyst (Warehouse Operations),,The Black Tux,,,Remote,$95000 - $105000,yearly,95000,105000,100000,,simplyhired.com
+270,Data Analyst - Real World Data,,Clarivate,Boston,MA,Onsite,$74600 - $94500,yearly,74600,94500,84550,,simplyhired.com
+271,USSF Satellite Signals and Data Analyst,,PRKK LLC,Dayton,OH,Onsite,$98000 - $118000,yearly,98000,118000,108000,,simplyhired.com
+272,Board Certified Behavior Analyst,,Matthew's Center for Visual Learning,Manassas,VA,Onsite,$67500 - $85500,yearly,67500,85500,76500,,simplyhired.com
+273,Data Analyst (Marketing),,Confidential,Newark,DE,Onsite,$38700 - $49000,yearly,38700,49000,43850,,simplyhired.com
+274,Residential New Construction Data Analyst,,Del-Air,Sanford,FL,Onsite,From $45000,yearly,45000,,,,simplyhired.com
+275,Data Analyst,,Wilson Elser,White Plains,NY,Onsite,$65000 - $85000,yearly,65000,85000,75000,,simplyhired.com
+276,Value Based Care Analyst,,Panoramic Health,Tempe,AZ,Onsite,$63600 - $80500,yearly,63600,80500,72050,,simplyhired.com
+277,Sr. Business Analyst,,Doosan Bobcat,Statesville,NC,Onsite,$76400 - $96700,yearly,76400,96700,86550,,simplyhired.com
+278,Business Analyst,,True Manufacturing,O'Fallon,MO,Onsite,$51900 - $65800,yearly,51900,65800,58850,,simplyhired.com
+279,Entry Level Data Analyst,,"Swivel Payment Solutions, LLC",New York,NY,Onsite,$62063 - $65095,yearly,62063,65095,63579,,simplyhired.com
+280,Data Analyst,,CoinTracker,,,Remote,$66300 - $84000,yearly,66300,84000,75150,,simplyhired.com
+281,Data Analyst,,Alliance Consumer Group,,,Remote,$45000 - $50000,yearly,45000,50000,47500,,simplyhired.com
+282,Data Analyst,,Net2Aspire,,,Remote,$65000 - $80000,yearly,65000,80000,72500,,simplyhired.com
+283,Workforce Data Analyst,,ASC,New York,NY,Onsite,$65.00 - $77.31 an hour,hourly,65,77.31,71.16,,simplyhired.com
+284,Sales Business Intelligence Analyst,,Guttman Energy Inc,Belle Vernon,PA,Onsite,$70000 - $75000,yearly,70000,75000,72500,,simplyhired.com
+285,Business Analyst,,Goodville Mutual Casualty Company,New Holland,PA,Onsite,,yearly,,,,,simplyhired.com
+286,Data Analyst (3rd Shift),,Sperry Rail Inc.,Shelton,CT,Onsite,$21.60 an hour,hourly,21.6,,,,simplyhired.com
+287,Junior Data Analyst,,Serenity Healthcare,Lehi,UT,Onsite,$44400 - $56200,yearly,44400,56200,50300,,simplyhired.com
+288,Entry Level Data Analyst,,Tresume,Manassas,VA,Onsite,$50000 - $60000,yearly,50000,60000,55000,,simplyhired.com
+289,Data Analyst (Warehouse Operations),,The Black Tux,,,Remote,$95000 - $105000,yearly,95000,105000,100000,,simplyhired.com
+290,Business Analyst,,Ghritachi Inc,,,Remote,$50 - $55 an hour,hourly,50,55,52.5,,simplyhired.com
+291,Data Analyst,,Prime 8 Consulting,Bellevue,WA,Onsite,$50 - $65 an hour,hourly,50,65,57.5,,simplyhired.com
+292,Software Support Analyst,,Telcor Inc,Lincoln,NE,Onsite,$46400 - $58700,yearly,46400,58700,52550,,simplyhired.com
+293,Senior Healthcare Data Analyst,,Scottish Rite for Children,Dallas,TX,Onsite,$75600 - $95700,yearly,75600,95700,85650,,simplyhired.com
+294,Data Analytics Specialist,,We Are Sharing Hope Sc,North Charleston,SC,Onsite,$56000 - $70000,yearly,56000,70000,63000,,simplyhired.com
+295,Sr. Financial Compliance & Controls Analyst,,Citizens Property Insurance Corporation,Tallahassee,FL,Onsite,$90000 - $100000,yearly,90000,100000,95000,,simplyhired.com
+296,Revenue & Margin Data Analyst,,IMMI,Westfield,IN,Onsite,$49000 - $62000,yearly,49000,62000,55500,,simplyhired.com
+297,Data Analyst,,Wilson Elser,White Plains,NY,Onsite,$65000 - $85000,yearly,65000,85000,75000,,simplyhired.com
+298,Sr. Financial Compliance & Controls Analyst,,Citizens Property Insurance Corporation,Tallahassee,FL,Onsite,$90000 - $100000,yearly,90000,100000,95000,,simplyhired.com
+299,Revenue & Margin Data Analyst,,IMMI,Westfield,IN,Onsite,$49000 - $62000,yearly,49000,62000,55500,,simplyhired.com
+300,Behavior Analyst,,The School District Of Philadelphia,Philadelphia,PA,Onsite,$61300 - $77700,yearly,61300,77700,69500,,simplyhired.com
+301,Entry Level Data Analyst,,"Swivel Payment Solutions, LLC",New York,NY,Onsite,$62063 - $65095,yearly,62063,65095,63579,,simplyhired.com
+302,Data Analyst,,Alliance Consumer Group,,,Remote,$45000 - $50000,yearly,45000,50000,47500,,simplyhired.com
+303,Data Analyst,,Net2Aspire,,,Remote,$65000 - $80000,yearly,65000,80000,72500,,simplyhired.com
+304,Workforce Data Analyst,,ASC,New York,NY,Onsite,$65.00 - $77.31 an hour,hourly,65,77.31,71.16,,simplyhired.com
+305,Junior Data Analyst,,Serenity Healthcare,Lehi,UT,Onsite,$44400 - $56200,yearly,44400,56200,50300,,simplyhired.com
+306,Board Certified Behavior Analyst (BCBA) Amhearst,,Acorn Health,Knoxville,TN,Onsite,From $80500,yearly,80500,,,,simplyhired.com
+307,Senior Data Analyst,,Physician's Weekly,Basking Ridge,NJ,Onsite,$75000 - $90000,yearly,75000,90000,82500,,simplyhired.com
+308,Retail Business Analyst,,"Buyers Support Group, Inc.",Minneapolis,MN,Onsite,$55400 - $70100,yearly,55400,70100,62750,,simplyhired.com
+309,Entry Level Data Analyst,,Tresume,Manassas,VA,Onsite,$50000 - $60000,yearly,50000,60000,55000,,simplyhired.com
+310,Data Analyst (Warehouse Operations),,The Black Tux,,,Remote,$95000 - $105000,yearly,95000,105000,100000,,simplyhired.com
+311,Business Analyst,,Ghritachi Inc,,,Remote,$50 - $55 an hour,hourly,50,55,52.5,,simplyhired.com
+312,Data Analyst,,Prime 8 Consulting,Bellevue,WA,Onsite,$50 - $65 an hour,hourly,50,65,57.5,,simplyhired.com
+313,Data Quality Analyst,,Neorithm Technologies Inc,,,Remote,$50 - $70 an hour,hourly,50,70,60,,simplyhired.com
+314,Business Analyst I,,Snapping Shoals EMC,Covington,GA,Onsite,From $34.31 an hour,hourly,34.31,,,,simplyhired.com
+315,Board Certified Behavior Analyst (BCBA),,"Connecting Communities, LLC",Portsmouth,VA,Onsite,$62300 - $78900,yearly,62300,78900,70600,,simplyhired.com
+316,Data Analyst,,Korn Ferry Projects (Resume),Mason,OH,Onsite,From $53000,yearly,53000,,,,simplyhired.com
+317,Data Analyst,,GC America Inc.,Alsip,IL,Onsite,From $65000,yearly,65000,,,,simplyhired.com
+318,Board Certified Behavior Analyst (BCBA),,Acorn Health,Cookeville,TN,Onsite,From $84000,yearly,84000,,,,simplyhired.com
+319,Data Analyst,,Wilson Elser,White Plains,NY,Onsite,$65000 - $85000,yearly,65000,85000,75000,,simplyhired.com
+320,Business Analyst III,,Corporate,Missouri,,Onsite,$78700 - $99700,yearly,78700,99700,89200,,simplyhired.com
+321,Technical Data Analyst,,"Althea US, Inc.",Goodlettsville,TN,Onsite,$65000 - $75000,yearly,65000,75000,70000,,simplyhired.com
+322,Manufacturing IT Operations Analyst,,TTi Global,Normal,IL,Onsite,$27 - $35 an hour,hourly,27,35,31,,simplyhired.com
+323,Entry Level Data Analyst,,"Swivel Payment Solutions, LLC",New York,NY,Onsite,$62063 - $65095,yearly,62063,65095,63579,,simplyhired.com
+324,Data Analyst,,Alliance Consumer Group,,,Remote,$45000 - $50000,yearly,45000,50000,47500,,simplyhired.com
+325,Data Analyst,,Net2Aspire,,,Remote,$65000 - $80000,yearly,65000,80000,72500,,simplyhired.com
+326,Workforce Data Analyst,,ASC,New York,NY,Onsite,$65.00 - $77.31 an hour,hourly,65,77.31,71.16,,simplyhired.com
+327,Junior Data Analyst,,Serenity Healthcare,Lehi,UT,Onsite,$44400 - $56200,yearly,44400,56200,50300,,simplyhired.com
+328,Data Analyst,,Theisen's Home Farm & Auto,Dubuque,IA,Hybrid,$52300 - $66200,yearly,52300,66200,59250,,simplyhired.com
+329,Sourcing Analyst / Buyer,,Personnel Services Unlimited,Shelby,NC,Onsite,$19 - $21 an hour,hourly,19,21,20,,simplyhired.com
+330,IT Business Analyst II,,Dynarex Corporation,Orangeburg,NY,Onsite,$63000 - $79800,yearly,63000,79800,71400,,simplyhired.com
+331,Entry Level Data Analyst,,Tresume,Manassas,VA,Onsite,$50000 - $60000,yearly,50000,60000,55000,,simplyhired.com
+332,Data Analyst (Warehouse Operations),,The Black Tux,,,Remote,$95000 - $105000,yearly,95000,105000,100000,,simplyhired.com
+333,Business Analyst,,Ghritachi Inc,,,Remote,$50 - $55 an hour,hourly,50,55,52.5,,simplyhired.com
+334,Data Analyst,,Prime 8 Consulting,Bellevue,WA,Onsite,$50 - $65 an hour,hourly,50,65,57.5,,simplyhired.com
+335,Junior Data Analyst,,"Zartico, Inc.",,,Remote,$68100 - $86200,yearly,68100,86200,77150,,simplyhired.com
+336,Power BI Report Analyst,,SGRX,Grosse Pointe Park,MI,Onsite,$35 - $40 an hour,hourly,35,40,37.5,,simplyhired.com
+337,PowerSchool Administrator/Data Analyst,,Hmong College Prep Academy,Saint Paul,MN,Onsite,$46200 - $58500,yearly,46200,58500,52350,,simplyhired.com
+338,IT Data and Security Support Analyst,,St. Thomas School,Medina,WA,Onsite,$31.25 - $40.86 an hour,hourly,31.25,40.86,36.06,,simplyhired.com
+339,Business Analyst,,Clerk of the Circuit Court and County Comptroller,Sarasota,FL,Onsite,$62359 - $78317,yearly,62359,78317,70338,,simplyhired.com
+340,Data Reporting Analyst,,Physician's Weekly,Basking Ridge,NJ,Onsite,$60000 - $70000,yearly,60000,70000,65000,,simplyhired.com
+341,Data Analyst,,Wilson Elser,White Plains,NY,Onsite,$65000 - $85000,yearly,65000,85000,75000,,simplyhired.com
+342,IT Data and Security Support Analyst,,St. Thomas School,Medina,WA,Onsite,$31.25 - $40.86 an hour,hourly,31.25,40.86,36.06,,simplyhired.com
+343,Sr. Business Intelligence Analyst - Office of Population Health,,Johns Hopkins Health System,Baltimore,MD,Hybrid,$80400 - $10200,yearly,80400,10200,45300,,simplyhired.com
+344,Business Analyst,,Clerk of the Circuit Court and County Comptroller,Sarasota,FL,Onsite,$62359 - $78317,yearly,62359,78317,70338,,simplyhired.com
+345,Entry Level Data Analyst,,"Swivel Payment Solutions, LLC",New York,NY,Onsite,$62063 - $65095,yearly,62063,65095,63579,,simplyhired.com
+346,Data Analyst,,Alliance Consumer Group,,,Remote,$45000 - $50000,yearly,45000,50000,47500,,simplyhired.com
+347,Data Analyst,,Net2Aspire,,,Remote,$65000 - $80000,yearly,65000,80000,72500,,simplyhired.com
+348,Workforce Data Analyst,,ASC,New York,NY,Onsite,$65.00 - $77.31 an hour,hourly,65,77.31,71.16,,simplyhired.com
+349,Junior Data Analyst,,Serenity Healthcare,Lehi,UT,Onsite,$44400 - $56200,yearly,44400,56200,50300,,simplyhired.com
+350,Data Reporting Analyst,,Physician's Weekly,Basking Ridge,NJ,Onsite,$60000 - $70000,yearly,60000,70000,65000,,simplyhired.com
+351,CRM Business Analyst (Consultant),,BrainSell,Danvers,MA,Consultant,$70000 - $85000,yearly,70000,85000,77500,,simplyhired.com
+352,Board Certified Behavior Analyst,,Aspire Living & Learning,New Haven,CT,Onsite,$68000 - $79000,yearly,68000,79000,73500,,simplyhired.com
+353,Entry Level Data Analyst,,Tresume,Manassas,VA,Onsite,$50000 - $60000,yearly,50000,60000,55000,,simplyhired.com
+354,Data Analyst (Warehouse Operations),,The Black Tux,,,Remote,$95000 - $105000,yearly,95000,105000,100000,,simplyhired.com
+355,Business Analyst,,Ghritachi Inc,,,Remote,$50 - $55 an hour,hourly,50,55,52.5,,simplyhired.com
+356,Data Analyst,,Prime 8 Consulting,Bellevue,WA,Onsite,$50 - $65 an hour,hourly,50,65,57.5,,simplyhired.com
+357,Junior Data Analyst,,"Zartico, Inc.",,,Remote,$68100 - $86200,yearly,68100,86200,77150,,simplyhired.com
+358,Data Analyst,,SBYB Inc.,Montgomery,IL,Onsite,$65600 - $83000,yearly,65600,83000,74300,,simplyhired.com
+359,Data Analyst,,Amplify Resources Group,Orlando,FL,Onsite,$90000 - $130000,yearly,90000,130000,110000,,simplyhired.com
+360,Lead Advanced HC Data Analyst,,Driscoll Health,Corpus Christi,TX,Onsite,$65600 - $83100,yearly,65600,83100,74350,,simplyhired.com
+361,Financial Data Analyst,,Confidential,Meridian,ID,Onsite,From $75000,yearly,75000,,,,simplyhired.com
+362,"Analyst, 340B Program",,Christiana Care Health Systems,Wilmington,DE,Onsite,,yearly,,,,,simplyhired.com
+363,Data Analyst,,Wilson Elser,White Plains,NY,Onsite,$65000 - $85000,yearly,65000,85000,75000,,simplyhired.com
+364,Logistics Pricing Analyst,,"Backhaul Direct, LLC",Indianapolis,IN,Onsite,$50500 - $6400,yearly,50500,6400,28450,,simplyhired.com
+365,"Business Central (BC) Analyst, Power BI Developer",,Advanced Media Technologies,Deerfield Beach,FL,Onsite,$67800 - $85900,yearly,67800,85900,76850,,simplyhired.com
+366,Compensation Analyst 2,,Sandia Laboratory Federal Credit Union,Albuquerque,NM,Onsite,$57600 - $72000,yearly,57600,72000,64800,,simplyhired.com
+367,Entry Level Data Analyst,,"Swivel Payment Solutions, LLC",New York,NY,Onsite,$62063 - $65095,yearly,62063,65095,63579,,simplyhired.com
+368,Data Analyst,,Alliance Consumer Group,,,Remote,$45000 - $50000,yearly,45000,50000,47500,,simplyhired.com
+369,Data Analyst,,Net2Aspire,,,Remote,$65000 - $80000,yearly,65000,80000,72500,,simplyhired.com
+370,Workforce Data Analyst,,ASC,New York,NY,Onsite,$65.00 - $77.31 an hour,hourly,65,77.31,71.16,,simplyhired.com
+371,Junior Data Analyst,,Serenity Healthcare,Lehi,UT,Onsite,$44400 - $56200,yearly,44400,56200,50300,,simplyhired.com
+372,Finance Budget Analyst,,New Mexico Mutual Casualty Company,Albuquerque,NM,Onsite,From $59000,yearly,59000,,,,simplyhired.com
+373,Order Fulfillment Analyst,,BlueTriton Brands,Coppell,TX,Onsite,,yearly,,,,,simplyhired.com
+374,Sr. Business Intelligence Analyst - Office of Population Health,,Johns Hopkins Health System,Baltimore,MD,Hybrid,$80400 - $10200,yearly,80400,10200,45300,,simplyhired.com
+375,Entry Level Data Analyst,,Tresume,Manassas,VA,Onsite,$50000 - $60000,yearly,50000,60000,55000,,simplyhired.com
+376,Business Analyst,,Ghritachi Inc,,,Remote,$50 - $55 an hour,hourly,50,55,52.5,,simplyhired.com
+377,Data Analyst,,Prime 8 Consulting,Bellevue,WA,Onsite,$50 - $65 an hour,hourly,50,65,57.5,,simplyhired.com
+378,Junior Data Analyst,,"Zartico, Inc.",,,Remote,$68100 - $86200,yearly,68100,86200,77150,,simplyhired.com
+379,Business Analyst,,Vastek Inc.,,,Remote,$45 - $50 an hour,hourly,45,50,47.5,,simplyhired.com
+380,Financial Aid Data Analyst (Data Analyst 1),,University of Connecticut,Storrs,CT,Onsite,"$61,302 ",yearly,61302,,,,simplyhired.com
+381,Financial and Customer Data Analyst,,Continental Finance Company,Hattiesburg,MS,Onsite,$50000 - $63300,yearly,50000,63300,56650,,simplyhired.com
+382,"Data & Business Analyst, Foundation - Administration",,Baptist Health South Florida,Coral Gables,FL,Onsite,$52217 - $67882,yearly,52217,67882,60049.5,,simplyhired.com
+383,School Based - Board Certified Behavior Analyst,,Rise Behavioral Services,Zachary,LA,Onsite,$60000 - $65000,yearly,60000,65000,62500,,simplyhired.com
+384,RCM BI Ops Analyst,,Baptist Health South Florida,Miami,FL,Onsite,$51099 - $66428,yearly,51099,66428,58763.5,,simplyhired.com
+385,Data Analyst,,Wilson Elser,White Plains,NY,Onsite,$65000 - $85000,yearly,65000,85000,75000,,simplyhired.com
+386,RCM BI Ops Analyst,,Baptist Health South Florida,Miami,FL,Onsite,$51099 - $66428,yearly,51099,66428,58763.5,,simplyhired.com
+387,Client Data Analyst,,MetTel,Holmdel,NJ,Onsite,$63200 - $80000,yearly,63200,80000,71600,,simplyhired.com
+388,Refugee Integration Data Analyst,,VeloSource,,,Remote,$65500 - $82900,yearly,65500,82900,74200,,simplyhired.com
+389,Entry Level Data Analyst,,"Swivel Payment Solutions, LLC",New York,NY,Onsite,$62063 - $65095,yearly,62063,65095,63579,,simplyhired.com
+390,Data Analyst,,Alliance Consumer Group,,,Remote,$45000 - $50000,yearly,45000,50000,47500,,simplyhired.com
+391,Workforce Data Analyst,,ASC,New York,NY,Onsite,$65.00 - $77.31 an hour,hourly,65,77.31,71.16,,simplyhired.com
+392,Junior Data Analyst,,Serenity Healthcare,Lehi,UT,Onsite,$44400 - $56200,yearly,44400,56200,50300,,simplyhired.com
+393,Entry Level Data Analyst,,TRESUME,Manassas,VA,Onsite,$50000 - $60000,yearly,50000,60000,55000,,simplyhired.com
+394,Medical Data Analyst,,Brazos Spine,College Station,TX,Onsite,From $15 an hour,hourly,15,,,,simplyhired.com
+395,Junior Data Analyst,,Affiliated Monitoring,Union,NJ,Onsite,,yearly,,,,,simplyhired.com
+396,ERP Data Conversion Analyst,,Catalent,Somerset,NJ,Onsite,$57800 - $73200,yearly,57800,73200,65500,,simplyhired.com
+397,Business Analyst,,Ghritachi Inc,,,Remote,$50 - $55 an hour,hourly,50,55,52.5,,simplyhired.com
+398,Data Analyst,,Prime 8 Consulting,Bellevue,WA,Onsite,$50 - $65 an hour,hourly,50,65,57.5,,simplyhired.com
+399,Junior Data Analyst,,"Zartico, Inc.",,,Remote,$68100 - $86200,yearly,68100,86200,77150,,simplyhired.com
+400,Business Analyst,,Vastek Inc.,,,Remote,$45 - $50 an hour,hourly,45,50,47.5,,simplyhired.com
+401,Data Analyst,,New Forest Capital,,,Remote,$35 - $40 an hour,hourly,35,40,37.5,,simplyhired.com
+402,Cartographer (Maritime GIS Analyst),,National Geospatial-Intelligence Agency,Springfield,VA,Onsite,$53105 - $92995,yearly,53105,92995,73050,,simplyhired.com
+403,Contracts Billing Analyst II,,"Jack Henry and Associates, Inc.",Monett,MO,Onsite,$35900 - $45000,yearly,35900,45000,40450,,simplyhired.com
+404,Associate HR Data Analyst,,Penske Truck Leasing and Logistics,Reading,PA,Onsite,,yearly,,,,,simplyhired.com
+405,Data Analyst,,Josselyn,Northfield,IL,Onsite,$53200 - $67300,yearly,53200,67300,60250,,simplyhired.com
+406,Data Analyst,,Industrial Services Solutions,,,Remote,$55000 - $65000,yearly,55000,65000,60000,,simplyhired.com
+407,AWS Data Architect,AWS,Apolis,,,Remote,$80 - $90 an hour,hourly,80,90,85,,simplyhired.com
+408,SAP Solutions Architect (S/4 HANA),,"Lexmark International, Inc.",Lexington,KY,Onsite,$127000 - $161000,yearly,127000,161000,144000,,simplyhired.com
+409,Systems Engineer (IS2629 - Navigation & Innovation Ctr.),,CommuniCare Health Centers (Texas),San Antonio,TX,Onsite,$83000 - $105000,yearly,83000,105000,94000,,simplyhired.com
+410,Lead Systems Architect,,Resource Data,Anchorage,AK,Onsite,$109000 - $131000,yearly,109000,131000,120000,,simplyhired.com
+411,Data Architect,,Infinity Quest,,,Remote,$80 - $90 an hour,hourly,80,90,85,,simplyhired.com
+412,Data Architect,,Fiable Consulting,,,Remote,From $65 an hour,hourly,65,,,,simplyhired.com
+413,AWS Data Architect,AWS,Nest Tech,Irving,TX,Onsite,$140000 - $180000,yearly,140000,180000,160000,,simplyhired.com
+414,Data Architect,,Reveille Technologies,,,Remote,$70.37 - $75.00 an hour,hourly,70.37,75,72.69,,simplyhired.com
+415,Data Architect,,Devcare Solutions,,,Remote,From $68 an hour,hourly,68,,,,simplyhired.com
+416,Data Governance Lead,,CoBank,Greenwood Village,CO,Onsite,$95000 - $125000,yearly,95000,125000,110000,,simplyhired.com
+417,Smart Retail Solutions Architect,,"Lexmark International, Inc.",,,Remote,$121000 - $153000,yearly,121000,153000,137000,,simplyhired.com
+418,Enterprise Architect,,"ENSCO, Inc.",Fort Washington,MD,Onsite,$128000 - $162000,yearly,128000,162000,145000,,simplyhired.com
+419,Data Architect,,Sunixa Solutions,,,Remote,$60 - $70 an hour,hourly,60,70,65,,simplyhired.com
+420,Azure Data Architect,Azure,Ismile Technologies,Sacramento,CA,Onsite,$70 - $80 an hour,hourly,70,80,75,,simplyhired.com
+421,Data Architect,,Locks Global Staffing LLC,Los Angeles,CA,Remote,$110000 - $150000,yearly,110000,150000,130000,,simplyhired.com
+422,Azure Data Architect,Azure,Parsoft LLC,,,Remote,$91744 - $186430,yearly,91744,186430,139087,,simplyhired.com
+423,Azure Data Engineer Architect,Azure,Conglomerate IT,Washington,DC,Onsite,From $50 an hour,hourly,50,,,,simplyhired.com
+424,Model Based Systems Engineer,,The MITRE Corporation,Fort Walton Beach,FL,Onsite,$152000 - $193000,yearly,152000,193000,172500,,simplyhired.com
+425,ICT Systems Engineer,,Danis Construction,Miamisburg,OH,Onsite,$68200 - $86300,yearly,68200,86300,77250,,simplyhired.com
+426,Data Architect,,"Tentek, Inc.",Marysville,OH,Onsite,$55 - $75 an hour,hourly,55,75,65,,simplyhired.com
+427,"Solution Architect, Data",,Bridgestone Americas,Nashville,TN,Onsite,$122000 - $154000,yearly,122000,154000,138000,,simplyhired.com
+428,Senior Enterprise Architect,,"ENSCO, Inc.",Orcutt,CA,Onsite,$115000 - $135000,yearly,115000,135000,125000,,simplyhired.com
+429,Data Architect,,Infinity Quest,,,Remote,$80 - $90 an hour,hourly,80,90,85,,simplyhired.com
+430,"Solution Architect, Data",,Bridgestone Americas,Nashville,TN,Onsite,$122000 - $154000,yearly,122000,154000,138000,,simplyhired.com
+431,Senior Enterprise Architect,,"ENSCO, Inc.",Orcutt,CA,Onsite,$115000 - $135000,yearly,115000,135000,125000,,simplyhired.com
+432,Solutions Architect,,Empower,Colorado,,Onsite,$118200 - $171375,yearly,118200,171375,144787.5,,simplyhired.com
+433,Data Architect,,Fiable Consulting,,,Remote,From $65 an hour,hourly,65,,,,simplyhired.com
+434,AWS Data Architect,AWS,Nest Tech,Irving,TX,Onsite,$140000 - $180000,yearly,140000,180000,160000,,simplyhired.com
+435,Data Architect,,Reveille Technologies,,,Remote,$70.37 - $75.00 an hour,hourly,70.37,75,72.69,,simplyhired.com
+436,Data Architect,,Devcare Solutions,,,Remote,From $68 an hour,hourly,68,,,,simplyhired.com
+437,Looking for Data Architect,,Sunixa Solutions,,,Remote,$60 - $70 an hour,hourly,60,70,65,,simplyhired.com
+438,Solutions Architect,,United Wholesale Mortgage,Pontiac,MI,Onsite,$130000 - $165000,yearly,130000,165000,147500,,simplyhired.com
+439,Big Data Architect,Big data,Technology Resource Group,Auburn Hills,MI,Onsite,$127000 - $161000,yearly,127000,161000,144000,,simplyhired.com
+440,Enterprise Architect,,SHI International Corp.,Atlanta,GA,Onsite,,yearly,,,,,simplyhired.com
+441,Azure Data Architect,Azure,Ismile Technologies,Sacramento,CA,Onsite,$70 - $80 an hour,hourly,70,80,75,,simplyhired.com
+442,Data Architect,,Locks Global Staffing LLC,Los Angeles,CA,Remote,$110000 - $150000,yearly,110000,150000,130000,,simplyhired.com
+443,Azure Data Architect,Azure,Parsoft LLC,,,Remote,$91744 - $186430,yearly,91744,186430,139087,,simplyhired.com
+444,Azure Data Engineer Architect,Azure,Conglomerate IT,Washington,DC,Onsite,From $50 an hour,hourly,50,,,,simplyhired.com
+445,Data Architect,,Diverse team,Alpharetta,GA,Onsite,$80 - $90 an hour,hourly,80,90,85,,simplyhired.com
+446,Enterprise Model-Based System Engineer Architect,,"ENSCO, Inc.",El Segundo,CA,Onsite,$90000 - $125000,yearly,90000,125000,107500,,simplyhired.com
+447,Expert Application Architect - Data Platform,,Delta Dental Ins.,Oakland,CA,Onsite,$103000 - $130000,yearly,103000,130000,116500,,simplyhired.com
+448,Real-World AI Software Architect,AI,Johns Hopkins Applied Physics Laboratory (APL),Laurel,MD,Onsite,,yearly,,,,,simplyhired.com
+449,Senior Associate Data Engineer,,Publicis Sapient,Houston,TX,Onsite,$75000 - $146000,yearly,75000,146000,110500,,simplyhired.com
+450,Enovia PLM Technical Architect,3D modeling,Capgemini,,,Remote,$110000 - $180000,yearly,110000,180000,145000,,simplyhired.com
+451,Data Architect,,Infinity Quest,,,Remote,$80 - $90 an hour,hourly,80,90,85,,simplyhired.com
+452,Helpdesk Analyst,Helpdesk,Technosystems Service Corp,Pittsburgh,PA,Onsite,$41000 - $51900,yearly,41000,51900,46450,,simplyhired.com
+453,Epic Optime/Anesthesia Consultant,,Accenture,Miami,FL,Onsite,,yearly,,,,,simplyhired.com
+454,Implementation Data Engineer,,Vision Government Solutions,,,Remote,$89600 - $11300,yearly,89600,11300,50450,,simplyhired.com
+455,AWS Data Architect,AWS,Nest Tech,Irving,TX,Onsite,$140000 - $180000,yearly,140000,180000,160000,,simplyhired.com
+456,Data Architect,,Reveille Technologies,,,Remote,$70.37 - $75.00 an hour,hourly,70.37,75,72.69,,simplyhired.com
+457,Data Architect,,Sunixa Solutions,,,Remote,$60 - $70 an hour,hourly,60,70,65,,simplyhired.com
+458,Azure Data Architect,Azure,Ismile Technologies,Sacramento,CA,Onsite,$70 - $80 an hour,hourly,70,80,75,,simplyhired.com
+459,Data Architect,,Locks Global Staffing LLC,Los Angeles,CA,Remote,$110000 - $150000,yearly,110000,150000,130000,,simplyhired.com
+460,Corporate IT Systems Administrator,,"CIT Trucks, LLC.",Normal,IL,Onsite,$28.00 - $37.50 an hour,hourly,28,37.5,32.75,,simplyhired.com
+461,Sr. Software Architect,,Addison Group,Washington,DC,Onsite,,yearly,,,,,simplyhired.com
+462,Business Intelligence Dev,,Driscoll Health,Corpus Christi,TX,Onsite,$64500 - $81700,yearly,64500,81700,73100,,simplyhired.com
+463,Azure Data Architect,Azure,Parsoft LLC,,,Remote,$91744 - $186430,yearly,91744,186430,139087,,simplyhired.com
+464,Azure Data Engineer Architect,Azure,Conglomerate IT,Washington,DC,Onsite,From $50 an hour,hourly,50,,,,simplyhired.com
+465,Solutions/Data Architect ,,St Jardins,Richmond,VA,Remote,From $80 an hour,hourly,80,,,,simplyhired.com
+466,Sr. Data Warehouse Architect,,Intone Networks,New York,NY,Onsite,$80 - $90 an hour,hourly,80,90,85,,simplyhired.com
+467,ETL Data Warehouse Architect,,Evurge Solutions,Albany,NY,Onsite,Up to $93.15 an hour,hourly,,93.15,,,simplyhired.com
+468,Data Architect,,Horizon Tech Recruiters,,,Remote,Up to $200000,yearly,,200000,,,simplyhired.com
+469,Data Integration Architect,,Oscar Mike,Dallas,TX,Onsite,,yearly,,,,,simplyhired.com
+470,Database Engineer,,Illumination Works,,,Remote,$75000 - $110000,yearly,75000,110000,92500,,simplyhired.com
+471,Cloud Engineer,Cloud,"Willcox & Savage, P.C.",Norfolk,VA,Onsite,$67400 - $85300,yearly,67400,85300,76350,,simplyhired.com
+472,Data Architect,,Hertz,Estero,FL,Onsite,,yearly,,,,,simplyhired.com
+473,Data Architect,,Infinity Quest,,,Remote,$80 - $90 an hour,hourly,80,90,85,,simplyhired.com
+474,Google Cloud Platform Architect,GCP,The Judge Group,Detroit,MI,Onsite,,yearly,,,,,simplyhired.com
+475,IT Solutions Architect,,Restoration Management Company,Anaheim,CA,Onsite,$86920 - $167280,yearly,86920,167280,127100,,simplyhired.com
+476,Solutions Architect,,Thorndale Partners,La Vergne,TN,Onsite,$140000 - $150000,yearly,140000,150000,145000,,simplyhired.com
+477,Data Architect,,Sunixa Solutions,,,Remote,$60 - $70 an hour,hourly,60,70,65,,simplyhired.com
+478,Azure Data Architect,Azure,Ismile Technologies,Sacramento,CA,Onsite,$70 - $80 an hour,hourly,70,80,75,,simplyhired.com
+479,Data Architect,,Locks Global Staffing LLC,Los Angeles,CA,Remote,$110000 - $150000,yearly,110000,150000,130000,,simplyhired.com
+480,Azure Data Architect,Azure,Parsoft LLC,,,Remote,$91744 - $186430,yearly,91744,186430,139087,,simplyhired.com
+481,Azure Data Engineer Architect,Azure,Conglomerate IT,Washington,DC,Onsite,From $50 an hour,hourly,50,,,,simplyhired.com
+482,Data Engineer,,Bay & Bay Transportation,Eagan,MN,Onsite,$100000 - $150000,yearly,100000,150000,125000,,simplyhired.com
+483,Sr. Network Administrator,,Confidential,Minneapolis,MN,Onsite,From $110000,yearly,110000,,,,simplyhired.com
+484,Solutions Architect,,Comcast,Centennial,CO,Onsite,,yearly,,,,,simplyhired.com
+485,Solutions/Data Architect ,,St Jardins,Richmond,VA,Remote,From $80 an hour,hourly,80,,,,simplyhired.com
+486,Sr. Data Warehouse Architect,,Intone Networks,New York,NY,Onsite,$80 - $90 an hour,hourly,80,90,85,,simplyhired.com
+487,ETL Data Warehouse Architect,,Evurge Solutions,Albany,NY,Onsite,Up to $93.15 an hour,hourly,,93.15,,,simplyhired.com
+488,Senior Data Architect with Snowflake,Snowflake,KPI Partners,,,Remote,$50.79 - $65.47 an hour,hourly,50.79,65.47,58.13,,simplyhired.com
+489,Sr. Data Architect,,Dutech,Huntsville,TX,Onsite,$70 - $80 an hour,hourly,70,80,75,,simplyhired.com
+490,SharePoint Knowledge Manager,,Summit Technical Solutions (STS),Barksdale AFB,LA,Onsite,From $65000,yearly,65000,,,,simplyhired.com
+491,Data Engineer,,Zoll Medical Corporation,Broomfield,CO,Onsite,$125000 - $140000,yearly,125000,140000,132500,,simplyhired.com
+492,Workday Financials Delivery Lead - CMT or Retail,,Accenture,Miami,FL,Onsite,,yearly,,,,,simplyhired.com
+493,Solutions Architect,,"Red Cedar Consultancy, LLC",Washington,DC,Onsite,From $165000,yearly,165000,,,,simplyhired.com
+494,API Developer,API,Rule One Brands,Moreland,GA,Onsite,$105000 - $115000,yearly,105000,115000,110000,,simplyhired.com
+495,Data Architect,,Sunixa Solutions,,,Remote,$60 - $70 an hour,hourly,60,70,65,,simplyhired.com
+496,AS/400 Architect,AS/400,Addison Group,Austin,TX,Onsite,,yearly,,,,,simplyhired.com
+497,"Technical Product Manager Sr, Commerce API Platform",API,Starbucks,Seattle,WA,Onsite,,yearly,,,,,simplyhired.com
+498,Senior Full Stack Developer,Full stack,"Larc Staffing, LLC",Huntsville,AL,Onsite,$110000 - $140000,yearly,110000,140000,125000,,simplyhired.com
+499,Azure Data Architect,Azure,Ismile Technologies,Sacramento,CA,Onsite,$70 - $80 an hour,hourly,70,80,75,,simplyhired.com
+500,Data Architect,,Locks Global Staffing LLC,Los Angeles,CA,Remote,$110000 - $150000,yearly,110000,150000,130000,,simplyhired.com
+501,Azure Data Engineer Architect,Azure,Conglomerate IT,Washington,DC,Onsite,From $50 an hour,hourly,50,,,,simplyhired.com
+502,Solutions/Data Architect ,,St Jardins,Richmond,VA,Remote,From $80 an hour,hourly,80,,,,simplyhired.com
+503,Sr. Data Warehouse Architect,,Intone Networks,New York,NY,Onsite,$80 - $90 an hour,hourly,80,90,85,,simplyhired.com
+504,IT Solution Architect,,Academy Sports + Outdoors,Katy,TX,Onsite,,yearly,,,,,simplyhired.com
+505,Technical Product Manager Sr - Customer Marketing Data,,Starbucks,Seattle,WA,Onsite,,yearly,,,,,simplyhired.com
+506,Sr Enterprise Application Engineer,,GE Aviation,Cincinnati,OH,Onsite,$66000- $83600,yearly,66000,83600,74800,,simplyhired.com
+507,ETL Data Warehouse Architect,,Evurge Solutions,Albany,NY,Onsite,Up to $93.15 an hour,hourly,,93.15,,,simplyhired.com
+508,Senior Data Architect with Snowflake,Snowflake,KPI Partners,,,Remote,$50.79 - $65.47 an hour,hourly,50.79,65.47,58.13,,simplyhired.com
+509,Sr. Data Architect,,Dutech,Huntsville,TX,Onsite,$70 - $80 an hour,hourly,70,80,75,,simplyhired.com
+510,Sr. Data Architect,,Acquaintek Inc,Sacramento,CA,Onsite,$138000 - $175000,yearly,138000,175000,156500,,simplyhired.com
+511,Data Warehouse Architect,,Xforia,New York,NY,Onsite,$80 an hour,hourly,80,,,,simplyhired.com
+512,UKG Pro Solution Architect,,Accenture,Miami,FL,Onsite,,yearly,,,,,simplyhired.com
+513,Data Pipeline Engineer,,"iSpecimen, Inc.",Lexington,MA,Onsite,$90000 - $120000,yearly,90000,120000,105000,,simplyhired.com
+514,Data Engineering Team Lead,,Digital Federal Credit Union,Marlborough,MA,Hybrid,$145000 - $165000,yearly,145000,165000,155000,,simplyhired.com
+515,"Architect 4, Software Architecture",,Comcast,Philadelphia,PA,Onsite,,yearly,,,,,simplyhired.com
+516,Data Analyst,,Autonation,West Harrison,NY,Onsite,$100000 - $110000,yearly,100000,110000,105000,,simplyhired.com
+517,Data Architect,,Sunixa Solutions,,,Remote,$60 - $70 an hour,hourly,60,70,65,,simplyhired.com
+518,NetSuite Developer,NetSuite,Scandia Company,Centerville,UT,Onsite,$100000 - $200000,yearly,100000,200000,150000,,simplyhired.com
+519,MES Application Architect,,The Judge Group,Park City,IL,Onsite,,yearly,,,,,simplyhired.com
+520,Cloud Architect,Cloud,"Relatient, LLC",,,Remote,,yearly,,,,,simplyhired.com
+521,Azure Data Architect,Azure,Ismile Technologies,Sacramento,CA,Onsite,$70 - $80 an hour,hourly,70,80,75,,simplyhired.com
+522,Data Architect,,Locks Global Staffing LLC,Los Angeles,CA,Remote,$110000 - $150000,yearly,110000,150000,130000,,simplyhired.com
+523,Azure Data Engineer Architect,Azure,Conglomerate IT,Washington,DC,Onsite,From $50 an hour,hourly,50,,,,simplyhired.com
+524,Solutions/Data Architect ,,St Jardins,Richmond,VA,Remote,From $80 an hour,hourly,80,,,,simplyhired.com
+525,Sr. Data Warehouse Architect,,Intone Networks,New York,NY,Onsite,$80 - $90 an hour,hourly,80,90,85,,simplyhired.com
+526,Sr. AWS Solutions Architect,AWS,"stackArmor, Inc",McLean,VA,Onsite,$150000 - $185000,yearly,150000,185000,167500,,simplyhired.com
+527,SAP BASIS HANA Admin (Sr. ADA),"SAP, Basis, Hana",Judicial Council of California,San Francisco,CA,Hybrid,$8357 - $12535 a month,monthly,8357,12535,10446,,simplyhired.com
+528,AS/400 Architect,AS/400,Addison Group,Austin,TX,Onsite,,yearly,,,,,simplyhired.com
+529,ETL Data Warehouse Architect,,Evurge Solutions,Albany,NY,Onsite,Up to $93.15 an hour,hourly,,93.15,,,simplyhired.com
+530,Senior Data Architect with Snowflake,Snowflake,KPI Partners,,,Remote,$50.79 - $65.47 an hour,hourly,50.79,65.47,58.13,,simplyhired.com
+531,Sr. Data Architect,,Dutech,Huntsville,TX,Onsite,$70 - $80 an hour,hourly,70,80,75,,simplyhired.com
+532,Sr. Data Architect,,Acquaintek Inc,Sacramento,CA,Onsite,$138000 - $175000,yearly,138000,175000,156500,,simplyhired.com
+533,Data Warehouse Architect,,Xforia,New York,NY,Onsite,$80 an hour,hourly,80,,,,simplyhired.com
+534,Sr. Cloud Operations Specialist,,University of California Office of the President,Oakland,CA,Remote,$520 a week,weekly,520,,,,simplyhired.com
+535,Business Analyst / End User Technology,,The Judge Group,Johnston,RI,Onsite,,yearly,,,,,simplyhired.com
+536,Senior Software Engineer (AWS Cloud Architect),AWS Cloud,Lighthouse Worldwide Solutions,Fremont,CA,Onsite,From $120000,yearly,120000,,,,simplyhired.com
+537,Azure Administrator,Azure,5iron,Franklin,TN,Onsite,$80000 - $100000,yearly,80000,100000,90000,,simplyhired.com
+538,Product Architect Solutions Engineering,,T-Mobile,Reston,VA,Onsite,$117000 - $148000,yearly,117000,148000,132500,,simplyhired.com
+539,Azure Data Architect,Azure,Ismile Technologies,Sacramento,CA,Onsite,$70 - $80 an hour,hourly,70,80,75,,simplyhired.com
+540, Workday Architect,,Tential,,,Remote,$115000 - $146000,yearly,115000,146000,130500,,simplyhired.com
+541,Technical Salesforce Architect,,Accounting Seed Inc.,,,Remote,"$130,000 ",yearly,130000,,,,simplyhired.com
+542,Senior Data Modeler,Data modeling,Uline,Pleasant Prairie,WI,Onsite,$97000 - $123000,yearly,97000,123000,110000,,simplyhired.com
+543,Data Architect,,Locks Global Staffing LLC,Los Angeles,CA,Remote,$110000 - $150000,yearly,110000,150000,130000,,simplyhired.com
+544,Azure Data Engineer Architect,Azure,Conglomerate IT,Washington,DC,Onsite,From $50 an hour,hourly,50,,,,simplyhired.com
+545,Solutions/Data Architect ,,St Jardins,Richmond,VA,Remote,From $80 an hour,hourly,80,,,,simplyhired.com
+546,Sr. Data Warehouse Architect,,Intone Networks,New York,NY,Onsite,$80 - $90 an hour,hourly,80,90,85,,simplyhired.com
+547,ETL Data Warehouse Architect,,Evurge Solutions,Albany,NY,Onsite,Up to $93.15 an hour,hourly,,93.15,,,simplyhired.com
+548,Senior Data Architect,,Sean Ryan Associates,Bedminster,NJ,Onsite,$130000 - $165000,yearly,130000,165000,147500,,simplyhired.com
+549,Senior Database Engineer,,United Auto Credit Corporation,Fort Worth,TX,Onsite,$110000 - $120000,yearly,110000,120000,115000,,simplyhired.com
+550,Corporate Solutions Engineer,,"South Texas Electric Cooperative, Inc.",Nursery,TX,Onsite,From $95000,yearly,95000,,,,simplyhired.com
+551,Senior Data Architect with Snowflake,Snowflake,KPI Partners,,,Remote,$50.79 - $65.47 an hour,hourly,50.79,65.47,58.13,,simplyhired.com
+552,Sr. Data Architect,,Acquaintek Inc,Sacramento,CA,Onsite,$138000 - $175000,yearly,138000,175000,156500,,simplyhired.com
+553,Data Warehouse Architect,,Xforia,New York,NY,Onsite,$80 an hour,hourly,80,,,,simplyhired.com
+554,Big Data Architect,Big data,Digital Dhara LLC,Philadelphia,PA,Onsite,$60.21 - $80.13 an hour,hourly,60.21,80.13,70.17,,simplyhired.com
+555,Amazon Solution Architect,,Quant Solutions,,,Remote,$140000 - $190000,yearly,140000,190000,165000,,simplyhired.com
+556,API Solution Architect,API,Bridgestone Americas,Nashville,TN,Onsite,$111000 - $140000,yearly,111000,140000,125500,,simplyhired.com
+557,"Principal Developer, Technology",,Finra,Rockville,MD,Onsite,"$119,400 ",yearly,119400,,,,simplyhired.com
+558,Sr Power Platform Developer,,VI-JON,St. Louis,MO,Onsite,$101000 - $128000,yearly,101000,128000,114500,,simplyhired.com
+559,Sr Big Data/Data Engineer,Big data,Enhance IT,Atlanta,GA,Onsite,,yearly,,,,,simplyhired.com
+560,Axiom Application Architect,Axiom,AmeriCloud Solutions Inc,Chicago,IL,Onsite,$100000 - $120000,yearly,100000,120000,110000,,simplyhired.com
+561,Azure Data Architect,Azure,Ismile Technologies,Sacramento,CA,Onsite,$70 - $80 an hour,hourly,70,80,75,,simplyhired.com
+562,Senior AWS Data Engineer / Analyst,AWS,Stand Up Wireless,,,Remote,$95000 - $115000,yearly,95000,115000,105000,,simplyhired.com
+563,Data Warehouse Architect,,The Judge Group,Fayetteville,AR,Onsite,,yearly,,,,,simplyhired.com
+564,Full Stack Developer - Data & Analytics,Full stack,Hertz,Estero,FL,Onsite,,yearly,,,,,simplyhired.com
+565,Data Architect,,Locks Global Staffing LLC,Los Angeles,CA,Remote,$110000 - $150000,yearly,110000,150000,130000,,simplyhired.com
+566,Azure Data Engineer Architect,Azure,Conglomerate IT,Washington,DC,Onsite,From $50 an hour,hourly,50,,,,simplyhired.com
+567,Solutions/Data Architect ,,St Jardins,Richmond,VA,Remote,From $80 an hour,hourly,80,,,,simplyhired.com
+568,Sr. Data Warehouse Architect,,Intone Networks,New York,NY,Onsite,$80 - $90 an hour,hourly,80,90,85,,simplyhired.com
+569,ETL Data Warehouse Architect,,Evurge Solutions,Albany,NY,Onsite,Up to $93.15 an hour,hourly,,93.15,,,simplyhired.com
+570,Associate Cloud Developer,Cloud,"Morse Data Enterprises, LLC",,,Remote,$50000 - $100000,yearly,50000,100000,75000,,simplyhired.com
+571,"Engineer 4, Software Development & Engineering",,Comcast,Philadelphia,PA,Onsite,,yearly,,,,,simplyhired.com
+572,Systems Engineer,,Ardent Eagle Solutions,Tampa,FL,Onsite,$81800 - $10400,yearly,81800,10400,46100,,simplyhired.com
+573,Senior Data Architect with Snowflake,Snowflake,KPI Partners,,,Remote,$50.79 - $65.47 an hour,hourly,50.79,65.47,58.13,,simplyhired.com
+574,Sr. Data Architect,,Acquaintek Inc,Sacramento,CA,Onsite,$138000 - $175000,yearly,138000,175000,156500,,simplyhired.com
+575,Data Warehouse Architect,,Xforia,New York,NY,Onsite,$80 an hour,hourly,80,,,,simplyhired.com
+576,Big Data Architect,Big data,Digital Dhara LLC,Philadelphia,PA,Onsite,$60.21 - $80.13 an hour,hourly,60.21,80.13,70.17,,simplyhired.com
+577,Amazon Solution Architect,,Quant Solutions,,,Remote,$140000 - $190000,yearly,140000,190000,165000,,simplyhired.com
+578,Technical Program Manager,,Penguin Computing,,,Remote,$105840 - $132300,yearly,105840,132300,119070,,simplyhired.com
+579,Workday Financials Consultant,,Harvey Nash,,,Remote,,yearly,,,,,simplyhired.com
+580,"VP, Manager of Systems Engineering",,OTC Markets Group Inc,New York,NY,Onsite,$200000 - $250000,yearly,200000,250000,225000,,simplyhired.com
+581,Sr. Solutions Architect,,Improvix Technologies,Reston,VA,Onsite,$185000 - $210000,yearly,185000,210000,197500,,simplyhired.com
+582,Cloud Developer,Cloud,"Morse Data Enterprises, LLC",,,Remote,$80000 - $150000,yearly,80000,150000,115000,,simplyhired.com
+583,Azure Data Architect,Azure,Ismile Technologies,Sacramento,CA,Onsite,$70 - $80 an hour,hourly,70,80,75,,simplyhired.com
+584,Sr. Solutions Architect,,Improvix Technologies,Reston,VA,Onsite,$185000 - $210000,yearly,185000,210000,197500,,simplyhired.com
+585,Cloud Developer,Cloud,"Morse Data Enterprises, LLC",,,Remote,$80000 - $150000,yearly,80000,150000,115000,,simplyhired.com
+586,Foundry Training MI Systems Architect / Logistician - Senior,,CACI,Fort Belvoir,VA,Onsite,,yearly,,,,,simplyhired.com
+587,Data Architect,,Locks Global Staffing LLC,Los Angeles,CA,Remote,$110000 - $150000,yearly,110000,150000,130000,,simplyhired.com
+588,Azure Data Engineer Architect,Azure,Conglomerate IT,Washington,DC,Onsite,From $50 an hour,hourly,50,,,,simplyhired.com
+589,Sr. Data Warehouse Architect,,Intone Networks,New York,NY,Onsite,$80 - $90 an hour,hourly,80,90,85,,simplyhired.com
+590,ETL Data Warehouse Architect,,Evurge Solutions,Albany,NY,Onsite,Up to $93.15 an hour,hourly,,93.15,,,simplyhired.com
+591,Senior Data Architect with Snowflake,Snowflake,KPI Partners,,,Remote,$50.79 - $65.47 an hour,hourly,50.79,65.47,58.13,,simplyhired.com
+592,Senior Security Architect,,Ephesus Solutions,Mount Juliet,TN,Onsite,$150000 - $165000,yearly,150000,165000,157500,,simplyhired.com
+593,Engineer 4 - Full Stack Development,Full stack,Comcast,Washington,DC,Onsite,,yearly,,,,,simplyhired.com
+594,Unified Communications Support Specialist,,VERSA Integrated Solutions,Bethesda,MD,Onsite,$70000 - $75000,yearly,70000,75000,72500,,simplyhired.com
+595,Data Warehouse Architect,,Xforia,New York,NY,Onsite,$80 an hour,hourly,80,,,,simplyhired.com
+596,Big Data Architect,Big data,Digital Dhara LLC,Philadelphia,PA,Onsite,$60.21 - $80.13 an hour,hourly,60.21,80.13,70.17,,simplyhired.com
+597,Amazon Solution Architect,,Quant Solutions,,,Remote,$140000 - $190000,yearly,140000,190000,165000,,simplyhired.com
+598,Enterprise Architect,,DSM Infocom,,,Remote,$80 - $100 an hour,hourly,80,100,90,,simplyhired.com
+599,Data Architect,,Offshore HCL Global Systems India Private Limited,Orlando,FL,Onsite,$85 - $90 an hour,hourly,85,90,87.5,,simplyhired.com
+600,MS SQL Developer,"Microsoft, SQL",The Hire Method LLC,Latham,NY,Onsite,$75000 - $100000,yearly,75000,100000,87500,,simplyhired.com
+601,Technical Product Manager,,"RE/MAX, LLC",,,Remote,$100000 - $130000,yearly,100000,130000,115000,,simplyhired.com
+602,Business Systems Analyst,,InnovaSystems,Norfolk,VA,Onsite,$50000 - $60000,yearly,50000,60000,55000,,simplyhired.com
+603,Senior Architect,,Citizens,Johnston,RI,Onsite,,yearly,,,,,simplyhired.com
+604,Comcast Cybersecurity: Cloud Security Engineer 3,"Cloud, security, cybersecurity",Comcast,Philadelphia,PA,Onsite,,yearly,,,,,simplyhired.com
+605,Azure Data Architect,Azure,Ismile Technologies,Sacramento,CA,Onsite,$70 - $80 an hour,hourly,70,80,75,,simplyhired.com
+606,Sr. Software Engineer,,"InnovaSystems International, LLC",Alexandria,VA,Onsite,$150000 - $170000,yearly,150000,170000,160000,,simplyhired.com
+607,IT Report Developer Senior (Epic BID),,University Hospitals,Shaker Heights,OH,Onsite,$63700 - $80600,yearly,63700,80600,72150,,simplyhired.com
+608,Junior iOS Developer,iOS,Enhance IT,New York,NY,Onsite,,yearly,,,,,simplyhired.com
+609,Data Architect,,Locks Global Staffing LLC,Los Angeles,CA,Remote,$110000 - $150000,yearly,110000,150000,130000,,simplyhired.com
+610,Azure Data Engineer Architect,Azure,Conglomerate IT,Washington,DC,Onsite,From $50 an hour,hourly,50,,,,simplyhired.com
+611,Sr. Data Warehouse Architect,,Intone Networks,New York,NY,Onsite,$80 - $90 an hour,hourly,80,90,85,,simplyhired.com
+612,Senior Data Architect with Snowflake,Snowflake,KPI Partners,,,Remote,$50.79 - $65.47 an hour,hourly,50.79,65.47,58.13,,simplyhired.com
+613,Data Warehouse Architect,,Xforia,New York,NY,Onsite,$80 an hour,hourly,80,,,,simplyhired.com
+614,AWS Cloud Architect,AWS Cloud,NTT Data,Rockville,MD,Onsite,,yearly,,,,,simplyhired.com
+615,Cisco Network Engineer,Cisco,"InfoStructures, Inc.",Washington,DC,Onsite,$66200 - $83900,yearly,66200,83900,75050,,simplyhired.com
+616,Engineer 2 - Front End Developer (Angular),Angular,Comcast,Philadelphia,PA,Onsite,,yearly,,,,,simplyhired.com
+617,Big Data Architect-Onsite,Big data,Digital Dhara LLC,Philadelphia,PA,Onsite,$60.21 - $80.13 an hour,hourly,60.21,80.13,70.17,,simplyhired.com
+618,Amazon Solution Architect,,Quant Solutions,,,Remote,$140000 - $190000,yearly,140000,190000,165000,,simplyhired.com
+619,Enterprise Architect,,DSM Infocom,,,Remote,$80 - $100 an hour,hourly,80,100,90,,simplyhired.com
+620,Data Architect,,Offshore HCL Global Systems India Private Limited,Orlando,FL,Onsite,$85 - $90 an hour,hourly,85,90,87.5,,simplyhired.com
+621,Data Warehouse Developer,,Samjose Infotech,,,Remote,$94200 - $11900,yearly,94200,11900,53050,,simplyhired.com
+622,Business Systems Analyst,,Hertz,Estero,FL,Onsite,,yearly,,,,,simplyhired.com
+623,Java Streaming Developer,Java,The Judge Group,Chicago,IL,Onsite,,yearly,,,,,simplyhired.com
+624,Analytics Engineer,,Complete Health,Jacksonville,FL,Remote,$93500 - $11800,yearly,93500,11800,52650,,simplyhired.com
+625,Systems Engineer,,Kendall Vegetation Services,Lawrenceville,GA,Onsite,$90000 - $110000,yearly,90000,110000,100000,,simplyhired.com
+626,Senior Security Architect,,Comcast,Plano,TX,Onsite,,yearly,,,,,simplyhired.com
+627,AI Engineer,AI,Sticker Mule,,,Remote,From $135 a day,daily,135,,,,simplyhired.com
+628,Decision Scientist,,Johns Hopkins Applied Physics Laboratory (APL),Laurel,MD,Onsite,,yearly,,,,,simplyhired.com
+629,Senior Data Scientist,,"Nuvative, Inc.",Wichita,KS,Onsite,$86800 - $11000,yearly,86800,11000,48900,,simplyhired.com
+630,Data Scientist,,"Nuvative, Inc.",Wichita,KS,Onsite,$68300 - $86500,yearly,68300,86500,77400,,simplyhired.com
+631,Data Scientist,"R, Python, Linux, Biobank, NHS data, EHR-phenotyping",Tellus Solutions,,,Remote,,yearly,,,,,simplyhired.com
+632,Data Scientist,,HCRM Consulting Corp,,,Remote,$50.70 - $63.46 an hour,hourly,50.7,63.46,57.08,,simplyhired.com
+633,Data Scientist,,Ivy Rehab Physical Therapy,,,Remote,$113000 - $143000,yearly,113000,143000,128000,,simplyhired.com
+634,Data Scientist,,Tellus Solutions,,,Remote,,yearly,,,,,simplyhired.com
+635,Data Scientist,,QuantAQ,,,Remote,$109000 - $147000,yearly,109000,147000,128000,,simplyhired.com
+636,Quality Improvement Specialist,,Vista Autism Services,Hershey,PA,Onsite,$53600 - $67900,yearly,53600,67900,60750,,simplyhired.com
+637,Deep Learning Researcher,,Topaz Labs,Dallas,TX,Onsite,$62600 - $79300,yearly,62600,79300,70950,,simplyhired.com
+638,Mail Processing Statistician,Statistics,Confidential,Sterling,VA,Onsite,$42900 - $54400,yearly,42900,54400,48650,,simplyhired.com
+639,Data Scientist Trainee Cohort3,,Axle Informatics,Rockville,MD,Onsite,$51500 - $65200,yearly,51500,65200,58350,,simplyhired.com
+640,"Data Scientist, Customer Experimentation",,Eppo,,,Remote,$150000 - $174000,yearly,150000,174000,162000,,simplyhired.com
+641,Data Scientist,,ServiceMaster,,,Remote,$89400 - $11300,yearly,89400,11300,50350,,simplyhired.com
+642,Data Scientist,,Zen Strategics LLC,,,Remote,$104000 - $131000,yearly,104000,131000,117500,,simplyhired.com
+643,Senior Data Scientist,,FutureFit AI,New York,NY,Onsite,$141000 - $178000,yearly,141000,178000,159500,,simplyhired.com
+644,Senior Healthcare Data Analyst,,Scottish Rite for Children,Dallas,TX,Onsite,$75600 - $95700,yearly,75600,95700,85650,,simplyhired.com
+645,Data Engineer,,"Bluemont Technology & Research, Inc.",Norfolk,VA,Onsite,$90000 - $130000,yearly,90000,130000,110000,,simplyhired.com
+646,Data Scientist-Threat Management,,Reithorp Solutions LLC,Washington,DC,Onsite,$118000 - $150000,yearly,118000,150000,134000,,simplyhired.com
+647,Senior Data Scientist (ML / AI) - RCCB,"ML, AI",Reyes Coca-Cola Bottling,Niles,IL,Onsite,,yearly,,,,,simplyhired.com
+648,Senior Data Analyst,,Physician's Weekly,Basking Ridge,NJ,Onsite,$75000 - $90000,yearly,75000,90000,82500,,simplyhired.com
+649,Data Scientist,,HCRM Consulting Corp,,,Remote,$50.70 - $63.46 an hour,hourly,50.7,63.46,57.08,,simplyhired.com
+650,Data Science Consultant,,Deloitte,Rosslyn,VA,Onsite,$117000 - $149000,yearly,117000,149000,133000,,simplyhired.com
+651,Data Scientist,,"Modular Mining Systems, Inc",Tucson,AZ,Onsite,$85900 - $10900,yearly,85900,10900,48400,,simplyhired.com
+652,AI Machine Learning Scientist,"ML, AI",Elevance Health,Chicago,IL,Onsite,$105000 - $133000,yearly,105000,133000,119000,,simplyhired.com
+653,Data Scientist,,Ivy Rehab Physical Therapy,,,Remote,$113000 - $143000,yearly,113000,143000,128000,,simplyhired.com
+654,Data Scientist,,Tellus Solutions,,,Remote,,yearly,,,,,simplyhired.com
+655,Data Scientist,,QuantAQ,,,Remote,$109000 - $147000,yearly,109000,147000,128000,,simplyhired.com
+656,Data Scientist Trainee Cohort3,,Axle Informatics,Rockville,MD,Onsite,$51500 - $65200,yearly,51500,65200,58350,,simplyhired.com
+657,Data Scientist,,ServiceMaster,,,Remote,$89400 - $11300,yearly,89400,11300,50350,,simplyhired.com
+658,Data Scientist II,,Navy Federal Credit Union,Pensacola,FL,Onsite,,yearly,,,,,simplyhired.com
+659,Data Scientist I/II (Savings Products),,Navy Federal Credit Union,Pensacola,FL,Onsite,,yearly,,,,,simplyhired.com
+660,Manager of Data Engineering and Science,,Fusion Medical Staffing,Omaha,NE,Onsite,$135000 - $145000,yearly,135000,145000,140000,,simplyhired.com
+661,Data Scientist,,Zen Strategics LLC,,,Remote,$104000 - $131000,yearly,104000,131000,117500,,simplyhired.com
+662,Senior Data Scientist,,FutureFit AI,New York,NY,Onsite,$141000 - $178000,yearly,141000,178000,159500,,simplyhired.com
+663,Data Scientist,,Wish,San Francisco,CA,Onsite,$141000 - $169000,yearly,141000,169000,155000,,simplyhired.com
+664,Data Scientist,,Maddisoft,Houston,TX,Onsite,$95000 - $110000,yearly,95000,110000,102500,,simplyhired.com
+665,Senior Data Scientist,,Beam,,,Remote,$140000 - $170000,yearly,140000,170000,155000,,simplyhired.com
+666,Junior Data Scientist,,Pragmatics,Columbia,MD,Onsite,$110000 - $150000,yearly,110000,150000,130000,,simplyhired.com
+667,Data Scientist IV,,MAPFRE,Boston,MA,Onsite,$101000 - $127000,yearly,101000,127000,114000,,simplyhired.com
+668,Data Scientist II,,Vetegrity,Fort Meade,MD,Onsite,$124000 - $157000,yearly,124000,157000,140500,,simplyhired.com
+669,Director Engineering - Data Science & BI,Business intelligence,Medifast Inc,Baltimore,MD,Onsite,$92800 - $11700,yearly,92800,11700,52250,,simplyhired.com
+670,Provider Data Analyst Senior ( Network Management Consult Senior),,Elevance Health,Louisiana,,Onsite,$81900 - $10400,yearly,81900,10400,46150,,simplyhired.com
+671,Data Scientist,,HCRM Consulting Corp,,,Remote,$50.70 - $63.46 an hour,hourly,50.7,63.46,57.08,,simplyhired.com
+672,Provider Data Analyst Senior ( Network Management Consult Senior),,Elevance Health,Louisiana,,Onsite,$81900 - $10400,yearly,81900,10400,46150,,simplyhired.com
+673,Business Intelligence & Analytics - Data Scientist,,Boston Consulting Group,Atlanta,GA,Onsite,$102000 - $129000,yearly,102000,129000,115500,,simplyhired.com
+674,Sr. Data Scientist,,Creative Financial Staffing,Fairfax,VA,Onsite,,yearly,,,,,simplyhired.com
+675,Data Scientist,,Tellus Solutions,,,Remote,,yearly,,,,,simplyhired.com
+676,Data Scientist Trainee Cohort3,,Axle Informatics,Rockville,MD,Onsite,$51500 - $65200,yearly,51500,65200,58350,,simplyhired.com
+677,Data Scientist,,ServiceMaster,,,Remote,$89400 - $11300,yearly,89400,11300,50350,,simplyhired.com
+678,Data Scientist,,Zen Strategics LLC,,,Remote,$104000 - $131000,yearly,104000,131000,117500,,simplyhired.com
+679,Senior Data Scientist,,FutureFit AI,New York,NY,Onsite,$141000 - $178000,yearly,141000,178000,159500,,simplyhired.com
+680,"PhD Associate Director, Data Science R&D (Decision Sciences Identity Team)",,Epsilon,Chicago,IL,Remote,$158000 - $199000,yearly,158000,199000,178500,,simplyhired.com
+681,Applied Machine Learning Scientist - Data Technologies,ML,Bloomberg,New York,NY,Onsite,$160000 - $250000,yearly,160000,250000,205000,,simplyhired.com
+682,Data Scientist,,The Intersect Group,Wooster,OH,Onsite,$100000 - $140000,yearly,100000,140000,120000,,simplyhired.com
+683,Data Scientist,,Wish,San Francisco,CA,Onsite,$141000 - $169000,yearly,141000,169000,155000,,simplyhired.com
+684,Data Scientist,,Maddisoft,Houston,TX,Onsite,$95000 - $110000,yearly,95000,110000,102500,,simplyhired.com
+685,Senior Data Scientist,,Beam,,,Remote,$140000 - $170000,yearly,140000,170000,155000,,simplyhired.com
+686,Jr. Data Scientist,,Net2Aspire,,,Remote,$65000 - $80000,yearly,65000,80000,72500,,simplyhired.com
+687,Data Scientist,,Meduit,Waco,TX,Remote,$87300 - $11100,yearly,87300,11100,49200,,simplyhired.com
+688,"Data Scientist III, Cancer Genomics Research Laboratory (CGR)",,Frederick National Laboratory,Rockville,MD,Onsite,$94900 - $12000,yearly,94900,12000,53450,,simplyhired.com
+689,Data Engineer or Data Engineer Senior,,Teacher Retirement System of Texas,Austin,TX,Onsite,,yearly,,,,,simplyhired.com
+690,Sr. Data Scientist (ML / AI),"ML, AI",Reyes Holdings - Easy Apply,Des Plaines,IL,Hybrid,$120000 - $160000,yearly,120000,160000,140000,,simplyhired.com
+691,Senior Data Analyst,,REV Federal Credit Union,Summerville,SC,Onsite,$75500 - $95600,yearly,75500,95600,85550,,simplyhired.com
+692,Applied Statistician - Data Technologies,,Bloomberg,New York,NY,Onsite,$160000 - $250000,yearly,160000,250000,205000,,simplyhired.com
+693,Data Scientist,,HCRM Consulting Corp,,,Remote,$50.70 - $63.46 an hour,hourly,50.7,63.46,57.08,,simplyhired.com
+694,"Director, Artificial Intelligence & Data Science","AI, Data science",Walgreens,Deerfield,IL,Onsite,,yearly,,,,,simplyhired.com
+695,Senior Data Analyst,,Experfy,Boston,MA,Onsite,$65 - $70 an hour,hourly,65,70,67.5,,simplyhired.com
+696,Machine Learning Engineer,ML,Idea Evolver,,,Remote,$120000 - $160000,yearly,120000,160000,140000,,simplyhired.com
+697,Data Scientist,,Tellus Solutions,,,Remote,,yearly,,,,,simplyhired.com
+698,Data Scientist Trainee Cohort3,,Axle Informatics,Rockville,MD,Onsite,$51500 - $65200,yearly,51500,65200,58350,,simplyhired.com
+699,Data Scientist,,ServiceMaster,,,Remote,$89400 - $11300,yearly,89400,11300,50350,,simplyhired.com
+700,Data Scientist,,Zen Strategics LLC,,,Remote,$104000 - $131000,yearly,104000,131000,117500,,simplyhired.com
+701,Senior Data Scientist,,FutureFit AI,New York,NY,Onsite,$141000 - $178000,yearly,141000,178000,159500,,simplyhired.com
+702,Senior AI Perception Algorithm Engineer/Scientist,AI,Black Sesame Technologies Inc,San Jose,CA,Onsite,$112000 - $142000,yearly,112000,142000,127000,,simplyhired.com
+703,Sr Operations Data Analyst,,Hertz,Estero,FL,Onsite,,yearly,,,,,simplyhired.com
+704,"Data Mining/Python/Machine learning/Marketing, Healthcare/Medispa","Python, ML, Data mining","Medical Aesthetics, Derm/Plastics",Los Angeles,CA,Onsite,$80000 - $130000,yearly,80000,130000,105000,,simplyhired.com
+705,Data Scientist,,Wish,San Francisco,CA,Onsite,$141000 - $169000,yearly,141000,169000,155000,,simplyhired.com
+706,Data Scientist,,Maddisoft,Houston,TX,Onsite,$95000 - $110000,yearly,95000,110000,102500,,simplyhired.com
+707,Senior Data Scientist,,Beam,,,Remote,$140000 - $170000,yearly,140000,170000,155000,,simplyhired.com
+708,Jr. Data Scientist,,Net2Aspire,,,Remote,$65000 - $80000,yearly,65000,80000,72500,,simplyhired.com
+709,Data Scientist,,Meduit,Waco,TX,Remote,$87300 - $11100,yearly,87300,11100,49200,,simplyhired.com
+710,"Sr Data Analyst, AMERICAS",,Smart AdServer,Manhattan,NY,Onsite,$95000 - $115000,yearly,95000,115000,105000,,simplyhired.com
+711,AI/ML Autonomous Vehicle Software Video Analyst,"ML, AI",Kett Engineering Corporation,Santa Clara,CA,Onsite,$27 an hour,hourly,27,,,,simplyhired.com
+712,Data Science Engineer,,Atlantic Energy Partners,Houston,TX,Onsite,From $25 an hour,hourly,25,,,,simplyhired.com
+713,Sr. Healthcare Data Analyst,,"Millennium Physicians Association, PLLC",Kingwood,TX,Onsite,$60800 - $77000,yearly,60800,77000,68900,,simplyhired.com
+714,Project Manager with Data Science Experience,,"innoVet Health, LLC",,,Remote,From $130000,yearly,130000,,,,simplyhired.com
+715,Data Scientist,,HCRM Consulting Corp,,,Remote,$50.70 - $63.46 an hour,hourly,50.7,63.46,57.08,,simplyhired.com
+716,Senior Data Analyst - Operations,,Wilshire Law Firm PLC,Los Angeles,CA,Onsite,$150000 - $200000,yearly,150000,200000,175000,,simplyhired.com
+717,Data Science Lead,,The Judge Group,Trenton,NJ,Onsite,,yearly,,,,,simplyhired.com
+718,"Sup/Mgr/Sr. Mgr, Analytics & Data Science",,MatchPointe Group,Phoenix,AZ,Onsite,$120000 - $160000,yearly,120000,160000,140000,,simplyhired.com
+719,Data Scientist Trainee Cohort3,,Axle Informatics,Rockville,MD,Onsite,$51500 - $65200,yearly,51500,65200,58350,,simplyhired.com
+720,Data Scientist,,Zen Strategics LLC,,,Remote,$104000 - $131000,yearly,104000,131000,117500,,simplyhired.com
+721,Senior Data Scientist,,FutureFit AI,New York,NY,Onsite,$141000 - $178000,yearly,141000,178000,159500,,simplyhired.com
+722,Data Scientist,,Wish,San Francisco,CA,Onsite,$141000 - $169000,yearly,141000,169000,155000,,simplyhired.com
+723,Data Scientist,,Maddisoft,Houston,TX,Onsite,$95000 - $110000,yearly,95000,110000,102500,,simplyhired.com
+724,Senior Predictive Modeler,,Sitewise Analytics,Dallas,TX,Onsite,From $90000,yearly,90000,,,,simplyhired.com
+725,Senior Systems Engineer - Systems Modeling & Controls Expert,,Cenergy International Services,Boston,MA,Onsite,From $125000,yearly,125000,,,,simplyhired.com
+726,Machine Learning Engineer,ML,"Smart Data Solutions, LLC",Saint Paul,MN,Onsite,$61400 - $77800,yearly,61400,77800,69600,,simplyhired.com
+727,Senior Data Scientist,,Beam,,,Remote,$140000 - $170000,yearly,140000,170000,155000,,simplyhired.com
+728,Jr. Data Scientist,,Net2Aspire,,,Remote,$65000 - $80000,yearly,65000,80000,72500,,simplyhired.com
+729,Data Scientist,,Meduit,Waco,TX,Remote,$87300 - $11100,yearly,87300,11100,49200,,simplyhired.com
+730,Junior Data Scientist,,NYC Health + Hospitals,New York,NY,Onsite,$61000 - $85000,yearly,61000,85000,73000,,simplyhired.com
+731,Data Scientist,,ConnectiveRx,,,Remote,$98900 - $12500,yearly,98900,12500,55700,,simplyhired.com
+732,Senior Data Analyst - Finance,,Slim Chickens,Fayetteville,AR,Onsite,,yearly,,,,,simplyhired.com
+733,CTO/Co-Founder for Marketing AI Software Startup,AI,AdSpace,Austin,TX,Onsite,$72700 - $92000,yearly,72700,92000,82350,,simplyhired.com
+734,Senior Electro-Optical Sensor/Seeker Data Analyst,,Raytheon Missiles & Defense,Tucson,AZ,Onsite,,yearly,,,,,simplyhired.com
+735,Machine Learning Engineer,ML,Vectrus,King George,VA,Onsite,$105000 - $155000,yearly,105000,155000,130000,,simplyhired.com
+736,Senior Application Data Analyst,,Interborough Developmental and Consultation Center,Brooklyn,NY,Onsite,$100000 - $130000,yearly,100000,130000,115000,,simplyhired.com
+737,Data Scientist,,HCRM Consulting Corp,,,Remote,$50.70 - $63.46 an hour,hourly,50.7,63.46,57.08,,simplyhired.com
+738,Senior Application Data Analyst,,Interborough Developmental and Consultation Center,Brooklyn,NY,Onsite,$100000 - $130000,yearly,100000,130000,115000,,simplyhired.com
+739,R20732 Statistical Analyst Consultant,,Regeneron,Tarrytown,NY,Onsite,,yearly,,,,,simplyhired.com
+740,Statistical Programmer,,Talentech Consulting LLC,,,Remote,$97600 - $12400,yearly,97600,12400,55000,,simplyhired.com
+741,Data Scientist Trainee Cohort3,,Axle Informatics,Rockville,MD,Onsite,$51500 - $65200,yearly,51500,65200,58350,,simplyhired.com
+742,Data Scientist,,Zen Strategics LLC,,,Remote,$104000 - $131000,yearly,104000,131000,117500,,simplyhired.com
+743,Senior Data Scientist,,FutureFit AI,New York,NY,Onsite,$141000 - $178000,yearly,141000,178000,159500,,simplyhired.com
+744,Data Scientist,,Wish,San Francisco,CA,Onsite,$141000 - $169000,yearly,141000,169000,155000,,simplyhired.com
+745,Data Scientist,,Maddisoft,Houston,TX,Onsite,$95000 - $110000,yearly,95000,110000,102500,,simplyhired.com
+746,Machine Learning InfraStructure Engineer,ML,JumpSmart,San Francisco,CA,Onsite,$124603 - $150060,yearly,124603,150060,137331.5,,simplyhired.com
+747,Senior Data Analyst (Processing and Quality Control),Quality control,Postal Center International,Weston,FL,Onsite,From $115000,yearly,115000,,,,simplyhired.com
+748,AI Engineer / Architect with Experience in Edtech or Gaming Industry,"Edtech or Gaming industry, AI",Stemuli Studios Inc.,,,Remote,From $100000,yearly,100000,,,,simplyhired.com
+749,Senior Data Scientist,,Beam,,,Remote,$140000 - $170000,yearly,140000,170000,155000,,simplyhired.com
+750,Jr. Data Scientist,,Net2Aspire,,,Remote,$65000 - $80000,yearly,65000,80000,72500,,simplyhired.com
+751,Data Scientist,,Meduit,Waco,TX,Remote,$87300 - $11100,yearly,87300,11100,49200,,simplyhired.com
+752,Junior Data Scientist,,NYC Health + Hospitals,New York,NY,Onsite,$61000 - $85000,yearly,61000,85000,73000,,simplyhired.com
+753,Data Scientist,,ConnectiveRx,,,Remote,$98900 - $12500,yearly,98900,12500,55700,,simplyhired.com
+754,Senior Statistical Programmer,,Talentech Consulting LLC,,,Remote,$59705 - $120730,yearly,59705,120730,90217.5,,simplyhired.com
+755,Sr. Data Analyst - AML Analytics & Customer Risk Rating,,PNC Financial Services Group,Pittsburgh,PA,Onsite,,yearly,,,,,simplyhired.com
+756,"Software Engineer, AI Compiler (Principal/Senior Staff/Staff/Senior)",AI,Black Sesame Technologies Inc,San Jose,CA,Onsite,$118000 - $150000,yearly,118000,150000,134000,,simplyhired.com
+757,Data Scientist,,HCRM Consulting Corp,,,Remote,$50.70 - $63.46 an hour,hourly,50.7,63.46,57.08,,simplyhired.com
+758,Data Scientist,,Zen Strategics LLC,,,Remote,$104000 - $131000,yearly,104000,131000,117500,,simplyhired.com
+759,Senior Data Scientist,,FutureFit AI,New York,NY,Onsite,$141000 - $178000,yearly,141000,178000,159500,,simplyhired.com
+760,Data Scientist,,Wish,San Francisco,CA,Onsite,$141000 - $169000,yearly,141000,169000,155000,,simplyhired.com
+761,Data Scientist,,Maddisoft,Houston,TX,Onsite,$95000 - $110000,yearly,95000,110000,102500,,simplyhired.com
+762,Jr. Data Scientist,,Net2Aspire,,,Remote,$65000 - $80000,yearly,65000,80000,72500,,simplyhired.com
+763,Data Scientist,,Meduit,Waco,TX,Remote,$87300 - $11100,yearly,87300,11100,49200,,simplyhired.com
+764,Junior Data Scientist,,NYC Health + Hospitals,New York,NY,Onsite,$61000 - $85000,yearly,61000,85000,73000,,simplyhired.com
+765,Data Scientist,,ConnectiveRx,,,Remote,$98900 - $12500,yearly,98900,12500,55700,,simplyhired.com
+766,Data Scientist,,Leaz EduTech OPC PVT LTD,,,Remote,$77732 - $192440,yearly,77732,192440,135086,,simplyhired.com
+767,Data Scientist,,Kaizen Analytix,,,Remote,$50 - $60 an hour,hourly,50,60,55,,simplyhired.com
+768,Data Scientist,,HCRM Consulting Corp,,,Remote,$50.70 - $63.46 an hour,hourly,50.7,63.46,57.08,,simplyhired.com
+769,Junior Data Scientist,,Enhance IT,New York,NY,Onsite,,yearly,,,,,simplyhired.com
+770,Data Scientist,,Hertz,Estero,FL,Onsite,,yearly,,,,,simplyhired.com
+771,"Scientist 2, Enterprise Data Analytics & Data Intelligence",,Comcast,Englewood,CO,Onsite,,yearly,,,,,simplyhired.com
+772,Data Scientist,,Zen Strategics LLC,,,Remote,$104000 - $131000,yearly,104000,131000,117500,,simplyhired.com
+773,Senior Data Scientist,,FutureFit AI,New York,NY,Onsite,$141000 - $178000,yearly,141000,178000,159500,,simplyhired.com
+774,Data Scientist,,Maddisoft,Houston,TX,Onsite,$95000 - $110000,yearly,95000,110000,102500,,simplyhired.com
+775,Jr. Data Scientist,,Net2Aspire,,,Remote,$65000 - $80000,yearly,65000,80000,72500,,simplyhired.com
+776,Data Scientist,,Meduit,Waco,TX,Remote,$87300 - $11100,yearly,87300,11100,49200,,simplyhired.com
+777,Senior Data Analyst,,Customers Bank,Pennsylvania,,Onsite,$101000 - $128000,yearly,101000,128000,114500,,simplyhired.com
+778,Data Scientist - Biostatistics,,"Ursus, Inc.",Sunnyvale,CA,Onsite,$70.00 - $80.03 an hour,hourly,70,80.03,75.02,,simplyhired.com
+779,Data Scientist,,Driscoll Health,Corpus Christi,TX,Onsite,$72700 - $92000,yearly,72700,92000,82350,,simplyhired.com
+780,Junior Data Scientist,,NYC Health + Hospitals,New York,NY,Onsite,$61000 - $85000,yearly,61000,85000,73000,,simplyhired.com
+781,Data Scientist,,ConnectiveRx,,,Remote,$98900 - $12500,yearly,98900,12500,55700,,simplyhired.com
+782,Data Scientist,,Leaz EduTech OPC PVT LTD,,,Remote,$77732 - $192440,yearly,77732,192440,135086,,simplyhired.com
+783,Data Scientist,,Kaizen Analytix,,,Remote,$50 - $60 an hour,hourly,50,60,55,,simplyhired.com
+784,Jr. Data Scientist,,"WhirlWind Technologies, LLC",,,Remote,$86000 - $110000,yearly,86000,110000,98000,,simplyhired.com
+785,"Sr Manager, Data Science",,HCSC,Chicago,IL,Onsite,$99300 - $12600,yearly,99300,12600,55950,,simplyhired.com
+786,Data Engineer,,Medline Industries Inc,Chicago,IL,Hybrid,$89600 - $11300,yearly,89600,11300,50450,,simplyhired.com
+787,"PhD Director, Data Science R&D (Decision Sciences Identity Team)",,Epsilon,Chicago,IL,Remote/Onsite,$123000 - $156000,yearly,123000,156000,139500,,simplyhired.com
+788,Senior Data Scientist,,MoneyGram,Dallas,TX,Onsite,$110000 - $134750,yearly,110000,134750,122375,,simplyhired.com
+789,MS Azure Data Scientist,"Microsoft, Azure",Ahlstrom,Kaukauna,WI,Hybrid,,yearly,,,,,simplyhired.com
+790,Senior Data Scientist,,FutureFit AI,New York,NY,Onsite,$141000 - $178000,yearly,141000,178000,159500,,simplyhired.com
+791,Data Scientist,,The Josef Group Inc.,Annapolis Junction,MD,Onsite,$150000 - $240000,yearly,150000,240000,195000,,simplyhired.com
+792,"Cloud Data Engineer I - AWS, Python, Snowflake, SQL","Cloud, AWS, Python, Snowflake, SQL","The Travelers Companies, Inc.",Hartford,CT,Onsite,,yearly,,,,,simplyhired.com
+793,Sr. Data Analyst,,Jobot,Atlanta,GA,Onsite,$80000 - $110000,yearly,80000,110000,95000,,simplyhired.com
+794,Data Scientist,,Maddisoft,Houston,TX,Onsite,$95000 - $110000,yearly,95000,110000,102500,,simplyhired.com
+795,Jr. Data Scientist,,Net2Aspire,,,Remote,$65000 - $80000,yearly,65000,80000,72500,,simplyhired.com
+796,Data Scientist,,Meduit,Waco,TX,Remote,$87300 - $11100,yearly,87300,11100,49200,,simplyhired.com
+797,Junior Data Scientist,,NYC Health + Hospitals,New York,NY,Onsite,$61000 - $85000,yearly,61000,85000,73000,,simplyhired.com
+798,Data Scientist,,Leaz EduTech OPC PVT LTD,,,Remote,$77732 - $192440,yearly,77732,192440,135086,,simplyhired.com
+799,"Sr. Architect  Data , AI, Information Architecture",AI,"The Travelers Companies, Inc.",Hartford,CT,Onsite,,yearly,,,,,simplyhired.com
+800,Senior Data Analyst,,GrayHawk Health,Chesterbrook,PA,Onsite,$78700 - $99700,yearly,78700,99700,89200,,simplyhired.com
+801,Biotech Machine Learning Scientist,ML,Gables Search Group,Pittsburgh,PA,Onsite,$73300 - $92800,yearly,73300,92800,83050,,simplyhired.com
+802,Data Scientist,,Kaizen Analytix,,,Remote,$50 - $60 an hour,hourly,50,60,55,,simplyhired.com
+803,Jr. Data Scientist,,"WhirlWind Technologies, LLC",,,Remote,$86000 - $110000,yearly,86000,110000,98000,,simplyhired.com
+804,Data Engineer,,Gateway Professional Network,,,Remote,$95000 - $145000,yearly,95000,145000,120000,,simplyhired.com
+805,Data Scientist,,Newfish Inc,New York,NY,Onsite,$111000 - $141000,yearly,111000,141000,126000,,simplyhired.com
+806,Data Scientist,,Nanit,New York,NY,Onsite,$115000 - $120000,yearly,115000,120000,117500,,simplyhired.com
+807,Sr. Data Scientist,,Berry Appleman & Leiden LLP,,,Remote,$97800 - $12400,yearly,97800,12400,55100,,simplyhired.com
+808,Data Scientist  Vehicle Procurement,,Hertz,Estero,FL,Onsite,,yearly,,,,,simplyhired.com
+809,Senior NLP Research Engineer - Artificial Intelligence Group,AI,Bloomberg,New York,NY,Onsite,$165000 - $260000,yearly,165000,260000,212500,,simplyhired.com
+810,Data Scientist (with Product Owner experience),,OpTech LLC,Columbus,OH,Onsite,$55 - $60 an hour,hourly,55,60,57.5,,simplyhired.com
+811,Principal Statistical Programmer/ Data Science Systems,,Labcorp,Wilmington,NC,Remote,$110000 - $150000,yearly,110000,150000,130000,,simplyhired.com
+812,Data Scientist,,Maddisoft,Houston,TX,Onsite,$95000 - $110000,yearly,95000,110000,102500,,simplyhired.com
+813,Machine Learning Engineer,ML,Vadum Inc,Raleigh,NC,Onsite,,yearly,,,,,simplyhired.com
+814,AI Developer,AI,CobbleStone Software,Clementon,NJ,Onsite,$75000 - $95000,yearly,75000,95000,85000,,simplyhired.com
+815,Senior Machine Learning Engineer,ML,MicroAI,Irving,TX,Onsite,$122000 - $154000,yearly,122000,154000,138000,,simplyhired.com
+816,Jr. Data Scientist,,Net2Aspire,,,Remote,$65000 - $80000,yearly,65000,80000,72500,,simplyhired.com
+817,Data Scientist,,Meduit,Waco,TX,Remote,$87300 - $11100,yearly,87300,11100,49200,,simplyhired.com
+818,Junior Data Scientist,,NYC Health + Hospitals,New York,NY,Onsite,$61000 - $85000,yearly,61000,85000,73000,,simplyhired.com
+819,Data Scientist,,Kaizen Analytix,,,Remote,$50 - $60 an hour,hourly,50,60,55,,simplyhired.com
+820,Jr. Data Scientist,,"WhirlWind Technologies, LLC",,,Remote,$86000 - $110000,yearly,86000,110000,98000,,simplyhired.com
+821,Machine Learning Framework Engineer,ML,Comcast,Washington,DC,Onsite,,yearly,,,,,simplyhired.com
+822,Senior Machine Learning Engineer - Data Automation,ML,Bloomberg,New York,NY,Onsite,$165000 - $260000,yearly,165000,260000,212500,,simplyhired.com
+823,Data Scientist (Energy Preferred),,Jobot,Herndon,VA,Onsite,$140000 - $170000,yearly,140000,170000,155000,,simplyhired.com
+824,Data Scientist,,Newfish Inc,New York,NY,Onsite,$111000 - $141000,yearly,111000,141000,126000,,simplyhired.com
+825,Data Scientist,,Nanit,New York,NY,Onsite,$115000 - $120000,yearly,115000,120000,117500,,simplyhired.com
+826,Data Scientist,,Blue Apron,New York,NY,Onsite,$99400 - $12600,yearly,99400,12600,56000,,simplyhired.com
+827,Scientist I - Image Registration & Multimodal Data Integration,,Allen Institute,Seattle,WA,Onsite,$80253 - $112355,yearly,80253,112355,96304,,simplyhired.com
+828,Junior Data Scientist,,Augray,Brookfield,WI,Onsite,$55000 - $60000,yearly,55000,60000,57500,,simplyhired.com
+829,Senior Manager Data Scientist,,Walgreens,Deerfield,IL,Onsite,,yearly,,,,,simplyhired.com
+830,"Associate Director, Statistical Programming",,SAGE Therapeutics,,,Remote,$150923 - $207519,yearly,150923,207519,179221,,simplyhired.com
+831,"Engineer 3, Machine Learning",ML,Comcast,Washington,DC,Onsite,,yearly,,,,,simplyhired.com
+832,"Director, Cloud Data Engineering Tech Lead - Enterprise Market Research",Cloud,"The Travelers Companies, Inc.",Hartford,CT,Onsite,,yearly,,,,,simplyhired.com
+833,"Director, Commercial Data Science and Decision Analytics",Analytics,SAGE Therapeutics,,MA,Onsite,$175642 - $241508,yearly,175642,241508,208575,,simplyhired.com
