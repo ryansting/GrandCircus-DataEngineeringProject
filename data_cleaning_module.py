@@ -17,6 +17,7 @@ df2 = pd.read_csv('IndeedDataEngineer_2023.csv')
 df3 = pd.read_csv('IndeedDataScientist_2023.csv')
 df4 = pd.read_csv('simplyhiredjobs.csv')
 df5 = pd.read_csv('dice_data_with_skills.csv')
+df_new = pd.read_csv('FinalJobDataUpdated.csv')
 
 
 # In[3]:
@@ -111,13 +112,13 @@ for index, row in df.iterrows():
     row['Skills'] = ', '.join(skills)
 
 
-# In[55]:
+# In[11]:
 
 
-#df.head()
+df.head()
 
 
-# In[14]:
+# In[12]:
 
 
 # regex pattern to parse city and state from location column
@@ -125,7 +126,7 @@ city_pattern = r'([A-Za-z]+(?: [A-Za-z]+)*)'
 state_pattern = r'([A-Z]{2})'
 
 
-# In[15]:
+# In[13]:
 
 
 # create new columns for city and state
@@ -133,13 +134,13 @@ df['city'] = df['location'].str.extract(city_pattern, expand=False)
 df['state'] = df['location'].str.extract(state_pattern, expand=False)
 
 
-# In[16]:
+# In[14]:
 
 
 df.head(10)
 
 
-# In[17]:
+# In[15]:
 
 
 # regex pattern for searching hybrid and remote work in location column
@@ -147,7 +148,7 @@ hybrid_pattern = r'\bhybrid\b'  # Matches the word "hybrid" surrounded by word b
 remote_pattern = r'\bremote\b'  # Matches the word "remote" surrounded by word boundaries
 
 
-# In[18]:
+# In[16]:
 
 
 # create new columns with Boolean values
@@ -155,13 +156,13 @@ df['hybrid'] = df['location'].str.contains(hybrid_pattern, case=False)
 df['remote'] = df['location'].str.contains(remote_pattern, case=False)
 
 
-# In[19]:
+# In[17]:
 
 
 df.head(10)
 
 
-# In[20]:
+# In[18]:
 
 
 # rename columns for final dataset
@@ -178,10 +179,30 @@ df = df.rename(columns={"job_website_source": "Job Website",
                   })
 
 
-# In[21]:
+# In[19]:
 
 
 df.head()
+
+
+# In[20]:
+
+
+df.dtypes
+
+
+# In[21]:
+
+
+# convert salary columns from string to float
+df['Yearly Min'] = df['Yearly Min'].astype(float)
+df['Yearly Max'] = df['Yearly Max'].astype(float)
+
+
+# In[22]:
+
+
+#df.head()
 
 
 # In[23]:
@@ -190,40 +211,20 @@ df.head()
 df.dtypes
 
 
-# In[25]:
-
-
-# convert salary columns from string to float
-df['Yearly Min'] = df['Yearly Min'].astype(float)
-df['Yearly Max'] = df['Yearly Max'].astype(float)
-
-
-# In[26]:
-
-
-#df.head()
-
-
-# In[27]:
-
-
-df.dtypes
-
-
-# In[28]:
+# In[24]:
 
 
 # start of df4 SimplyHired data cleaning
 
 
-# In[29]:
+# In[25]:
 
 
 df4.insert(0, 'job_query', 'Data Engineer')
 df4.insert(0, 'job_website_source', 'SimplyHired')
 
 
-# In[30]:
+# In[26]:
 
 
 # Convert the salary column to numeric values, replace non-numeric values with NaN
@@ -233,7 +234,7 @@ df4['sal_min'] = pd.to_numeric(df4['sal_min'], errors='coerce')
 df4 = df4.dropna(subset=['sal_min'])
 
 
-# In[31]:
+# In[27]:
 
 
 # Convert the salary column to numeric values, replace non-numeric values with NaN
@@ -243,7 +244,7 @@ df4['sal_max'] = pd.to_numeric(df4['sal_max'], errors='coerce')
 df4 = df4.dropna(subset=['sal_max'])
 
 
-# In[32]:
+# In[28]:
 
 
 # convert hourly rates to yearly salary
@@ -256,13 +257,13 @@ df4['Yearly Min'] = df4.apply(lambda x: x['sal_min'] if x['salary_type'] == 'yea
 df4['Yearly Max'] = df4.apply(lambda x: x['sal_max'] if x['salary_type'] == 'yearly' else hourly_to_yearly(x['sal_max']), axis=1)
 
 
-# In[33]:
+# In[29]:
 
 
 df4 = df4.drop('index', axis=1)
 
 
-# In[34]:
+# In[30]:
 
 
 # regex pattern to search for hybrid and remote work
@@ -270,14 +271,14 @@ hybrid_pattern = r'\bhybrid\b'  # Matches the word "hybrid" surrounded by word b
 remote_pattern = r'\bremote\b'  # Matches the word "remote" surrounded by word boundaries
 
 
-# In[35]:
+# In[31]:
 
 
 df4['hybrid'] = df4['type'].str.contains(hybrid_pattern, case=False)
 df4['remote'] = df4['type'].str.contains(remote_pattern, case=False)
 
 
-# In[36]:
+# In[32]:
 
 
 df4 = df4.rename(columns={"job_website_source": "Job Website",
@@ -294,45 +295,45 @@ df4 = df4.rename(columns={"job_website_source": "Job Website",
                   })
 
 
-# In[37]:
+# In[33]:
 
 
 df4 = df4.drop(['type', 'salary', 'salary_type', 'sal_min', 'sal_max', 'sal_median', 'posted_date', 'origin'], axis=1)
 
 
-# In[41]:
+# In[34]:
 
 
 # combine Indeed dataset with SimplyHired
 df = pd.concat([df, df4])
 
 
-# In[42]:
+# In[35]:
 
 
 df.info()
 
 
-# In[43]:
+# In[36]:
 
 
 #df.tail()
 
 
-# In[44]:
+# In[37]:
 
 
 # start of df5 Dice data cleaning
 
 
-# In[45]:
+# In[38]:
 
 
 df5.insert(0, 'job_query', 'Data Scientist')
 df5.insert(0, 'job_website_source', 'dice.com')
 
 
-# In[46]:
+# In[39]:
 
 
 def hourly_to_yearly(hourly_rate):
@@ -343,21 +344,21 @@ df5['Yearly Min'] = df5.apply(lambda x: x['sal_min'] if x['type.1'] == 'yearly' 
 df5['Yearly Max'] = df5.apply(lambda x: x['sal_max'] if x['type.1'] == 'yearly' else hourly_to_yearly(x['sal_max']), axis=1)
 
 
-# In[47]:
+# In[40]:
 
 
 hybrid_pattern = r'\bhybrid\b'  # Matches the word "hybrid" surrounded by word boundaries
 remote_pattern = r'\bremote\b'  # Matches the word "remote" surrounded by word boundaries
 
 
-# In[48]:
+# In[41]:
 
 
 df5['hybrid'] = df5['title'].str.contains(hybrid_pattern, case=False)
 df5['remote'] = df5['title'].str.contains(remote_pattern, case=False)
 
 
-# In[49]:
+# In[42]:
 
 
 df5 = df5.rename(columns={"job_website_source": "Job Website",
@@ -373,26 +374,26 @@ df5 = df5.rename(columns={"job_website_source": "Job Website",
                   })
 
 
-# In[50]:
+# In[43]:
 
 
 df5 = df5.drop(['index', 'posted_date', 'type', 'salary', 'type.1', 'sal_min', 'sal_max', 'sal_median', 'origin'], axis=1)
 
 
-# In[51]:
+# In[44]:
 
 
 df5 = df5.dropna(subset=['Yearly Min'])
 df5 = df5.dropna(subset=['Yearly Max'])
 
 
-# In[52]:
+# In[45]:
 
 
 #df5
 
 
-# In[53]:
+# In[46]:
 
 
 # create final dataset with Indeed, SimplyHired, and Dice all together
@@ -400,16 +401,66 @@ df5 = df5.dropna(subset=['Yearly Max'])
 df = pd.concat([df, df5])
 
 
-# In[54]:
+# In[47]:
 
 
 df.info()
 
 
-# In[56]:
+# In[53]:
+
+
+df.tail()
+
+
+# In[48]:
 
 
 df.to_csv('Final_Jobs_Dataset.csv')
+
+
+# In[49]:
+
+
+# Count the total number of rows in the dataframe -- Each row represents 1 job
+num_rows = len(df_new)
+
+print("Total Jobs Analyzed:", num_rows)
+
+#Query, average salary of each search parameter "Data Analyst", "Data Engineer", "Data Scientist"
+
+
+# In[50]:
+
+
+df_new['Yearly Max'] = df_new['Yearly Max'].replace(0, 'Null')
+# Replace 'Null' values with np.nan
+df_new = df_new.replace('Null', np.nan)
+
+# Convert the 'Yearly Max' and 'Yearly Min' columns to float
+df_new['Yearly Max'] = df_new['Yearly Max'].astype(float)
+df_new['Yearly Min'] = df_new['Yearly Min'].astype(float)
+
+# Calculate the average salary
+df_new['Average Salary'] = (df_new['Yearly Max'] + df_new['Yearly Min']) / 2
+
+
+# In[51]:
+
+
+# Group by each unique value in the 'Search Parameter' column and take the group's average of the "Average Salary" column
+grouped_df = df_new.groupby(['Search Parameter'])['Average Salary'].mean()
+grouped_df = grouped_df.apply(lambda x: '${:,.2f}'.format(x))
+
+print(grouped_df)
+
+
+# In[52]:
+
+
+top_paying_cities = df_new.groupby(['City', 'State Code'])['Average Salary'].mean().sort_values(ascending = False)
+
+print(top_paying_cities)
 
 
 # In[ ]:
