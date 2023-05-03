@@ -3,7 +3,7 @@ import heapq
 import plotly.graph_objects as go
 
 def read_salaries(company):
-    with open('FinalJobDataUpdated.csv', mode='r') as csv_file:
+    with open('FinalJobDataUpdated.csv', mode='r', encoding='utf-8') as csv_file:
         csv_reader = csv.DictReader(csv_file)
         salaries = []
         for row in csv_reader:
@@ -13,12 +13,10 @@ def read_salaries(company):
                     salaries.append(salary)
                 except ValueError:
                     pass
-        if not salaries:
-            return None
         return salaries
 
 company_count = {}
-with open('FinalJobDataUpdated.csv', mode='r') as csv_file:
+with open('FinalJobDataUpdated.csv', mode='r', encoding='utf-8') as csv_file:
     csv_reader = csv.DictReader(csv_file)
 
     for row in csv_reader:
@@ -30,9 +28,7 @@ with open('FinalJobDataUpdated.csv', mode='r') as csv_file:
     top_companies = []
     for company, count in heapq.nlargest(1000, company_count.items(), key=lambda x: x[1]):
         if company and len(top_companies) < 10:
-            salaries = read_salaries(company)
-            if salaries is not None:
-                top_companies.append((company, count, salaries))
+            top_companies.append((company, count))
         elif len(top_companies) == 10:
             break
 
@@ -40,8 +36,10 @@ with open('FinalJobDataUpdated.csv', mode='r') as csv_file:
     top_salaries = {}
 
     # Loop through the top 10 companies and extract their salary data
-    for company, count, salaries in top_companies:
-        top_salaries[company] = salaries
+    for company, count in top_companies:
+        salaries = read_salaries(company)
+        if salaries:
+            top_salaries[company] = salaries
 
     # Calculate the average of the top 10 companies' salaries
     averages = {company: sum(salaries) / len(salaries) for company, salaries in top_salaries.items()}
