@@ -967,6 +967,14 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
             id='figure 20',
             figure=fig20
         ),
+        html.H2(
+            children="Overview of Insights",
+            style=page_style
+        ),
+        html.P(
+            "The common trend we found amongst in-demand skills needed in the Data Science field were Python and SQL. Data Scientists require additional core skills such as Machine Learning and Statistics. Data Engineers require additional core skills focused on building data pipelines with ETL processes and working with Big Data and Cloud Computing. Data Analysts are typically more geared towards using Excel and Tableau to compliment core programming languages. States such as California, New York, and Colorado led the way with amount of job openings overall. Salary expectations vary by position and by experience level as the min-max salary range for each job posting can vary dramatically. Based on the available data we extracted, we found the average salary per position to be the following. Data Analyst: $95K, Data Engineer: $136K, Data Scientist: $138K.",
+            style=page_style
+        ),
     ]),
     ]),
 ])
