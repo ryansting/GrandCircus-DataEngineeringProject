@@ -19,7 +19,6 @@ app = Dash(__name__)
 # set the background color and text
 colors = {
     'background': '#111111',
-    #background': '#333333',
     'text': '#7FDBFF'
 }
 
@@ -510,78 +509,10 @@ fig18.update_layout(
 fig18.update_xaxes(title='Skills')
 fig18.update_yaxes(title='Count')
 fig18.update_layout(xaxis={'categoryorder':'total descending'})
-
-'''
-fig18.update_layout(
-    plot_bgcolor=colors['background'],
-    paper_bgcolor=colors['background'],
-    font_color=colors['text']
-)
-'''
 # chart 18 code end
 
 # chart 19 code start
-'''
-state_salary = df3.groupby('State Code')['Yearly Max'].max()
-top_states = state_salary.sort_values(ascending=False)[:5]
-state_names = [state_keywords[state_code] for state_code in top_states.index]
-
-frames = []  #establishes the frame of the graph during the animation
-
-fig19 = go.Figure(
-    data=[go.Bar(
-        x=state_names,
-        y=top_states,
-        marker_color='rgb(158, 202, 225)',
-        frames=frames
-    )],
-)
-
-for i in range(1, len(top_states) + 1):
-    frame = go.Frame(
-        data=[go.Bar(
-            x=state_names[:i+1],
-            y=top_states[:i+1],
-            marker_color='rgb(158, 202, 225)',
-        )],
-        layout=go.Layout(
-            xaxis_title='State',
-            yaxis_title='Yearly Max Salary ($)',
-            title='Top 5 States by Yearly Max Salary'
-        )
-    )
-    frames.append(frame)
-
-
-
-fig19.update_layout(
-    xaxis_title='State',
-    yaxis_title='Yearly Max Salary ($)',
-    title='Top 5 States by Yearly Max Salary',
-    updatemenus=[  #start of the play button and animation
-        dict(
-            type='buttons',
-            buttons=[
-                dict(
-                    label='Play',
-                    method='animate',
-                    args=[None, {'frame': {'duration': 500, 'redraw': True}, 'fromcurrent': True}]
-                ),
-                dict(
-                    label='Pause',
-                    method='animate',
-                    args=[[None], {'frame': {'duration': 0, 'redraw': True}, 'mode': 'immediate'}]
-                )
-            ],
-            showactive=False,
-            x=1,
-            y=1.5,
-            pad=dict(t=30, r=10),
-        )
-    ]
-)
-'''
-# chart 19 code encoding
+# chart 19 code end
 
 # chart 20 code start
 data = pd.read_csv('Final Data For Jobs.csv')
@@ -603,7 +534,6 @@ fig20.update_layout(
     paper_bgcolor=colors['background'],
     font_color=colors['text']
 )
-
 # chart 20 code end
 
 # chart 21 code start
@@ -710,91 +640,13 @@ fig23.update_layout(
 # code chart 23 end
 
 # code chart 24 start
-'''
-import csv
-import heapq
-import plotly.graph_objects as go
-
-def read_salaries(company):
-    with open('FinalJobDataUpdated.csv', mode='r') as csv_file:
-        csv_reader = csv.DictReader(csv_file)
-        salaries = []
-        for row in csv_reader:
-            if row['Company Name'] == company:
-                try:
-                    salary = float(row['Yearly Max'])
-                    salaries.append(salary)
-                except ValueError:
-                    pass
-        if not salaries:
-            return None
-        return salaries
-
-company_count = {}
-with open('FinalJobDataUpdated.csv', mode='r') as csv_file:
-    csv_reader = csv.DictReader(csv_file)
-
-    for row in csv_reader:
-        company_name = row['Company Name']
-        if company_name:
-            company_count[company_name] = company_count.get(company_name, 0) + 1
-
-    # Find the top 10 companies with the most job postings
-    top_companies = []
-    for company, count in heapq.nlargest(1000, company_count.items(), key=lambda x: x[1]):
-        if company and len(top_companies) < 10:
-            salaries = read_salaries(company)
-            if salaries is not None:
-                top_companies.append((company, count, salaries))
-        elif len(top_companies) == 10:
-            break
-
-    # Create a dictionary to hold the top 10 companies' salary information
-    top_salaries = {}
-
-    # Loop through the top 10 companies and extract their salary data
-    for company, count, salaries in top_companies:
-        top_salaries[company] = salaries
-
-    # Calculate the average of the top 10 companies' salaries
-    averages = {company: sum(salaries) / len(salaries) for company, salaries in top_salaries.items()}
-
-    # Create a bubble chart of the top 10 companies' average salaries
-    fig24 = go.Figure()
-    for company, avg_salary in averages.items():
-        fig24.add_trace(go.Scatter(x=[company_count[company]], y=[avg_salary],
-                                 mode='markers', marker_size=avg_salary / 10000, name=company))
-
-    fig24.update_layout(title='Top 10 Companies by Job Postings and Their Average Salaries',
-                      xaxis_title='Number of Job Postings', yaxis_title='Average Salary ($)')
-'''
 # chart 24 code end
 
 # chart 25 code start
-# Remove duplicates and NaN values from the 'Skills' column
-'''
-skills = df3['Skills'].drop_duplicates().dropna()
-
-# Convert the 'Skills' column to string
-skills_str = ' '.join(skills.astype(str))
-
-# Create a word cloud object
-wordcloud = WordCloud(width=800, height=800,
-                      background_color='white',
-                      min_font_size=10).generate(skills_str)
-
-# Display the generated image
-plt.figure(figsize=(8, 8), facecolor=None)
-plt.imshow(wordcloud)
-plt.axis("off")
-plt.tight_layout(pad=0)
-'''
-#plt.show()
 # chart 25 code end
 
 page_style = {'textAlign': 'center','color': colors['text']}
 #style={'textAlign': 'center','color': colors['text']}
-#page_style2 = {'textAlign': 'left','color': colors['text']}
 
 # set the app layout
 app.layout = html.Div(style={'backgroundColor': colors['background']}, children=[
