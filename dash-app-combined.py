@@ -11,6 +11,7 @@ from collections import Counter
 df = pd.read_csv('final_jobs_data.csv')
 df2 = pd.read_csv('Combined_Version_3.csv')
 df3 = pd.read_csv('Combined_Version_4.csv')
+df4 = pd.read_csv('FinalJobDataUpdated.csv')
 
 # initialize the dash app
 app = Dash(__name__)
@@ -22,8 +23,30 @@ colors = {
     'text': '#7FDBFF'
 }
 
+# skills keyword list
+keywords = ['SQL', 'Python', 'Big Data', 'AWS', 'ETL', 'Hadoop', 'Spark', 'Kafka', 'Data Warehousing',
+            'Data Pipelines', 'Data Modeling', 'Java', 'Database Management', 'NoSQL', 'Airflow', 'Docker',
+            'Kubernetes', 'Redshift', 'Snowflake', 'Data Integration', 'Excel', 'Tableau', 'Data Visualization',
+            'Data Analysis', 'Dashboards', 'Reporting', 'Business Intelligence', 'Data Mining', 'Statistics',
+            'Power BI', 'Data Cleansing', 'Data Interpretation', 'Google Analytics', 'Data Modelling',
+            'Predictive Analytics', ' R ', 'Data Mapping', 'Machine Learning', 'Deep Learning', 'Natural Language Processing',
+            'Predictive Modeling', 'Mathematical Modeling', 'TensorFlow', 'Keras', 'Computer Vision', 'Artificial Intelligence']
+
+# states keyword dictionary
+state_keywords = {
+    'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona', 'AR': 'Arkansas', 'CA': 'California',
+    'CO': 'Colorado', 'CT': 'Connecticut', 'DE': 'Delaware', 'FL': 'Florida', 'GA': 'Georgia',
+    'HI': 'Hawaii', 'ID': 'Idaho', 'IL': 'Illinois', 'IN': 'Indiana', 'IA': 'Iowa',
+    'KS': 'Kansas', 'KY': 'Kentucky', 'LA': 'Louisiana', 'ME': 'Maine', 'MD': 'Maryland',
+    'MA': 'Massachusetts', 'MI': 'Michigan', 'MN': 'Minnesota', 'MS': 'Mississippi', 'MO': 'Missouri',
+    'MT': 'Montana', 'NE': 'Nebraska', 'NV': 'Nevada', 'NH': 'New Hampshire', 'NJ': 'New Jersey',
+    'NM': 'New Mexico', 'NY': 'New York', 'NC': 'North Carolina', 'ND': 'North Dakota', 'OH': 'Ohio',
+    'OK': 'Oklahoma', 'OR': 'Oregon', 'PA': 'Pennsylvania', 'RI': 'Rhode Island', 'SC': 'South Carolina',
+    'SD': 'South Dakota', 'TN': 'Tennessee', 'TX': 'Texas', 'UT': 'Utah', 'VT': 'Vermont',
+    'VA': 'Virginia', 'WA': 'Washington', 'WV': 'West Virginia', 'WI': 'Wisconsin', 'WY': 'Wyoming', 'DC': 'Washington DC'
+}
+
 # chart1 code start
-'''
 counts = df3['Job Website'].value_counts()
 
 fig1 = px.pie(
@@ -38,24 +61,11 @@ fig1.update_layout(
     paper_bgcolor=colors['background'],
     font_color=colors['text']
 )
-'''
 # chart1 code end
 
 # chart2 code start
 filename = 'Combined_Version_4.csv'
 location_column_name = 'Location'
-state_keywords = {
-    'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona', 'AR': 'Arkansas', 'CA': 'California',
-    'CO': 'Colorado', 'CT': 'Connecticut', 'DE': 'Delaware', 'FL': 'Florida', 'GA': 'Georgia',
-    'HI': 'Hawaii', 'ID': 'Idaho', 'IL': 'Illinois', 'IN': 'Indiana', 'IA': 'Iowa',
-    'KS': 'Kansas', 'KY': 'Kentucky', 'LA': 'Louisiana', 'ME': 'Maine', 'MD': 'Maryland',
-    'MA': 'Massachusetts', 'MI': 'Michigan', 'MN': 'Minnesota', 'MS': 'Mississippi', 'MO': 'Missouri',
-    'MT': 'Montana', 'NE': 'Nebraska', 'NV': 'Nevada', 'NH': 'New Hampshire', 'NJ': 'New Jersey',
-    'NM': 'New Mexico', 'NY': 'New York', 'NC': 'North Carolina', 'ND': 'North Dakota', 'OH': 'Ohio',
-    'OK': 'Oklahoma', 'OR': 'Oregon', 'PA': 'Pennsylvania', 'RI': 'Rhode Island', 'SC': 'South Carolina',
-    'SD': 'South Dakota', 'TN': 'Tennessee', 'TX': 'Texas', 'UT': 'Utah', 'VT': 'Vermont',
-    'VA': 'Virginia', 'WA': 'Washington', 'WV': 'West Virginia', 'WI': 'Wisconsin', 'WY': 'Wyoming', 'DC': 'Washington DC'
-}
 
 data = pd.read_csv(filename)
 location_column = data[location_column_name]
@@ -110,7 +120,6 @@ fig3.update_layout(
     font_color=colors['text']
 )
 
-#fig.show()
 # chart3 code end
 
 # chart4 code start
@@ -141,14 +150,6 @@ fig4.update_layout(
 
 # chart5 code start
 fig5 = px.histogram(df2, x="Yearly Min", nbins=10, title="Minimum Salary Distribution")
-
-'''
-fig5.update_layout(
-    plot_bgcolor=colors['background'],
-    paper_bgcolor=colors['background'],
-    font_color=colors['text']
-)
-'''
 # chart5 code end
 
 # chart6 code start
@@ -156,13 +157,6 @@ fig6 = px.scatter(df, x="Yearly Min", y="Yearly Max",
                  #size="population",
                  color="Search Parameter", hover_name="Location",
                  log_x=True, size_max=60, title="Salary Range by Job Title")
-'''
-fig6.update_layout(
-    plot_bgcolor=colors['background'],
-    paper_bgcolor=colors['background'],
-    font_color=colors['text']
-)
-'''
 # chart6 code end
 
 # chart7 code start
@@ -213,14 +207,6 @@ fig7.update_layout(
 # chart7 code end
 
 # chart8 code start
-keywords = ['SQL', 'Python', 'Big Data', 'AWS', 'ETL', 'Hadoop', 'Spark', 'Kafka', 'Data Warehousing',
-            'Data Pipelines', 'Data Modeling', 'Java', 'Database Management', 'NoSQL', 'Airflow', 'Docker',
-            'Kubernetes', 'Redshift', 'Snowflake', 'Data Integration', 'Excel', 'Tableau', 'Data Visualization',
-            'Data Analysis', 'Dashboards', 'Reporting', 'Business Intelligence', 'Data Mining', 'Statistics',
-            'Power BI', 'Data Cleansing', 'Data Interpretation', 'Google Analytics', 'Data Modelling',
-            'Predictive Analytics', ' R ', 'Data Mapping', 'Machine Learning', 'Deep Learning', 'Natural Language Processing',
-            'Predictive Modeling', 'Mathematical Modeling', 'TensorFlow', 'Keras', 'Computer Vision', 'Artificial Intelligence']
-
 keyword_counts = {keyword: 0 for keyword in keywords}
 
 with open('IndeedDataAnalyst_2023.csv', newline='', encoding='utf-8') as csvfile:
@@ -254,14 +240,6 @@ fig8.update_layout(
 # chart8 code end
 
 # chart9 code start
-keywords = ['SQL', 'Python', 'Big Data', 'AWS', 'ETL', 'Hadoop', 'Spark', 'Kafka', 'Data Warehousing',
-            'Data Pipelines', 'Data Modeling', 'Java', 'Database Management', 'NoSQL', 'Airflow', 'Docker',
-            'Kubernetes', 'Redshift', 'Snowflake', 'Data Integration', 'Excel', 'Tableau', 'Data Visualization',
-            'Data Analysis', 'Dashboards', 'Reporting', 'Business Intelligence', 'Data Mining', 'Statistics',
-            'Power BI', 'Data Cleansing', 'Data Interpretation', 'Google Analytics', 'Data Modelling',
-            'Predictive Analytics', ' R ', 'Data Mapping', 'Machine Learning', 'Deep Learning', 'Natural Language Processing',
-            'Predictive Modeling', 'Mathematical Modeling', 'TensorFlow', 'Keras', 'Computer Vision', 'Artificial Intelligence']
-
 keyword_counts = {keyword: 0 for keyword in keywords}
 
 with open('IndeedDataEngineer_2023.csv', newline='', encoding='utf-8') as csvfile:
@@ -294,14 +272,6 @@ fig9.update_layout(
 # chart9 code end
 
 # chart10 code start
-keywords = ['SQL', 'Python', 'Big Data', 'AWS', 'ETL', 'Hadoop', 'Spark', 'Kafka', 'Data Warehousing',
-            'Data Pipelines', 'Data Modeling', 'Java', 'Database Management', 'NoSQL', 'Airflow', 'Docker',
-            'Kubernetes', 'Redshift', 'Snowflake', 'Data Integration', 'Excel', 'Tableau', 'Data Visualization',
-            'Data Analysis', 'Dashboards', 'Reporting', 'Business Intelligence', 'Data Mining', 'Statistics',
-            'Power BI', 'Data Cleansing', 'Data Interpretation', 'Google Analytics', 'Data Modelling',
-            'Predictive Analytics', ' R ', 'Data Mapping', 'Machine Learning', 'Deep Learning', 'Natural Language Processing',
-            'Predictive Modeling', 'Mathematical Modeling', 'TensorFlow', 'Keras', 'Computer Vision', 'Artificial Intelligence']
-
 keyword_counts = {keyword: 0 for keyword in keywords}
 
 with open('Indeed_DataScientist_2023.csv', newline='', encoding='utf-8') as csvfile:
@@ -406,9 +376,6 @@ fig14.update_layout(
 # chart 14 code end
 
 # chart 15 code start
-# Load the data from the CSV file
-#df = pd.read_csv('Combined_Version_3.csv')
-
 # Filter out rows with null or zero values in Search Parameter column
 df3 = df3[df3['Search Parameter'].notnull() & (df3['Search Parameter'] != 0)]
 
@@ -440,7 +407,6 @@ for i, title in enumerate(job_titles):
     # Add the trace to the list of traces
     data.append(trace)
 
-# Create the layout for the figure
 layout = go.Layout(
     title_text='Job Frequency By State',
     geo_scope='usa', # limit map scope to USA,
@@ -455,7 +421,6 @@ layout = go.Layout(
     )]
 )
 
-# Create the figure using the data and layout
 fig15 = go.Figure(data=data, layout=layout)
 
 fig15.update_layout(
@@ -463,9 +428,6 @@ fig15.update_layout(
     paper_bgcolor=colors['background'],
     font_color=colors['text']
 )
-
-# Show the figure
-# fig.show()
 # chart 15 code end
 
 # chart 16 code start
@@ -487,20 +449,6 @@ fig16.update_layout(
 # chart 16 code end
 
 # chart 17 code start
-#Top Skills In Data Science
-
-import csv
-import re
-
-# List of keywords to search for
-keywords = ['SQL', 'Python', 'Big Data', 'AWS', 'ETL', 'Hadoop', 'Spark', 'Kafka', 'Data Warehousing',
-            'Data Pipelines', 'Data Modeling', 'Java', 'Database Management', 'NoSQL', 'Airflow', 'Docker',
-            'Kubernetes', 'Redshift', 'Snowflake', 'Data Integration', 'Excel', 'Tableau', 'Data Visualization',
-            'Data Analysis', 'Dashboards', 'Reporting', 'Business Intelligence', 'Data Mining', 'Statistics',
-            'Power BI', 'Data Cleansing', 'Data Interpretation', 'Google Analytics', 'Data Modelling',
-            'Predictive Analytics', ' R ', 'Data Mapping', 'Machine Learning', 'Deep Learning', 'Natural Language Processing',
-            'Predictive Modeling', 'Mathematical Modeling', 'TensorFlow', 'Keras', 'Computer Vision', 'Artificial Intelligence']
-
 # Create a dictionary to store the keyword counts
 keyword_counts = {keyword: 0 for keyword in keywords}
 
@@ -519,14 +467,11 @@ with open('Combined_Version_4.csv', newline='', encoding='utf-8') as csvfile:
 # Sort the keyword counts in descending order
 sorted_counts = sorted(keyword_counts.items(), key=lambda x: x[1], reverse=True)
 
-
 for keyword, count in sorted_counts:
     print(f'{keyword}: {count}')
 
-#Pie Chart of Top 10 Skills
 skill_counts = df3['Skills'].str.split(',').explode().str.strip().value_counts().nlargest(10)
 
-# Create a pie chart using Plotly Express
 fig17 = px.pie(
     skill_counts,
     values=skill_counts.values,
@@ -543,18 +488,17 @@ fig17.update_layout(
 
 # chart 18 code start
 skill_counts = df3['Skills'].str.split(',').explode().str.strip().value_counts().nlargest(10)
-
 skill_counts = skill_counts.rename_axis('Skills')
 
 fig18 = px.bar(
     skill_counts,
     x=skill_counts.index,
     y=skill_counts.values,
+    title='Top 10 Data Science Skills',
     color=skill_counts.index,
     labels={'x':'Skills','y':'Count'}
 )
 
-# Center the chart title
 fig18.update_layout(
     title={
         'text': 'Top 10 Data Science Skills',
@@ -567,30 +511,17 @@ fig18.update_xaxes(title='Skills')
 fig18.update_yaxes(title='Count')
 fig18.update_layout(xaxis={'categoryorder':'total descending'})
 
+'''
 fig18.update_layout(
     plot_bgcolor=colors['background'],
     paper_bgcolor=colors['background'],
     font_color=colors['text']
 )
-
-#fig.show()
+'''
 # chart 18 code end
 
 # chart 19 code start
 '''
-state_keywords = {
-    'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona', 'AR': 'Arkansas', 'CA': 'California',
-    'CO': 'Colorado', 'CT': 'Connecticut', 'DE': 'Delaware', 'FL': 'Florida', 'GA': 'Georgia',
-    'HI': 'Hawaii', 'ID': 'Idaho', 'IL': 'Illinois', 'IN': 'Indiana', 'IA': 'Iowa',
-    'KS': 'Kansas', 'KY': 'Kentucky', 'LA': 'Louisiana', 'ME': 'Maine', 'MD': 'Maryland',
-    'MA': 'Massachusetts', 'MI': 'Michigan', 'MN': 'Minnesota', 'MS': 'Mississippi', 'MO': 'Missouri',
-    'MT': 'Montana', 'NE': 'Nebraska', 'NV': 'Nevada', 'NH': 'New Hampshire', 'NJ': 'New Jersey',
-    'NM': 'New Mexico', 'NY': 'New York', 'NC': 'North Carolina', 'ND': 'North Dakota', 'OH': 'Ohio',
-    'OK': 'Oklahoma', 'OR': 'Oregon', 'PA': 'Pennsylvania', 'RI': 'Rhode Island', 'SC': 'South Carolina',
-    'SD': 'South Dakota', 'TN': 'Tennessee', 'TX': 'Texas', 'UT': 'Utah', 'VT': 'Vermont',
-    'VA': 'Virginia', 'WA': 'Washington', 'WV': 'West Virginia', 'WI': 'Wisconsin', 'WY': 'Wyoming', 'DC': 'Washington DC'
-}
-
 state_salary = df3.groupby('State Code')['Yearly Max'].max()
 top_states = state_salary.sort_values(ascending=False)[:5]
 state_names = [state_keywords[state_code] for state_code in top_states.index]
@@ -653,34 +584,18 @@ fig19.update_layout(
 # chart 19 code encoding
 
 # chart 20 code start
-# Read in the data
 data = pd.read_csv('Final Data For Jobs.csv')
-
-# Define the pattern to extract years of experience from the job description
 pattern = r'([0-9]+) years of experience'
 
-# Use the pattern to search for years of experience in the job descriptions
 experience_data = data['Job Description'].str.extract(pattern)
-
-# Convert the resulting string values to numeric values
 experience_data = pd.to_numeric(experience_data[0], errors='coerce')
-
-# Replace missing values with the median years of experience
 experience_data.fillna(experience_data.median(), inplace=True)
 
-# Add the years of experience data to the original dataframe
 data['Years of Experience'] = experience_data
-
-# Select the columns for salary and years of experience
 salary_experience_data = data[['Yearly Max', 'Years of Experience', 'Job Title']]
-
-# Filter out any rows with more than 25 years of experience
 salary_experience_data = salary_experience_data[salary_experience_data['Years of Experience'] <= 25]
 
-# Create a scatter plot with salary on the y-axis and years of experience on the x-axis
 fig20 = px.scatter(salary_experience_data, x='Years of Experience', y='Yearly Max', hover_name='Job Title', hover_data=['Yearly Max'])
-
-# Set the y-axis range to be a bit more spread out
 fig20.update_yaxes(range=[0, salary_experience_data['Yearly Max'].max() * 1.1])
 
 fig20.update_layout(
@@ -689,21 +604,197 @@ fig20.update_layout(
     font_color=colors['text']
 )
 
-# Show the plot
-#fig.show()
 # chart 20 code end
 
 # chart 21 code start
-'''
-df_new = df3.query("`Location` == 'Remote'")
-df_new = df3.groupby('Job Website').count()
-fig21 = px.bar(df2, y='Search Parameter', labels={}, title ="Indeed Top Skills")
-'''
+company_counts = df3['Company Name'].value_counts().head(15)
+
+company_names = company_counts.index[::-1]
+entry_counts = company_counts.values[::-1]
+
+bar_trace = go.Bar(
+    x=entry_counts,
+    y=company_names,
+    orientation='h',  # Set orientation to horizontal
+    marker_color='orchid',  # Set marker color
+)
+
+fig21 = go.Figure()
+fig21.add_trace(bar_trace)
+
+fig21.update_layout(
+    xaxis_title='Number of Entries',
+    yaxis_title='Company',
+    title='<b>Top 15 Companies with the Most Openings</b>',  # Bold and center the title
+    bargap=0.2,  # Set the gap between bars
+    plot_bgcolor='rgb(153, 201, 69)'
+)
+
+fig21.update_layout(
+    plot_bgcolor=colors['background'],
+    paper_bgcolor=colors['background'],
+    font_color=colors['text']
+)
 # chart 21 code end
 
+# chart 22 code start
+fig22 = px.histogram(df2, x="Yearly Max", nbins=10, title="Minimum Salary Distribution")
+# chart 22 code end
+
+# chart 23 code start
+
+state_salary = df3.groupby('State Code')['Yearly Max'].max()
+top_states = state_salary.sort_values(ascending=False)[:5]
+state_names = [state_keywords[state_code] for state_code in top_states.index]
+
+frames = []  #establishes the frame of the graph during the animation
+for i in range(1, len(top_states) + 1):
+    frame = go.Frame(
+        data=[go.Bar(
+            x=state_names[:i+1],
+            y=top_states[:i+1],
+            marker_color='rgb(158, 202, 225)',
+        )],
+        layout=go.Layout(
+            xaxis_title='State',
+            yaxis_title='Yearly Max Salary ($)',
+            title='Top 5 States by Yearly Max Salary'
+        )
+    )
+    frames.append(frame)
+
+fig23 = go.Figure(
+    data=[go.Bar(
+        x=state_names,
+        y=top_states,
+        marker_color='rgb(158, 202, 225)',
+    )],
+    frames=frames
+)
+
+
+
+fig23.update_layout(
+    xaxis_title='State',
+    yaxis_title='Yearly Max Salary ($)',
+    title='Top 5 States by Yearly Max Salary',
+    updatemenus=[  #start of the play button and animation
+        dict(
+            type='buttons',
+            buttons=[
+                dict(
+                    label='Play',
+                    method='animate',
+                    args=[None, {'frame': {'duration': 500, 'redraw': True}, 'fromcurrent': True}]
+                ),
+                dict(
+                    label='Pause',
+                    method='animate',
+                    args=[[None], {'frame': {'duration': 0, 'redraw': True}, 'mode': 'immediate'}]
+                )
+            ],
+            showactive=False,
+            x=1,
+            y=1.5,
+            pad=dict(t=30, r=10),
+        )
+    ]
+)
+
+fig23.update_layout(
+    plot_bgcolor=colors['background'],
+    paper_bgcolor=colors['background'],
+    font_color=colors['text']
+)
+
+# code chart 23 end
+
+# code chart 24 start
+'''
+import csv
+import heapq
+import plotly.graph_objects as go
+
+def read_salaries(company):
+    with open('FinalJobDataUpdated.csv', mode='r') as csv_file:
+        csv_reader = csv.DictReader(csv_file)
+        salaries = []
+        for row in csv_reader:
+            if row['Company Name'] == company:
+                try:
+                    salary = float(row['Yearly Max'])
+                    salaries.append(salary)
+                except ValueError:
+                    pass
+        if not salaries:
+            return None
+        return salaries
+
+company_count = {}
+with open('FinalJobDataUpdated.csv', mode='r') as csv_file:
+    csv_reader = csv.DictReader(csv_file)
+
+    for row in csv_reader:
+        company_name = row['Company Name']
+        if company_name:
+            company_count[company_name] = company_count.get(company_name, 0) + 1
+
+    # Find the top 10 companies with the most job postings
+    top_companies = []
+    for company, count in heapq.nlargest(1000, company_count.items(), key=lambda x: x[1]):
+        if company and len(top_companies) < 10:
+            salaries = read_salaries(company)
+            if salaries is not None:
+                top_companies.append((company, count, salaries))
+        elif len(top_companies) == 10:
+            break
+
+    # Create a dictionary to hold the top 10 companies' salary information
+    top_salaries = {}
+
+    # Loop through the top 10 companies and extract their salary data
+    for company, count, salaries in top_companies:
+        top_salaries[company] = salaries
+
+    # Calculate the average of the top 10 companies' salaries
+    averages = {company: sum(salaries) / len(salaries) for company, salaries in top_salaries.items()}
+
+    # Create a bubble chart of the top 10 companies' average salaries
+    fig24 = go.Figure()
+    for company, avg_salary in averages.items():
+        fig24.add_trace(go.Scatter(x=[company_count[company]], y=[avg_salary],
+                                 mode='markers', marker_size=avg_salary / 10000, name=company))
+
+    fig24.update_layout(title='Top 10 Companies by Job Postings and Their Average Salaries',
+                      xaxis_title='Number of Job Postings', yaxis_title='Average Salary ($)')
+'''
+# chart 24 code end
+
+# chart 25 code start
+# Remove duplicates and NaN values from the 'Skills' column
+'''
+skills = df3['Skills'].drop_duplicates().dropna()
+
+# Convert the 'Skills' column to string
+skills_str = ' '.join(skills.astype(str))
+
+# Create a word cloud object
+wordcloud = WordCloud(width=800, height=800,
+                      background_color='white',
+                      min_font_size=10).generate(skills_str)
+
+# Display the generated image
+plt.figure(figsize=(8, 8), facecolor=None)
+plt.imshow(wordcloud)
+plt.axis("off")
+plt.tight_layout(pad=0)
+'''
+#plt.show()
+# chart 25 code end
 
 page_style = {'textAlign': 'center','color': colors['text']}
 #style={'textAlign': 'center','color': colors['text']}
+#page_style2 = {'textAlign': 'left','color': colors['text']}
 
 # set the app layout
 app.layout = html.Div(style={'backgroundColor': colors['background']}, children=[
@@ -719,6 +810,14 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
         style={'color': '#222222','backgroundColor': '#999999'}, children=[
         html.Button('Download CSV', id='btn-download-csv'),
         dcc.Download(id='download-csv'),
+        html.H2(
+            children="Assumptions & Conclusions",
+            style=page_style
+        ),
+        html.P(
+            children="Top Skill for each respective position: Data Analyst = Excel, Data Engineer = SQL, Data Scientist = Python",
+            style=page_style
+        ),
         dcc.Dropdown(
         options=['Data Analyst', 'Data Engineer', 'Data Scientist'],
         value='Data Analyst',
@@ -729,215 +828,231 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
             id='figure 18',
             figure=fig18
         ),
-        html.H5(
-            children="Graph 18 Insights",
+        html.H2(
+            children="Assumptions & Conclusions",
             style=page_style
         ),
         html.P(
-            "Here are our conclusions on Graph 18...",
+            "Top 10 Skills Insights: SQL, Python, and Excel are the top 3 In-Demand Data Science Skills. However, these skills vary by job title.",
             style=page_style
         ),
         dcc.Graph(
             id='figure 17',
             figure=fig17
         ),
-        html.H5(
-            children="Graph 17 Insights",
+        html.H2(
+            children="Assumptions & Conclusions",
             style=page_style
         ),
         html.P(
-            "Here are our conclusions on Graph 17...",
+            "Excel and Reporting skills stand out as additional requirements for Data Analysts.",
             style=page_style
         ),
         dcc.Graph(
             id='figure 8',
             figure=fig8
         ),
-        html.H5(
-            children="Graph 8 Insights",
+        html.H2(
+            children="Assumptions & Conclusions",
             style=page_style
         ),
         html.P(
-            "Here are our conclusions on Graph 8...",
+            "Cloud Computing and Big Data skills such as AWS and Spark stand out as additional requirements for Data Engineers.",
             style=page_style
         ),
         dcc.Graph(
             id='figure 9',
             figure=fig9
         ),
-        html.H5(
-            children="Graph 9 Insights",
+        html.H2(
+            children="Assumptions & Conclusions",
             style=page_style
         ),
         html.P(
-            "Here are our conclusions on Graph 9...",
+            "Machine Learning and Statistics skills stand out as additional requirements for Data Scientists.",
             style=page_style
         ),
         dcc.Graph(
             id='figure 10',
             figure=fig10
         ),
-        html.H5(
-            children="Graph 10 Insights",
+        html.H2(
+            children="Assumptions & Conclusions",
             style=page_style
         ),
         html.P(
-            "Here are our conclusions on Graph 10...",
+            "Majority of the job postings we analyzed was from Indeed due to it being the most popular website for job searching.",
             style=page_style
         ),
-        #dcc.Graph(
-            #id='figure 1',
-            #figure=fig1
-        #),
-        #html.H5(
-            #children="Graph 1 Insights",
-            #style=page_style
-        #),
-        #html.P(
-            #"Here are our conclusions on Graph 1...",
-            #style=page_style
-        #),
-        #dcc.Dropdown(
-        #options=['Data Analyst', 'Data Engineer', 'Data Scientist'],
-        #value='Data Analyst',
-        #style={'color': '#222222','backgroundColor': '#999999'},
-        #id='fig-3-dropdown'
-        #),
-
-        #dcc.RangeSlider(
-            #df['Yearly Min'].min(),
-            #df['Yearly Min'].max(),
-            #10000,
-            #value=[80000, 150000],
-            #style={'backgroundColor': 'green'},
-            #id='fig-12-slider'),
         dcc.Graph(
             id='figure 16',
             figure=fig16
         ),
-        html.H5(
-            children="Graph 16 Insights",
+        html.H2(
+            children="Assumptions & Conclusions",
             style=page_style
         ),
         html.P(
-            "Here are our conclusions on Graph 16...",
+            "Over 75% of the job postings we collected was from Indeed.",
+            style=page_style
+        ),
+        dcc.Graph(
+            id='figure 1',
+            figure=fig1
+        ),
+        html.H2(
+            children="Assumptions & Conclusions",
+            style=page_style
+        ),
+        html.P(
+            "Top Skills in Data Science went along with our assumption including Python and SQL leading the way. Rest of skills lineup depending on what position you are seeking.",
             style=page_style
         ),
         dcc.Graph(
             id='figure 12',
             figure=fig12
         ),
-        html.H5(
-            children="Graph 12 Insights",
-            style=page_style
-        ),
-        html.P(
-            "Here are our conclusions on Graph 12...",
-            style=page_style
-        ),
     ]),
     dcc.Tab(
         label='Location',
         style={'color': '#222222','backgroundColor': '#999999'}, children=[
+        html.H2(
+            children="Assumptions & Conclusions",
+            style=page_style
+        ),
+        html.P(
+            "This map shows the highest paying jobs that require an employee to come into a physical office. As expected, many of the higher cost of living states such as Massachusetts, California, New York & New Jersey also have some of the highest paying jobs. Outside of the cost of living, many companies are headquartered in these tax-haven locations. ",
+            style=page_style
+        ),
         dcc.Graph(
             id='figure 4',
             figure=fig4
         ),
-        html.H5(
-            children="Graph 4 Insights",
+        html.H2(
+            children="",
             style=page_style
         ),
         html.P(
-            "Here are our conclusions on Graph 4...",
+            "This map displays the minimum salaries per state and while some states will have a smaller sample size due to fewer listings, it can help give a good baseline of where entry jobs can be found.",
             style=page_style
         ),
         dcc.Graph(
             id='figure 3',
             figure=fig3
         ),
-        html.H5(
-            children="Graph 3 Insights",
+        html.H2(
+            children="Assumptions & Conclusions",
             style=page_style
         ),
         html.P(
-            "Here are our conclusions on Graph 3...",
+            "This map shows the frequency of jobs by location around the US. While it excludes fully remote job posts, we’re able to see that regardless of job title, places like Silicon Valley known for Tech and New York known for Finance/ analytics have the most job listings. Other states such as New Jersey feeds off New York City jobs and Texas has many oil & gas companies such as Chevron in the area.",
             style=page_style
         ),
         dcc.Graph(
             id='figure 15',
             figure=fig15
         ),
-        html.H5(
-            children="Graph 15 Insights",
+        html.H2(
+            children="Assumptions & Conclusions",
             style=page_style
         ),
         html.P(
-            "Here are our conclusions on Graph 15...",
+            "Top 10 States With Job Openings: We had originally predicted that California, Texas, and New York would have the most job openings due to having the highest population. Our data showed that #1 is California, #2 is New York, and #3 is Washington DC. Texas was listed as #9",
             style=page_style
         ),
         dcc.Graph(
             id='figure 2',
             figure=fig2
         ),
-        html.H5(
-            children="Graph 2 Insights",
+        html.H2(
+            children="Assumptions & Conclusions",
             style=page_style
         ),
         html.P(
-            "Here are our conclusions on Graph 2...",
+            "Highest paying states lineup mostly with our assumptions based on cost of living in top states like New York and California.",
+            style=page_style
+        ),
+        dcc.Graph(
+            id='figure 23',
+            figure=fig23
+        ),
+        html.H2(
+            children="Assumptions & Conclusions",
+            style=page_style
+        ),
+        html.P(
+            "Prominent tech companies such as TikTok, IBM, and Meta have a high number of openings in the field. Premier Staffing Solution is an outlier in the fact that it is a staffing company.",
+            style=page_style
+        ),
+        dcc.Graph(
+            id='figure 21',
+            figure=fig21
+        ),
+        html.H2(
+            children="Assumptions & Conclusions",
+            style=page_style
+        ),
+        html.P(
+            "The ratio of remote vs non remote jobs were split about 50-50 down the middle.",
             style=page_style
         ),
         dcc.Graph(
             id='figure 14',
             figure=fig14
         ),
-        html.H5(
-            children="Graph 14 Insights",
+        html.H2(
+            children="Assumptions & Conclusions",
             style=page_style
         ),
         html.P(
-            "Here are our conclusions on Graph 14...",
+            "Overall across our data we found that Data Scientist has the most postings",
             style=page_style
         ),
         dcc.Graph(
             id='figure 13',
             figure=fig13
         ),
-        html.H5(
-            children="Graph 13 Insights",
+        html.H2(
+            children="Assumptions & Conclusions",
             style=page_style
         ),
         html.P(
-            "Here are our conclusions on Graph 13...",
+            "Using a pie chart to find the Job Types by search parameter in Michigan show that Data Analyst has the most positions available followed by Data Scientist and Data Engineer, which is contrast to the overall postings which has data scientist having the most. with Data Analyst and Data Engineer relative close to each other behind.",
             style=page_style
         ),
         dcc.Graph(
             id='figure 11',
             figure=fig11
         ),
-        html.H5(
-            children="Graph 11 Insights",
-            style=page_style
-        ),
-        html.P(
-            "Here are our conclusions on Graph 11...",
-            style=page_style
-        ),
     ]),
     dcc.Tab(
         label='Salary',
         style={'color': '#222222','backgroundColor': '#999999'}, children=[
         html.Div([
+        html.H2(
+            children="Assumptions & Conclusions",
+            style=page_style
+        ),
+        html.P(
+            "This graph shows the expected salaries for data science positions, allowing easy comparison of data scientist, data engineer, and data analyst salaries. It also helps identify salary ranges, outliers, and distribution of data to make informed career decisions. Overall, it is a useful tool for exploring the data science field or negotiating salaries.",
+            style=page_style
+        ),
+        html.Br(
+        ),
+        html.P(
+            "Median Salary for Data Analyst: $100K, Data Engineer: $140K, Data Scientist: $140K",
+            style=page_style
+        ),
         dcc.Graph(
             id='figure 7',
             figure=fig7
         ),
-        html.H5(
-            children="Graph 7 Insights",
+        html.H2(
+            children="Assumptions & Conclusions",
             style=page_style
         ),
         html.P(
-            "Here are our conclusions on Graph 7...",
+            "Data Analyst scatters around the low end range of salary, Data Engineer middle range of salary, and Data Scientist high end range of salary",
             style=page_style
         ),
         dcc.Graph(
@@ -949,14 +1064,13 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
             df['Yearly Min'].max(),
             10000,
             value=[80000, 150000],
-            #style={'backgroundColor': 'green'},
             id='fig-6-slider'),
-        html.H5(
-            children="Graph 6 Insights",
+        html.H2(
+            children="Assumptions & Conclusions",
             style=page_style
         ),
         html.P(
-            "Here are our conclusions on Graph 6...",
+            "Highest Frequency of Min Salary Range for Data Analyst: $60K-$80K, Data Engineer: $120K-$140K, Data Scientist: $80-$90K",
             style=page_style
         ),
         dcc.RadioItems(
@@ -970,50 +1084,37 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
             id='figure 5',
             figure=fig5
         ),
-        html.H5(
-            children="Graph 5 Insights",
+        html.H2(
+            children="Assumptions & Conclusions",
             style=page_style
         ),
         html.P(
-            "Here are our conclusions on Graph 5...",
+            "Highest Frequency of Max Salary Range for Data Analyst: $100K-$150K, Data Engineer: $100K-$150K, Data Scientist: $100K-$150K",
+            style=page_style
+        ),
+        dcc.RadioItems(
+            options=['Data Analyst', 'Data Engineer', 'Data Scientist'],
+            value='Data Analyst',
+            inline=True,
+            style={'color': '#222222','backgroundColor': '#999999'},
+            id='fig-22-radio'
+        ),
+        dcc.Graph(
+            id='figure 22',
+            figure=fig22
+        ),
+        html.H2(
+            children="Assumptions & Conclusions",
+            style=page_style
+        ),
+        html.P(
+            "The purpose of this graph is to visualize the relationship between years of experience and yearly maximum salary for various job titles. The scatter plot allows for easy comparison of salary and experience levels across different job titles, and the hover data provides additional information about each point. The code also filters out any rows with more than 25 years of experience, which may be useful for removing outliers or focusing on a specific segment of the data. Overall, this graph can provide insights into the job market and help identify trends in salary and experience levels across different job titles.",
             style=page_style
         ),
         dcc.Graph(
             id='figure 20',
             figure=fig20
         ),
-        html.H5(
-            children="Graph 5 Insights",
-            style=page_style
-        ),
-        html.P(
-            "Here are our conclusions on Graph 5...",
-            style=page_style
-        ),
-        #dcc.Graph(
-            #id='figure 21',
-            #figure=fig21
-        #),
-        #html.H5(
-            #children="Graph 21 Insights",
-            #style=page_style
-        #),
-        #html.P(
-            #"Here are our conclusions on Graph 21...",
-            #style=page_style
-        #),
-        #dcc.Graph(
-            #id='figure 19',
-            #figure=fig19
-        #),
-        #html.H5(
-            #children="Graph 19 Insights",
-            #style=page_style
-        #),
-        #html.P(
-            #"Here are our conclusions on Graph 19...",
-            #style=page_style
-        #),
     ]),
     ]),
 ])
@@ -1027,12 +1128,6 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
 
 def func(n_clicks):
     return dcc.send_data_frame(df.to_csv, 'data_science_jobs.csv')
-
-#@app.callback(
-    #Output('slider-output-container', 'children'),
-    #Input('my-slider', 'value'))
-#def update_output(value):
-    #return 'You have selected "{}"'.format(value)
 
 # callback function for slider fig 6
 @app.callback(
@@ -1075,38 +1170,7 @@ def update_figure(selected_job_title):
 
     return fig
 
-# callback function for dropdown fig 3
-'''
-@app.callback(
-    Output('figure 3', 'figure'),
-    Input('fig-3-dropdown', 'value'))
-def update_figure(selected_job_title):
-    filtered_df = df[df['Search Parameter'] == selected_job_title]
-
-    fig = go.Figure(data=go.Choropleth(
-        locations=filtered_df['State Code'], # Spatial coordinates
-        z = filtered_df['Yearly Max'].astype(float), # Data to be color-coded
-        locationmode = 'USA-states', # set of locations match entries in `locations`
-        colorscale = 'Reds',
-        colorbar_title = "Salary Max",
-    ))
-    fig.update_layout(
-        title_text = 'Max Salary By State',
-        geo_scope='usa', # limite map scope to USA
-    )
-
-    fig.update_layout(
-        plot_bgcolor=colors['background'],
-        paper_bgcolor=colors['background'],
-        font_color=colors['text']
-        )
-
-    fig.update_layout(transition_duration=500)
-
-    return fig
-'''
 # callback function for dropdown fig 18
-
 @app.callback(
     Output('figure 18', 'figure'),
     Input('fig-18-dropdown', 'value'))
@@ -1119,6 +1183,7 @@ def update_figure(selected_job_title):
     skill_counts,
     x=skill_counts.index,
     y=skill_counts.values,
+    title="Top 10 Data Science Skills",
     color=skill_counts.index,
     labels={'x':'Skills','y':'Count'}
     )
@@ -1133,19 +1198,14 @@ def update_figure(selected_job_title):
 
     return fig
 
-# callback function for dropdown fig 12
-'''
+# callback function for radio fig 22
 @app.callback(
-    Output('figure 12', 'figure'),
-    Input('fig-12-slider', 'value'))
-def update_figure(selected_salary):
-    filtered_df = df_new[df_new['Yearly Min'].between(selected_salary[0], selected_salary[1])]
+    Output('figure 22', 'figure'),
+    Input('fig-22-radio', 'value'))
+def update_figure(selected_job_title):
+    filtered_df = df[df['Search Parameter'] == selected_job_title]
 
-    #filtered_df = df3.query("`Job Website` == 'Indeed'")
-    #filtered_df = filtered_df[df3['Skills'].notnull()]
-    #filtered_df = filtered_df['Skills'].str.split(',').explode('Skills').value_counts().head(20)
-
-    fig = px.bar(filtered_df, labels={}, title ="Indeed Top Skills")
+    fig = px.histogram(filtered_df, x="Yearly Max", nbins=10, title="Maximum Salary Distribution")
 
     fig.update_layout(
         plot_bgcolor=colors['background'],
@@ -1156,8 +1216,6 @@ def update_figure(selected_salary):
     fig.update_layout(transition_duration=500)
 
     return fig
-'''
-
 
 # connect to the server
 if __name__ == '__main__':
