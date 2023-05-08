@@ -1,0 +1,85 @@
+import csv
+import string
+
+def count_words(text):
+    """
+    Returns a dictionary of word frequency counts for the input text.
+    """
+    # Remove special characters from the text
+    text = text.translate(str.maketrans('', '', string.punctuation))
+    
+    # Split text into words and convert to lowercase
+    words = text.lower().split()
+    
+    # Create empty dictionary
+    word_counts = {}
+    
+    # Iterate over words and update counts
+    for word in words:
+        if word.isalpha():  # check if word consists of only alphabetic characters
+            if word in word_counts:
+                word_counts[word] += 1
+            else:
+                word_counts[word] = 1
+    
+    return word_counts
+
+# Read text file !!!1ENTER YOUR OWN CSV OR TXT FILE HERE!!!
+with open('Combined_Version_3.csv', 'r') as file:
+    text = file.read()
+        
+# Count words
+word_count = count_words(text)
+
+while True:
+    # Prompt user to choose an option
+    print("Please choose an option:")
+    print("1. Search for a word")
+    print("2. Sort alphabetically (ascending)")
+    print("3. Sort alphabetically (descending)")
+    print("4. Sort by frequency (ascending)")
+    print("5. Sort by frequency (descending)")
+    print("6. Quit")
+    
+    # Get user input
+    option = input("Enter option number: ")
+    
+    if option == '1':
+        # Search for a word
+        search_word = input("Enter a word to search for: ")
+        if search_word in word_count:
+            count = word_count[search_word]
+            print(f'{search_word}: {count}')
+        else:
+            print(f'{search_word} not found.')
+    elif option == '2':
+        # Sort alphabetically (ascending)
+        sorted_word_count = sorted(word_count.items(), key=lambda x: x[0], reverse=False)
+        for word, count in sorted_word_count:
+            print(f'{word}: {count}')
+    elif option == '3':
+        # Sort alphabetically (descending)
+        sorted_word_count = sorted(word_count.items(), key=lambda x: x[0], reverse=True)
+        for word, count in sorted_word_count:
+            print(f'{word}: {count}')
+    elif option == '4':
+        # Sort by frequency (ascending)
+        sorted_word_count = sorted(word_count.items(), key=lambda x: x[1], reverse=False)
+        for word, count in sorted_word_count:
+            print(f'{word}: {count}')
+    elif option == '5':
+        # Sort by frequency (descending)
+        sorted_word_count = sorted(word_count.items(), key=lambda x: x[1], reverse=True)
+        for word, count in sorted_word_count:
+            print(f'{word}: {count}')
+    elif option == '6':
+        # Quit
+        break
+    else:
+        # Invalid option
+        print("Invalid option.")
+    
+    # Ask user if they want to continue
+    repeat = input("Do you want to continue? (y/n) ")
+    if repeat.lower() == 'n':
+        break
